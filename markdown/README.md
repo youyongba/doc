@@ -50,9 +50,7 @@
 ### 代码
 
 ```javascript
-    ```javascript
-        docment.write("这个是javascript代码块")
-    ```
+    docment.write("这个是javascript代码块")
 ```
 
 
