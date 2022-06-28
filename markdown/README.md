@@ -49,7 +49,7 @@
 
 ### 代码
 
-```markdown
+```javascript
     ```javascript
         docment.write("这个是javascript代码块")
     ```
