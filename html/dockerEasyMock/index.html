@@ -217,7 +217,7 @@
 <td style="text-align:left"> &#x65E5;&#x5FD7;&#x5730;&#x5740;&#xFF0C;&#x6839;&#x636E;&#x9700;&#x8981;&#x4FEE;&#x6539;&#x4E3A;&#x672C;&#x5730;&#x5730;&#x5740;</td>
 </tr></tbody></table>
 
-<h2 id="docker-composeyml">docker-compose.yml</h2><pre><code class="lang-yml"><span class="hljs-attr">version:</span> <span class="hljs-string">&quot;3.3&quot;</span>
+<h2 id="&#x65B0;&#x5EFA;docker-composeyml">&#x65B0;&#x5EFA;docker-compose.yml</h2><pre><code class="lang-yml"><span class="hljs-attr">version:</span> <span class="hljs-string">&quot;3.3&quot;</span>
 <span class="hljs-attr">services:</span>
 <span class="hljs-attr">  mongodb:</span>
 <span class="hljs-attr">    image:</span> mongo:<span class="hljs-number">3.4</span>
@@ -251,6 +251,57 @@
 <span class="hljs-attr">        source:</span> ./production.json <span class="hljs-comment"># &#x914D;&#x7F6E;&#x5730;&#x5740;&#xFF0C;&#x8BF7;&#x4F7F;&#x7528;&#x672C;&#x5730;&#x914D;&#x7F6E;&#x5730;&#x5740;&#x66FF;&#x6362;</span>
 <span class="hljs-attr">        target:</span> /home/easy-mock/easy-mock/config/production.json
 </code></pre>
+<h2 id="&#x65B0;&#x5EFA;productionjson">&#x65B0;&#x5EFA;production.json</h2><pre><code class="lang-json">{
+    <span class="hljs-string">&quot;port&quot;</span>: <span class="hljs-number">7300</span>,
+    <span class="hljs-string">&quot;host&quot;</span>: <span class="hljs-string">&quot;0.0.0.0&quot;</span>,
+    <span class="hljs-string">&quot;pageSize&quot;</span>: <span class="hljs-number">30</span>,
+    <span class="hljs-string">&quot;proxy&quot;</span>: <span class="hljs-literal">false</span>,
+    <span class="hljs-string">&quot;db&quot;</span>: <span class="hljs-string">&quot;mongodb://mongodb/easy-mock&quot;</span>,
+    <span class="hljs-string">&quot;unsplashClientId&quot;</span>: <span class="hljs-string">&quot;&quot;</span>,
+    <span class="hljs-string">&quot;redis&quot;</span>: {
+      <span class="hljs-string">&quot;keyPrefix&quot;</span>: <span class="hljs-string">&quot;[Easy Mock]&quot;</span>,
+      <span class="hljs-string">&quot;port&quot;</span>: <span class="hljs-number">6379</span>,
+      <span class="hljs-string">&quot;host&quot;</span>: <span class="hljs-string">&quot;redis&quot;</span>,
+      <span class="hljs-string">&quot;password&quot;</span>: <span class="hljs-string">&quot;&quot;</span>,
+      <span class="hljs-string">&quot;db&quot;</span>: <span class="hljs-number">0</span>
+    },
+    <span class="hljs-string">&quot;blackList&quot;</span>: {
+      <span class="hljs-string">&quot;projects&quot;</span>: [],
+      <span class="hljs-string">&quot;ips&quot;</span>: []
+    },
+    <span class="hljs-string">&quot;rateLimit&quot;</span>: {
+      <span class="hljs-string">&quot;max&quot;</span>: <span class="hljs-number">1000</span>,
+      <span class="hljs-string">&quot;duration&quot;</span>: <span class="hljs-number">1000</span>
+    },
+    <span class="hljs-string">&quot;jwt&quot;</span>: {
+      <span class="hljs-string">&quot;expire&quot;</span>: <span class="hljs-string">&quot;14 days&quot;</span>,
+      <span class="hljs-string">&quot;secret&quot;</span>: <span class="hljs-string">&quot;shared-secret&quot;</span>
+    },
+    <span class="hljs-string">&quot;upload&quot;</span>: {
+      <span class="hljs-string">&quot;types&quot;</span>: [<span class="hljs-string">&quot;.jpg&quot;</span>, <span class="hljs-string">&quot;.jpeg&quot;</span>, <span class="hljs-string">&quot;.png&quot;</span>, <span class="hljs-string">&quot;.gif&quot;</span>, <span class="hljs-string">&quot;.json&quot;</span>, <span class="hljs-string">&quot;.yml&quot;</span>, <span class="hljs-string">&quot;.yaml&quot;</span>],
+      <span class="hljs-string">&quot;size&quot;</span>: <span class="hljs-number">5242880</span>,
+      <span class="hljs-string">&quot;dir&quot;</span>: <span class="hljs-string">&quot;../public/upload&quot;</span>,
+      <span class="hljs-string">&quot;expire&quot;</span>: {
+        <span class="hljs-string">&quot;types&quot;</span>: [<span class="hljs-string">&quot;.json&quot;</span>, <span class="hljs-string">&quot;.yml&quot;</span>, <span class="hljs-string">&quot;.yaml&quot;</span>],
+        <span class="hljs-string">&quot;day&quot;</span>: <span class="hljs-number">-1</span>
+      }
+    },
+    <span class="hljs-string">&quot;ldap&quot;</span>: {
+      <span class="hljs-string">&quot;server&quot;</span>: <span class="hljs-string">&quot;&quot;</span>,
+      <span class="hljs-string">&quot;bindDN&quot;</span>: <span class="hljs-string">&quot;&quot;</span>,
+      <span class="hljs-string">&quot;password&quot;</span>: <span class="hljs-string">&quot;&quot;</span>,
+      <span class="hljs-string">&quot;filter&quot;</span>: {
+        <span class="hljs-string">&quot;base&quot;</span>: <span class="hljs-string">&quot;&quot;</span>,
+        <span class="hljs-string">&quot;attributeName&quot;</span>: <span class="hljs-string">&quot;&quot;</span>
+      }
+    },
+    <span class="hljs-string">&quot;fe&quot;</span>: {
+      <span class="hljs-string">&quot;copyright&quot;</span>: <span class="hljs-string">&quot;&quot;</span>,
+      <span class="hljs-string">&quot;storageNamespace&quot;</span>: <span class="hljs-string">&quot;easy-mock_&quot;</span>,
+      <span class="hljs-string">&quot;timeout&quot;</span>: <span class="hljs-number">25000</span>,
+      <span class="hljs-string">&quot;publicPath&quot;</span>: <span class="hljs-string">&quot;/dist/&quot;</span>
+    }
+  }</code></pre>
 <h2 id="&#x547D;&#x4EE4;">&#x547D;&#x4EE4;</h2><table>
 <thead>
 <tr><th style="text-align:left"> &#x547D;&#x4EE4; </th>
@@ -303,7 +354,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"docker搭建easy-mock","level":"2.4","depth":1,"previous":{"title":"marp快速写ppt模板","level":"2.3","depth":1,"path":"marp/README.md","ref":"marp/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"dockerEasyMock/README.md","mtime":"2022-07-07T15:54:12.224Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2022-07-07T15:54:31.519Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"docker搭建easy-mock","level":"2.4","depth":1,"previous":{"title":"marp快速写ppt模板","level":"2.3","depth":1,"path":"marp/README.md","ref":"marp/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"dockerEasyMock/README.md","mtime":"2022-07-07T16:11:12.216Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2022-07-07T16:11:35.732Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

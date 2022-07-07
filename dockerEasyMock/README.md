@@ -10,7 +10,7 @@
 |mkdir -p logs| 日志地址，根据需要修改为本地地址 |
 
 
-## docker-compose.yml
+## 新建docker-compose.yml
 
 ```yml
 version: "3.3"
@@ -47,6 +47,62 @@ services:
         source: ./production.json # 配置地址，请使用本地配置地址替换
         target: /home/easy-mock/easy-mock/config/production.json
 
+```
+
+## 新建production.json
+
+```json
+{
+    "port": 7300,
+    "host": "0.0.0.0",
+    "pageSize": 30,
+    "proxy": false,
+    "db": "mongodb://mongodb/easy-mock",
+    "unsplashClientId": "",
+    "redis": {
+      "keyPrefix": "[Easy Mock]",
+      "port": 6379,
+      "host": "redis",
+      "password": "",
+      "db": 0
+    },
+    "blackList": {
+      "projects": [],
+      "ips": []
+    },
+    "rateLimit": {
+      "max": 1000,
+      "duration": 1000
+    },
+    "jwt": {
+      "expire": "14 days",
+      "secret": "shared-secret"
+    },
+    "upload": {
+      "types": [".jpg", ".jpeg", ".png", ".gif", ".json", ".yml", ".yaml"],
+      "size": 5242880,
+      "dir": "../public/upload",
+      "expire": {
+        "types": [".json", ".yml", ".yaml"],
+        "day": -1
+      }
+    },
+    "ldap": {
+      "server": "",
+      "bindDN": "",
+      "password": "",
+      "filter": {
+        "base": "",
+        "attributeName": ""
+      }
+    },
+    "fe": {
+      "copyright": "",
+      "storageNamespace": "easy-mock_",
+      "timeout": 25000,
+      "publicPath": "/dist/"
+    }
+  }
 ```
 
 ## 命令
