@@ -20,7 +20,7 @@ services:
     privileged: true
     volumes:
       - type: bind
-        source: /Users/qihong/dev/lession/easymock/easy-mock/data/db # 数据库文件存放地址，根据需要修改为本地地址
+        source: app/data/db # 数据库文件存放地址，根据需要修改为本地地址
         target: /data/db
   redis:
     image: redis:4.0.6
@@ -28,7 +28,7 @@ services:
     command: redis-server --appendonly yes
     volumes:
       - type: bind
-        source: /Users/qihong/dev/lession/easymock/easy-mock/data/redis # redis 数据文件存放地址，根据需要修改为本地地址
+        source: app/data/redis # redis 数据文件存放地址，根据需要修改为本地地址
         target: /data
   web:
     image: easymock/easymock:1.6.0
@@ -41,7 +41,7 @@ services:
       - 7300:7300
     volumes:
       - type: bind 
-        source: /Users/qihong/dev/lession/easymock/easy-mock/logs # 日志地址，根据需要修改为本地地址
+        source: app/logs # 日志地址，根据需要修改为本地地址
         target: /home/easy-mock/easy-mock/logs
       - type: bind
         source: ./production.json # 配置地址，请使用本地配置地址替换
