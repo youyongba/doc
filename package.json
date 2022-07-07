@@ -1,0 +1,11 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "docker run -v /Users/qihong/dev/lession/doc:/srv/gitbook -v /Users/qihong/dev/lession/doc/html:/srv/html fellah/gitbook gitbook build . /srv/html"
+  },
+  "author": "",
+  "license": "ISC"
+}
