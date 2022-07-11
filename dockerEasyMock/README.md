@@ -109,7 +109,7 @@ services:
 
 |命令| 说明|
 |:--| :-- |
-|docker-compose up| 启动|
+|docker-compose up|$\color{#FF3030}{red}$ 启动|
 |docker-compose stop| 停止 |
 |docker-compose start| 开始 |
 
