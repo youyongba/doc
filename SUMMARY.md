@@ -6,5 +6,6 @@
 * [markdown入门](markdown/README.md)
 * [marp快速写ppt模板](marp/README.md)
 * [docker搭建easy-mock](dockerEasyMock/README.md)
+* [搭建Docker私有仓库Harbor](harbor/README.md)
 
 
