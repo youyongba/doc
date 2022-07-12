@@ -228,7 +228,7 @@ cd harbor
 </code></pre>
 <h2 id="&#x521B;&#x5EFA;&#x4E24;&#x4E2A;&#x76EE;&#x5F55;">&#x521B;&#x5EFA;&#x4E24;&#x4E2A;&#x76EE;&#x5F55;</h2><pre><code class="lang-shell">mkdir data
 mkdir log</code></pre>
-<h2 id="&#x4FEE;&#x6539;&#x914D;&#x7F6E;">&#x4FEE;&#x6539;&#x914D;&#x7F6E;</h2><h3 id="copy-harboryml-&#x6539;&#x6210;-harboryml">copy harbor.yml &#x6539;&#x6210; harbor.yml</h3><pre><code class="lang-shell">cp -rvf harbor.yml.tmpl harbor.yml</code></pre>
+<h2 id="&#x4FEE;&#x6539;&#x914D;&#x7F6E;">&#x4FEE;&#x6539;&#x914D;&#x7F6E;</h2><h3 id="copy-harborymltemp-&#x6539;&#x6210;-harboryml">copy harbor.yml.temp &#x6539;&#x6210; harbor.yml</h3><pre><code class="lang-shell">cp -rvf harbor.yml.tmpl harbor.yml</code></pre>
 <h3 id="&#x4FEE;&#x6539;harboryml&#x914D;&#x7F6E;">&#x4FEE;&#x6539;harbor.yml&#x914D;&#x7F6E;</h3><pre><code class="lang-yml"><span class="hljs-comment"># hostname &#x8981;&#x6539;&#x6210;&#x5F53;&#x524D;&#x673A;&#x5668;&#x7684;ip</span>
 <span class="hljs-attr">hostname:</span> <span class="hljs-number">192.168</span><span class="hljs-number">.101</span><span class="hljs-number">.7</span>
 <span class="hljs-comment"># http related config</span>
@@ -250,7 +250,10 @@ mkdir log</code></pre>
 <h2 id="&#x8FD0;&#x884C;&#x6309;&#x88C5;&#x811A;&#x672C;-installsh">&#x8FD0;&#x884C;&#x6309;&#x88C5;&#x811A;&#x672C; ./install.sh</h2><pre><code class="lang-shell">./install.sh</code></pre>
 <blockquote><p>&#x770B;&#x5230;&#x4E0A;&#x8FF0;&#x5B57;&#x6837;&#x5219;&#x5B89;&#x88C5;&#x5B8C;&#x6210;
 &#x6839;&#x636E;yml&#x914D;&#x7F6E;&#x8BBF;&#x95EE;WEB&#x754C;&#x9762;
-&#x9ED8;&#x8BA4;&#x7684;&#x8D26;&#x53F7;&#x5BC6;&#x7801;&#x4E3A;&#xFF1A;admin/Harbor12345</p></blockquote><h2 id="&#x6548;&#x679C;">&#x6548;&#x679C;</h2><p><img alt="" src="imgs/1.png"></p>
+&#x9ED8;&#x8BA4;&#x7684;&#x8D26;&#x53F7;&#x5BC6;&#x7801;&#x4E3A;&#xFF1A;admin/Harbor12345</p></blockquote><h2 id="&#x53EF;&#x80FD;&#x4E0D;&#x6210;&#x529F;">&#x53EF;&#x80FD;&#x4E0D;&#x6210;&#x529F;</h2><blockquote><p>&#x9700;&#x8981;&#x591A;&#x8FD0;&#x884C;&#x51E0;&#x6B21;docker-compose down; docker-comppose up -d</p></blockquote><pre><code class="lang-shell">docker rm $(docker ps -aq)
+docker-compose down
+docker-compose up -d</code></pre>
+<h2 id="&#x6548;&#x679C;">&#x6548;&#x679C;</h2><p><img alt="" src="imgs/1.png"></p>
                                 
                                 </section>
                             
@@ -289,7 +292,7 @@ mkdir log</code></pre>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"搭建Docker私有仓库Harbor","level":"2.5","depth":1,"previous":{"title":"docker搭建easy-mock","level":"2.4","depth":1,"path":"dockerEasyMock/README.md","ref":"dockerEasyMock/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"harbor/README.md","mtime":"2022-07-11T20:33:29.594Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2022-07-11T20:46:50.035Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"搭建Docker私有仓库Harbor","level":"2.5","depth":1,"previous":{"title":"docker搭建easy-mock","level":"2.4","depth":1,"path":"dockerEasyMock/README.md","ref":"dockerEasyMock/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"harbor/README.md","mtime":"2022-07-12T18:53:26.455Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2022-07-12T18:53:58.500Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

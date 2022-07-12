@@ -26,7 +26,7 @@ mkdir log
 
 ## 修改配置
 
-### copy harbor.yml 改成 harbor.yml
+### copy harbor.yml.temp 改成 harbor.yml
 
 ```shell
 cp -rvf harbor.yml.tmpl harbor.yml
@@ -67,6 +67,14 @@ log:
 根据yml配置访问WEB界面
 默认的账号密码为：admin/Harbor12345
 
+## 可能不成功
+> 需要多运行几次docker-compose down; docker-comppose up -d
+
+```shell
+docker rm $(docker ps -aq)
+docker-compose down
+docker-compose up -d
+```
 
 ## 效果
 ![](./imgs/1.png '图片')
