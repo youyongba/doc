@@ -2,7 +2,7 @@
 <!DOCTYPE HTML>
 <html lang="" >
     <head>
-        <title>使用harbor · GitBook</title>
+        <title>demo6 · GitBook</title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
@@ -58,7 +58,7 @@
 
     
     
-    <link rel="prev" href="./" />
+    <link rel="prev" href="demo5.html" />
     
 
     </head>
@@ -186,9 +186,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="2.6.1" data-path="../dockerLearn/lession1.html">
+        <li class="chapter " data-level="2.6.1" data-path="lession1.html">
             
-                <a href="../dockerLearn/lession1.html">
+                <a href="lession1.html">
             
                     
                     基础
@@ -199,9 +199,9 @@
             
         </li>
     
-        <li class="chapter " data-level="2.6.2" data-path="../dockerLearn/demo1.html">
+        <li class="chapter " data-level="2.6.2" data-path="demo1.html">
             
-                <a href="../dockerLearn/demo1.html">
+                <a href="demo1.html">
             
                     
                     demo1
@@ -212,9 +212,9 @@
             
         </li>
     
-        <li class="chapter " data-level="2.6.3" data-path="../dockerLearn/demo2.html">
+        <li class="chapter " data-level="2.6.3" data-path="demo2.html">
             
-                <a href="../dockerLearn/demo2.html">
+                <a href="demo2.html">
             
                     
                     demo2
@@ -225,9 +225,9 @@
             
         </li>
     
-        <li class="chapter " data-level="2.6.4" data-path="../dockerLearn/demo3.html">
+        <li class="chapter " data-level="2.6.4" data-path="demo3.html">
             
-                <a href="../dockerLearn/demo3.html">
+                <a href="demo3.html">
             
                     
                     demo3
@@ -238,9 +238,9 @@
             
         </li>
     
-        <li class="chapter " data-level="2.6.5" data-path="../dockerLearn/demo4.html">
+        <li class="chapter " data-level="2.6.5" data-path="demo4.html">
             
-                <a href="../dockerLearn/demo4.html">
+                <a href="demo4.html">
             
                     
                     demo4
@@ -251,9 +251,9 @@
             
         </li>
     
-        <li class="chapter " data-level="2.6.6" data-path="../dockerLearn/demo5.html">
+        <li class="chapter " data-level="2.6.6" data-path="demo5.html">
             
-                <a href="../dockerLearn/demo5.html">
+                <a href="demo5.html">
             
                     
                     demo5
@@ -264,9 +264,9 @@
             
         </li>
     
-        <li class="chapter " data-level="2.6.7" data-path="../dockerLearn/demo6.html">
+        <li class="chapter active" data-level="2.6.7" data-path="demo6.html">
             
-                <a href="../dockerLearn/demo6.html">
+                <a href="demo6.html">
             
                     
                     demo6
@@ -296,9 +296,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="2.7.1" data-path="./">
+        <li class="chapter " data-level="2.7.1" data-path="../harbor/">
             
-                <a href="./">
+                <a href="../harbor/">
             
                     
                     搭建harbor
@@ -309,9 +309,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="2.7.2" data-path="use.html">
+        <li class="chapter " data-level="2.7.2" data-path="../harbor/use.html">
             
-                <a href="use.html">
+                <a href="../harbor/use.html">
             
                     
                     使用harbor
@@ -357,7 +357,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >使用harbor</a>
+        <a href=".." >demo6</a>
     </h1>
 </div>
 
@@ -372,27 +372,47 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="harbor&#x4F7F;&#x7528;">harbor&#x4F7F;&#x7528;</h1><blockquote><p>&#x4EE5;osx&#x7CFB;&#x7EDF;&#x4E3A;&#x4F8B;&#xFF0C;&#x5176;&#x5B83;&#x7CFB;&#x7EDF;&#x53EF;&#x4EE5;&#x7528;find / -name &quot;daemon.json&quot; &#x641C;&#x7D22;&#x8FD9;&#x4E2A;&#x914D;&#x7F6E;&#x6587;&#x4EF6;</p></blockquote><h2 id="&#x7F16;&#x8F91;">&#x7F16;&#x8F91;</h2><pre><code class="lang-shell"> vi ~/.docker/daemon.json</code></pre>
-<h2 id="&#x6DFB;&#x52A0;&#x914D;&#x7F6E;&#x6587;&#x4EF6;">&#x6DFB;&#x52A0;&#x914D;&#x7F6E;&#x6587;&#x4EF6;</h2><pre><code class="lang-json">{
-  <span class="hljs-string">&quot;builder&quot;</span> : {
-    <span class="hljs-string">&quot;gc&quot;</span> : {
-      <span class="hljs-string">&quot;enabled&quot;</span> : <span class="hljs-literal">true</span>,
-      <span class="hljs-string">&quot;defaultKeepStorage&quot;</span> : <span class="hljs-string">&quot;20GB&quot;</span>
-    }
-  },
-  <span class="hljs-string">&quot;registry-mirrors&quot;</span>: [<span class="hljs-string">&quot;https://q2gr04ke.mirror.aliyuncs.com&quot;</span>], <span class="hljs-comment">//&#x955C;&#x50CF;&#x52A0;&#x901F;&#x6E90;&#x3002;&#x8FD9;&#x91CC;&#x662F;&#x963F;&#x91CC;&#x7684;</span>
-  <span class="hljs-string">&quot;insecure-registries&quot;</span>: [
-    <span class="hljs-string">&quot;http://youyong.ba:8088&quot;</span>
-  ], <span class="hljs-comment">//&#x4E0D;&#x5B89;&#x5168;&#x7684;registries&#x3002;&#x81EA;&#x5DF1;&#x7684;&#x79C1;&#x6709;&#x4ED3;&#x5E93;&#x4E5F;&#x586B;&#x5728;&#x91CC;&#x8FB9;</span>
-  <span class="hljs-string">&quot;experimental&quot;</span> : <span class="hljs-literal">false</span>,
-  <span class="hljs-string">&quot;features&quot;</span> : {
-    <span class="hljs-string">&quot;buildkit&quot;</span> : <span class="hljs-literal">true</span>
-  }
-}
-</code></pre>
-<h2 id="&#x5728;harbor&#x754C;&#x9762;&#x4E0A;&#x70B9;&#x51FB;&#x65B0;&#x5EFA;&#x9879;&#x76EE;&#xFF0C;&#x65B0;&#x5EFA;&#x4E00;&#x4E2A;&#x9879;&#x76EE;&#x4ED3;&#x5E93;">&#x5728;Harbor&#x754C;&#x9762;&#x4E0A;&#x70B9;&#x51FB;&#x65B0;&#x5EFA;&#x9879;&#x76EE;&#xFF0C;&#x65B0;&#x5EFA;&#x4E00;&#x4E2A;&#x9879;&#x76EE;&#x4ED3;&#x5E93;</h2><blockquote><p>&#x5982;&#xFF1A;xiaohong</p></blockquote><h2 id="&#x767B;&#x5F55;&#x81EA;&#x5DF1;&#x7684;&#x4ED3;&#x5E93;">&#x767B;&#x5F55;&#x81EA;&#x5DF1;&#x7684;&#x4ED3;&#x5E93;</h2><p>docker login youyong.ba:8088</p><h2 id="&#x63A8;&#x9001;image&#x5230;&#x79C1;&#x6709;&#x4ED3;&#x5E93;">&#x63A8;&#x9001;image&#x5230;&#x79C1;&#x6709;&#x4ED3;&#x5E93;</h2><pre><code class="lang-shell">docker build . --tag pyramid:v1.0.0
-docker push youyong.ba:8088/xiaohong/pyramid:v1.0.0</code></pre>
-<h2 id="&#x4ECE;&#x79C1;&#x6709;&#x4ED3;&#x5E93;&#x62C9;&#x53BB;image">&#x4ECE;&#x79C1;&#x6709;&#x4ED3;&#x5E93;&#x62C9;&#x53BB;image</h2><pre><code class="lang-shell">docker pull youyong.ba:8088/xiaohong/pyramid:v1.0.0</code></pre>
+                                <h2 id="docker-registry-demo">Docker Registry demo</h2><h3 id="&#x547D;&#x9886;">&#x547D;&#x9886;</h3><table>
+<thead>
+<tr><th> &#x8BF4;&#x660E; </th>
+<th> &#x547D;&#x4EE4; </th>
+</tr></thead><tbody>
+<tr><td style="text-align:left"> &#x5F00;&#x542F;&#x672C;&#x5730;&#x5BB9;&#x5668; &#x547D;&#x4EE4; </td>
+<td style="text-align:left"> docker run -d -p 5000:5000 --name registry registry:2 </td>
+</tr><tr><td style="text-align:left"> &#x67E5;&#x770B;&#x5BB9;&#x5668;&#x662F;&#x5426;&#x5F00;&#x542F; </td>
+<td style="text-align:left"> docker ps </td>
+</tr><tr><td style="text-align:left"> &#x590D;&#x5236;&#x4E00;&#x4E2A; </td>
+<td style="text-align:left"> docker tag ubuntu localhost:5000/my-ubuntu </td>
+</tr><tr><td style="text-align:left"> push&#x5230;&#x672C;&#x5730;&#x4ED3;&#x5E93; </td>
+<td style="text-align:left"> docker push localhost:5000/my-ubuntu </td>
+</tr><tr><td style="text-align:left"> &#x5220;&#x9664;localhost:5000/my-ubuntu </td>
+<td style="text-align:left"> docker rmi localhost:5000/my-ubuntu </td>
+</tr><tr><td style="text-align:left"> &#x4ECE;&#x672C;&#x5730;&#x62C9;&#x53D6; </td>
+<td style="text-align:left"> docker pull localhost:5000/my-ubuntu </td>
+</tr><tr><td style="text-align:left"> &#x505C;&#x6B62;&#x4ED3;&#x5E93; </td>
+<td style="text-align:left"> docker container stop store </td>
+</tr><tr><td style="text-align:left"> &#x5C06;&#x4ED3;&#x5E93;&#x5220;&#x6389; </td>
+<td style="text-align:left"> docker container rm store</td>
+</tr></tbody></table>
+
+<hr><h2 id="docker-hub">docker Hub</h2><h3 id="docker-hub-&#x5B98;&#x7F51;&#x5740;&#x5740;&#xFF08;&#x5B98;&#x65B9;&#x6E90;&#xFF09;">docker hub &#x5B98;&#x7F51;&#x5740;&#x5740;&#xFF08;&#x5B98;&#x65B9;&#x6E90;&#xFF09;</h3><ul><li><a href="https://hub.docker.com" target="_blank">https://hub.docker.com</a>
+</li></ul>
+<h3 id="&#x64CD;&#x4F5C;&#x6D41;&#x7A0B;">&#x64CD;&#x4F5C;&#x6D41;&#x7A0B;</h3><ol><li>&#x6CE8;&#x518C;/&#x767B;&#x5F55;
+</li>
+<li>&#x5BA2;&#x6237;&#x7AEF;&#x767B;&#x5F55;
+</li>
+<li>&#x5728;hub.docker.com&#x521B;&#x5EFA; &#x6E90;
+</li>
+<li><p>&#x672C;&#x5730;&#x8FD0;&#x884C;&#x547D;&#x4EE4; docker tag localhost:5000/my-ubuntu qihong1222/my-private-repo</p><ul><li>qihong1222/my-private-repo&#x662F;&#x8FDC;&#x7A0B;&#x4ED3;&#x5E93;&#x7684;&#x540D;&#x79F0;
+</li></ul>
+</li>
+<li><p>docker images &#xFF08;&#x67E5;&#x770B;&#x4E00;&#x4E0B;&#x662F;&#x5426;&#x5907;&#x4EFD;&#xFF09;</p></li>
+<li>docker push qihong1222/my-private-repo
+</li>
+<li>docker rmi qihong122/my-private-repo
+</li>
+<li>docker pull qihong1222/my-private-repo
+</li></ol>
 
                                 
                                 </section>
@@ -420,7 +440,7 @@ docker push youyong.ba:8088/xiaohong/pyramid:v1.0.0</code></pre>
 
             
                 
-                <a href="./" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 搭建harbor">
+                <a href="demo5.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: demo5">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
@@ -432,7 +452,7 @@ docker push youyong.ba:8088/xiaohong/pyramid:v1.0.0</code></pre>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"使用harbor","level":"2.7.2","depth":2,"previous":{"title":"搭建harbor","level":"2.7.1","depth":2,"path":"harbor/README.md","ref":"harbor/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"harbor/use.md","mtime":"2022-07-18T06:36:03.602Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2022-07-18T06:36:39.646Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"demo6","level":"2.6.7","depth":2,"next":{"title":"Harbor","level":"2.7","depth":1,"ref":"","articles":[{"title":"搭建harbor","level":"2.7.1","depth":2,"path":"harbor/README.md","ref":"harbor/README.md","articles":[]},{"title":"使用harbor","level":"2.7.2","depth":2,"path":"harbor/use.md","ref":"harbor/use.md","articles":[]}]},"previous":{"title":"demo5","level":"2.6.6","depth":2,"path":"dockerLearn/demo5.md","ref":"dockerLearn/demo5.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"dockerLearn/demo6.md","mtime":"2022-07-17T11:19:34.109Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2022-07-18T06:36:39.646Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

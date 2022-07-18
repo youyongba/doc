@@ -2,7 +2,7 @@
 <!DOCTYPE HTML>
 <html lang="" >
     <head>
-        <title>使用harbor · GitBook</title>
+        <title>demo2 · GitBook</title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
@@ -57,8 +57,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
+    <link rel="next" href="demo3.html" />
     
-    <link rel="prev" href="./" />
+    
+    <link rel="prev" href="demo1.html" />
     
 
     </head>
@@ -186,9 +188,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="2.6.1" data-path="../dockerLearn/lession1.html">
+        <li class="chapter " data-level="2.6.1" data-path="lession1.html">
             
-                <a href="../dockerLearn/lession1.html">
+                <a href="lession1.html">
             
                     
                     基础
@@ -199,9 +201,9 @@
             
         </li>
     
-        <li class="chapter " data-level="2.6.2" data-path="../dockerLearn/demo1.html">
+        <li class="chapter " data-level="2.6.2" data-path="demo1.html">
             
-                <a href="../dockerLearn/demo1.html">
+                <a href="demo1.html">
             
                     
                     demo1
@@ -212,9 +214,9 @@
             
         </li>
     
-        <li class="chapter " data-level="2.6.3" data-path="../dockerLearn/demo2.html">
+        <li class="chapter active" data-level="2.6.3" data-path="demo2.html">
             
-                <a href="../dockerLearn/demo2.html">
+                <a href="demo2.html">
             
                     
                     demo2
@@ -225,9 +227,9 @@
             
         </li>
     
-        <li class="chapter " data-level="2.6.4" data-path="../dockerLearn/demo3.html">
+        <li class="chapter " data-level="2.6.4" data-path="demo3.html">
             
-                <a href="../dockerLearn/demo3.html">
+                <a href="demo3.html">
             
                     
                     demo3
@@ -238,9 +240,9 @@
             
         </li>
     
-        <li class="chapter " data-level="2.6.5" data-path="../dockerLearn/demo4.html">
+        <li class="chapter " data-level="2.6.5" data-path="demo4.html">
             
-                <a href="../dockerLearn/demo4.html">
+                <a href="demo4.html">
             
                     
                     demo4
@@ -251,9 +253,9 @@
             
         </li>
     
-        <li class="chapter " data-level="2.6.6" data-path="../dockerLearn/demo5.html">
+        <li class="chapter " data-level="2.6.6" data-path="demo5.html">
             
-                <a href="../dockerLearn/demo5.html">
+                <a href="demo5.html">
             
                     
                     demo5
@@ -264,9 +266,9 @@
             
         </li>
     
-        <li class="chapter " data-level="2.6.7" data-path="../dockerLearn/demo6.html">
+        <li class="chapter " data-level="2.6.7" data-path="demo6.html">
             
-                <a href="../dockerLearn/demo6.html">
+                <a href="demo6.html">
             
                     
                     demo6
@@ -296,9 +298,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="2.7.1" data-path="./">
+        <li class="chapter " data-level="2.7.1" data-path="../harbor/">
             
-                <a href="./">
+                <a href="../harbor/">
             
                     
                     搭建harbor
@@ -309,9 +311,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="2.7.2" data-path="use.html">
+        <li class="chapter " data-level="2.7.2" data-path="../harbor/use.html">
             
-                <a href="use.html">
+                <a href="../harbor/use.html">
             
                     
                     使用harbor
@@ -357,7 +359,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >使用harbor</a>
+        <a href=".." >demo2</a>
     </h1>
 </div>
 
@@ -372,28 +374,50 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="harbor&#x4F7F;&#x7528;">harbor&#x4F7F;&#x7528;</h1><blockquote><p>&#x4EE5;osx&#x7CFB;&#x7EDF;&#x4E3A;&#x4F8B;&#xFF0C;&#x5176;&#x5B83;&#x7CFB;&#x7EDF;&#x53EF;&#x4EE5;&#x7528;find / -name &quot;daemon.json&quot; &#x641C;&#x7D22;&#x8FD9;&#x4E2A;&#x914D;&#x7F6E;&#x6587;&#x4EF6;</p></blockquote><h2 id="&#x7F16;&#x8F91;">&#x7F16;&#x8F91;</h2><pre><code class="lang-shell"> vi ~/.docker/daemon.json</code></pre>
-<h2 id="&#x6DFB;&#x52A0;&#x914D;&#x7F6E;&#x6587;&#x4EF6;">&#x6DFB;&#x52A0;&#x914D;&#x7F6E;&#x6587;&#x4EF6;</h2><pre><code class="lang-json">{
-  <span class="hljs-string">&quot;builder&quot;</span> : {
-    <span class="hljs-string">&quot;gc&quot;</span> : {
-      <span class="hljs-string">&quot;enabled&quot;</span> : <span class="hljs-literal">true</span>,
-      <span class="hljs-string">&quot;defaultKeepStorage&quot;</span> : <span class="hljs-string">&quot;20GB&quot;</span>
-    }
-  },
-  <span class="hljs-string">&quot;registry-mirrors&quot;</span>: [<span class="hljs-string">&quot;https://q2gr04ke.mirror.aliyuncs.com&quot;</span>], <span class="hljs-comment">//&#x955C;&#x50CF;&#x52A0;&#x901F;&#x6E90;&#x3002;&#x8FD9;&#x91CC;&#x662F;&#x963F;&#x91CC;&#x7684;</span>
-  <span class="hljs-string">&quot;insecure-registries&quot;</span>: [
-    <span class="hljs-string">&quot;http://youyong.ba:8088&quot;</span>
-  ], <span class="hljs-comment">//&#x4E0D;&#x5B89;&#x5168;&#x7684;registries&#x3002;&#x81EA;&#x5DF1;&#x7684;&#x79C1;&#x6709;&#x4ED3;&#x5E93;&#x4E5F;&#x586B;&#x5728;&#x91CC;&#x8FB9;</span>
-  <span class="hljs-string">&quot;experimental&quot;</span> : <span class="hljs-literal">false</span>,
-  <span class="hljs-string">&quot;features&quot;</span> : {
-    <span class="hljs-string">&quot;buildkit&quot;</span> : <span class="hljs-literal">true</span>
-  }
+                                <h2 id="&#x521B;&#x5EFA;image-backend">&#x521B;&#x5EFA;image backend</h2><h3 id="serverpy">server.py</h3><pre><code class="lang-python"><span class="hljs-keyword">from</span> flask <span class="hljs-keyword">import</span> Flask, render_template
+<span class="hljs-keyword">from</span> flask_cors <span class="hljs-keyword">import</span> CORS <span class="hljs-comment"># need to mention</span>
+<span class="hljs-keyword">import</span> json
+
+app = Flask(__name__)
+CORS(app)
+
+<span class="hljs-meta">@app.route(&apos;/book&apos;)</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">json_file</span><span class="hljs-params">()</span>:</span>
+    file = open(<span class="hljs-string">&apos;./book.json&apos;</span>)
+    json_data=json.load(file)
+    <span class="hljs-keyword">return</span> json_data
+
+<span class="hljs-keyword">if</span> __name__ == <span class="hljs-string">&apos;__main__&apos;</span>:
+    app.run(host=<span class="hljs-string">&apos;0.0.0.0&apos;</span>, port=<span class="hljs-number">5000</span>)</code></pre>
+<h3 id="dockerfile">Dockerfile</h3><pre><code class="lang-shell"># asdfasdf
+FROM python:3.7
+COPY . /app
+WORKDIR /app
+RUN [&quot;pip3&quot;, &quot;install&quot;, &quot;-r&quot;, &quot;requirements.txt&quot;]
+EXPOSE 5000
+CMD [&quot;python3&quot;, &quot;server.py&quot;]</code></pre>
+<h3 id="bookjson">book.json</h3><pre><code class="lang-json">{
+    <span class="hljs-string">&quot;title&quot;</span>: <span class="hljs-string">&quot;&#x5C0F;&#x6D2A;&#x5B66;&#x4E60;&#x7B14;&#x8BB0;-&#x6807;&#x9898;&quot;</span>,
+    <span class="hljs-string">&quot;description&quot;</span>: <span class="hljs-string">&quot;&#x5C0F;&#x6D2A;&#x5B66;&#x4E60;&#x7B14;&#x8BB0;-&#x63CF;&#x8FF0;&quot;</span>,
+    <span class="hljs-string">&quot;link&quot;</span>: <span class="hljs-string">&quot;youyongba.github.io/doc/html&quot;</span>
 }
 </code></pre>
-<h2 id="&#x5728;harbor&#x754C;&#x9762;&#x4E0A;&#x70B9;&#x51FB;&#x65B0;&#x5EFA;&#x9879;&#x76EE;&#xFF0C;&#x65B0;&#x5EFA;&#x4E00;&#x4E2A;&#x9879;&#x76EE;&#x4ED3;&#x5E93;">&#x5728;Harbor&#x754C;&#x9762;&#x4E0A;&#x70B9;&#x51FB;&#x65B0;&#x5EFA;&#x9879;&#x76EE;&#xFF0C;&#x65B0;&#x5EFA;&#x4E00;&#x4E2A;&#x9879;&#x76EE;&#x4ED3;&#x5E93;</h2><blockquote><p>&#x5982;&#xFF1A;xiaohong</p></blockquote><h2 id="&#x767B;&#x5F55;&#x81EA;&#x5DF1;&#x7684;&#x4ED3;&#x5E93;">&#x767B;&#x5F55;&#x81EA;&#x5DF1;&#x7684;&#x4ED3;&#x5E93;</h2><p>docker login youyong.ba:8088</p><h2 id="&#x63A8;&#x9001;image&#x5230;&#x79C1;&#x6709;&#x4ED3;&#x5E93;">&#x63A8;&#x9001;image&#x5230;&#x79C1;&#x6709;&#x4ED3;&#x5E93;</h2><pre><code class="lang-shell">docker build . --tag pyramid:v1.0.0
-docker push youyong.ba:8088/xiaohong/pyramid:v1.0.0</code></pre>
-<h2 id="&#x4ECE;&#x79C1;&#x6709;&#x4ED3;&#x5E93;&#x62C9;&#x53BB;image">&#x4ECE;&#x79C1;&#x6709;&#x4ED3;&#x5E93;&#x62C9;&#x53BB;image</h2><pre><code class="lang-shell">docker pull youyong.ba:8088/xiaohong/pyramid:v1.0.0</code></pre>
+<h3 id="requirementstxt">requirements.txt</h3><pre><code class="lang-shell">flash==1.0.3
+flask-cors==3.0.8</code></pre>
+<h3 id="&#x547D;&#x4EE4;">&#x547D;&#x4EE4;</h3><table>
+<thead>
+<tr><th> &#x8BF4;&#x660E; </th>
+<th> &#x547D;&#x4EE4; </th>
+</tr></thead><tbody>
+<tr><td style="text-align:left"> &#x751F;&#x6210;image </td>
+<td style="text-align:left"> docker build . --tag web-app-backend </td>
+</tr><tr><td style="text-align:left"> &#x542F;&#x52A8;container </td>
+<td style="text-align:left"> docker run -p 4000:5000 web-app-backend</td>
+</tr></tbody></table>
 
+<blockquote><p>-p 4000:5000</p><ul><li>4000&#x4E3A;&#x672C;&#x5730;&#x7AEF;&#x53E3;&#xFF0C;5000&#x662F;container
+</li></ul>
+</blockquote>
                                 
                                 </section>
                             
@@ -420,10 +444,14 @@ docker push youyong.ba:8088/xiaohong/pyramid:v1.0.0</code></pre>
 
             
                 
-                <a href="./" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 搭建harbor">
+                <a href="demo1.html" class="navigation navigation-prev " aria-label="Previous page: demo1">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
+                
+                <a href="demo3.html" class="navigation navigation-next " aria-label="Next page: demo3">
+                    <i class="fa fa-angle-right"></i>
+                </a>
                 
             
         
@@ -432,7 +460,7 @@ docker push youyong.ba:8088/xiaohong/pyramid:v1.0.0</code></pre>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"使用harbor","level":"2.7.2","depth":2,"previous":{"title":"搭建harbor","level":"2.7.1","depth":2,"path":"harbor/README.md","ref":"harbor/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"harbor/use.md","mtime":"2022-07-18T06:36:03.602Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2022-07-18T06:36:39.646Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"demo2","level":"2.6.3","depth":2,"next":{"title":"demo3","level":"2.6.4","depth":2,"path":"dockerLearn/demo3.md","ref":"dockerLearn/demo3.md","articles":[]},"previous":{"title":"demo1","level":"2.6.2","depth":2,"path":"dockerLearn/demo1.md","ref":"dockerLearn/demo1.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"dockerLearn/demo2.md","mtime":"2022-07-18T03:34:03.017Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2022-07-18T06:36:39.646Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

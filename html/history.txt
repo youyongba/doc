@@ -1,0 +1,3460 @@
+    1  cd ~
+    2  cd ~
+    3  ls
+    4  ls
+    5  cat ~/.zshrc
+    6  source ~/.bash_profile
+    7  touch .zshrc
+    8  open -e .zshrc
+    9  source ~/.bash_profile
+   10  source .zshrc
+   11  exit
+   12  ls
+   13  ls
+   14  vim .bash_profile
+   15  ls
+   16  cd ~
+   17  zsh
+   18  exit
+   19  ls
+   20  ls
+   21  ls
+   22  cd Public
+   23  ls
+   24  pwd
+   25  ls
+   26  ls
+   27  ls
+   28  ls
+   29  vi .zshrc
+   30  ls
+   31  ls
+   32  vi .zshrc
+   33  exit
+   34  ls
+   35  cd fotiaoqiang
+   36  ls
+   37  cd ..
+   38  ls
+   39  cd Downloads
+   40  git clone [https://github.com/powerline/fonts.git](https://github.com/powerline/fonts.git)
+   41  git clone https://github.com/powerline/fonts.git\]\(https://github.com/powerline/fonts.git
+   42  git clone https://github.com/powerline/fonts.git
+   43  git clone https://gitee.com/YangPenghe/powerlineFonts.git
+   44  ls
+   45  cd powerlineFonts
+   46  ls
+   47  ./install.sh
+   48  exit
+   49  ls
+   50  cd Public
+   51  ls
+   52  git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
+   53  cd ..
+   54  ls
+   55  cd Downloads
+   56  ls
+   57  git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
+   58  ls
+   59  git clone git://github.com/zsh-users/zsh-syntax-highlighting $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+   60  ls
+   61  cd Downloads
+   62  ls
+   63  cd .
+   64  cd ..
+   65  ls
+   66  cd Public
+   67  ls
+   68  cd ..
+   69  ls
+   70  cd Downloads
+   71  ls
+   72  mkdir kk
+   73  ls
+   74  vi ~/.zshrc
+   75  zsh ~/.zshrc
+   76  echo $ZSH_CUSTOM
+   77  git clone git://github.com/zsh-users/zsh-syntax-highlighting $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+   78  ls
+   79  git clone git://github.com/zsh-users/zsh-syntax-highlighting $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+   80  ls
+   81  vi ~/.zshrc
+   82  zsh ~/.zshrc
+   83  echo $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+   84  cd $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+   85  ls
+   86  npm 
+   87  npm install -g tools-tree
+   88  export ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR=/opt/homebrew/share/zsh-syntax-highlighting/highlighters
+   89  source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+   90  ls
+   91  pwd
+   92  ls
+   93  sudo npm install -g tools-tree
+   94  tre
+   95  cd ..
+   96  sudo npm install -g yarn
+   97  npm install -g cnpm
+   98  sudo npm install -g cnpm
+   99  ls
+  100  ls
+  101  ls
+  102  brew install zsh-syntax-highlighting
+  103  ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+  104  ping www.github.com
+  105  /bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
+  106  ls
+  107  node
+  108  brew install zsh-syntax-highlighting
+  109  brew
+  110  brew install wget
+  111  /bin/zsh -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  112  vi /etc/hosts
+  113  sudo vi /etc/hosts
+  114  /bin/zsh -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  115  /bin/zsh -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  116  /bin/zsh -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  117  vi /etc/hosts
+  118  sudo vi /etc/hosts
+  119  /bin/zsh -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  120  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  121  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  122  brew
+  123  brew
+  124  xcodebuild -license
+  125  “sudo xcodebuild -license
+  126  sudo xcodebuild -license
+  127  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  128  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  129  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  130  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  131  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  132  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  133  ping github.com
+  134  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  135  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  136  ls
+  137  ls
+  138  vi .zsh_history
+  139  ls
+  140  vi .zshrc
+  141  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  142  bin/zsh -c “$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)”
+  143  /bin/zsh -c “$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)”
+  144  /bin/zsh -c “$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)”
+  145  /bin/zsh -c “$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)”
+  146  /bin/zsh -c “$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew)”
+  147  /bin/zsh -c “$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)”
+  148  /bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
+  149  source /Users/qihong/.zprofile 
+  150  brew install wget
+  151  brew install zsh-syntax-highlighting
+  152  ls
+  153  source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh\n
+  154  export ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR=/opt/homebrew/share/zsh-syntax-highlighting/highlighters
+  155  ls
+  156  ls
+  157  pwd
+  158  ls
+  159  vi .zshrc
+  160  vi .zsh_history
+  161  ls
+  162  vi .zshrc
+  163  ls
+  164  ls
+  165  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  166  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  167  git clone https://gitee.com/mirrors/oh-...~/.oh-my-zsh
+  168  git
+  169  git clone https://gitee.com/mirrors/oh-...~/.oh-my-zsh
+  170  git clone https://gitee.com/mirrors/oh-my-zsh.git~/.oh-my-zsh
+  171  git clone https://gitee.com/mirrors/oh-my-zsh.git ~/.oh-my-zsh
+  172  cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
+  173  vi .zshrc
+  174  vi .zshrc
+  175  zsh ~/.zshrc
+  176  ls
+  177  ls
+  178  ls
+  179  ls
+  180  ls
+  181  ls
+  182  ls
+  183  export ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR=/opt/homebrew/share/zsh-syntax-highlighting/highlighters
+  184  /opt/homebrew
+  185  sudo /opt/homebrew
+  186  mkdir /opt/homebrew
+  187  /usr/bin/sudo /bin/mkdir -p /opt/homebrew
+  188  /usr/bin/sudo /bin/chmod -R a+rwx /opt/homebrew
+  189  /usr/bin/sudo /usr/sbin/chown qihong /opt/homebrew
+  190  /usr/bin/sudo /usr/bin/chgrp admin /opt/homebrew
+  191  cd Downloads
+  192  ls
+  193  tree
+  194  npm install -g tools-tree
+  195  ls
+  196  cd Downloads
+  197  ls
+  198  sudo npm ins
+  199  sudo npm install -g tools-tree
+  200  ls
+  201  cd Downloads
+  202  ls
+  203  cd Downloads
+  204  ls
+  205  pwd
+  206  ls
+  207  tree
+  208  pwd
+  209  cd ..
+  210  ls
+  211  cd ..
+  212  ls
+  213  cd ..
+  214  ls
+  215  cd Downloads
+  216  ls
+  217  cd powerlineFonts
+  218  ls
+  219  cd ..
+  220  ls
+  221  cd kk
+  222  ls
+  223  cd ..
+  224  tree
+  225  pwd
+  226  ls
+  227  cd powerlineFonts
+  228  ls
+  229  tree
+  230  vi ~/.zsh_sessions
+  231  ls
+  232  ls ~/./ssh
+  233  ssh-keygen --help
+  234  ls ~/.zsh_history
+  235  cd ~/.zsh_sessions
+  236  cd ..
+  237  ls
+  238  cd ~/
+  239  ls
+  240  ls .zsh_history
+  241  cd .zsh_history
+  242  ls
+  243  vi .zsh_history
+  244  ls
+  245  ssh-keygen -t rsa -C “55377146@qq.com”
+  246  ssh-keygen -t rsa -C "55377146@qq.com"
+  247  code .
+  248  ls
+  249  cd
+  250  ls
+  251  pwd
+  252  mkdir dev
+  253  cd dev
+  254  mkdir kine
+  255  ls
+  256  cd kine
+  257  ls
+  258  cd ..
+  259  ls
+  260  cd kine
+  261  ls
+  262  git clone git@192.168.0.115:qihong/kine-ui-front.git
+  263  vi ~/.ssh/id_rsa.pub
+  264  git clone git@192.168.0.115:qihong/kine-ui-front.git
+  265  ls
+  266  cd kine-ui-front
+  267  ls
+  268  git branch -a
+  269  git pull origin master
+  270  ls
+  271  git checkout -b daily/1.0.22
+  272  ls
+  273  code .
+  274  code ./
+  275  sudo code .
+  276  chmod 777 /usr/local/bin/code
+  277  sudo chmod 777 /usr/local/bin/code
+  278  code .
+  279  chmod -R 777 /usr/local/bin/*
+  280  sudo chmod -R 777 /usr/local/bin/*
+  281  ls
+  282  cd /usr/local/bin/
+  283  ls
+  284  code .
+  285  ./code
+  286  cd code
+  287  vi code
+  288  ls
+  289  ll *
+  290  cd /private/var/folders/0h/ms_ff8y1495gxn363n22bbv40000gn/T/AppTranslocation/1522C349-D769-40E0-88FA-EEC9AA5D34A8/d/Visual Studio Code.app/Contents/Resources/app/bin/
+  291  ls
+  292  cd /private/var/folders/0h/ms_ff8y1495gxn363n22bbv40000gn/T/AppTranslocation/1522C349-D769-40E0-88FA-EEC9AA5D34A8/d/Visual Studio Code.app/Contents/Resources/app/bin//private/var/folders/0h/ms_ff8y1495gxn363n22bbv40000gn/T/AppTranslocation/1522C349-D769-40E0-88FA-EEC9AA5D34A8/d/Visual Studio Code.app/Contents/Resources/app/bin/
+  293  cd /private/var/folders/
+  294  ls
+  295  cd 0h/ms_ff8y1495gxn363n22bbv40000gn/T/AppTranslocation/F250B5C7-FE1C-477F-A215-F1BC3FA9192D/d/Visual\ Studio\ Code.app/Contents/Resources/app/bin
+  296  ls
+  297  npm link
+  298  sudo npm link
+  299  ls
+  300  ./code 
+  301  ln link
+  302  cd
+  303  ls
+  304  code .
+  305  unlink /usr/local/bin/code
+  306  sudo unlink /usr/local/bin/code
+  307  code .
+  308  ls
+  309  cd dev/kine
+  310  ls
+  311  cd kine-ui-front
+  312  ls
+  313  code .
+  314  ls
+  315  pwd
+  316  ls
+  317  pwd
+  318  ls
+  319  chmod 
+  320  chmod -R 777 /usr/local/bin/*
+  321  ls
+  322  ll
+  323  ll /usr/local/bin
+  324  ls
+  325  cd dev/kine/kine-ui-front/
+  326  ls
+  327  code .
+  328  yarn serve
+  329  ls
+  330  yarn install
+  331  code .
+  332  yarn serve
+  333  ls
+  334  pwd
+  335  git pull online master
+  336  git add .
+  337  git commit -m 'aa'
+  338  git config --global user.email "qihong@kine.io"
+  339  git config --global user.name "qihong"
+  340  git add .
+  341  git commit -m 'test'
+  342  vi .git/config
+  343  git remote add online http://192.168.0.115:30080/kine-exchange/kine-ui-front.git
+  344  git pull online master
+  345  vi ~/.ssh/id_rsa.pub
+  346  ls
+  347  git pull origin master
+  348  ls
+  349  git pull online master
+  350  ls
+  351  git checkout -b daily/1.0.22
+  352  git checkout -b daily/1.0.23
+  353  ls
+  354  code .
+  355  yarn serve
+  356  git add .
+  357  git commit -m '历史委托弄完了'
+  358  git push origin daily/1.0.23
+  359  git checkout -b daily/1.0.24
+  360  git pull online master
+  361  git checkout -b daily/1.0.25
+  362  ls
+  363  yarn serve
+  364  code .
+  365  git add .
+  366  git commit -m '备份'
+  367  code .
+  368  yarn serve
+  369  git add .
+  370  git commit -m '- 仓位止盈止损和资产页调整 — 当前持仓 — 平仓功能区  — js功能 —  1d 【进行中】'
+  371  git checkout -b daily/1.0.26
+  372  ls
+  373  pwd
+  374  ls
+  375  pwd
+  376  ls
+  377  git add .
+  378  git commit -m '- 仓位止盈止损和资产页调整 — 当前持仓 — 弹出层 — 页面制作 — 0.5d 【完成】'
+  379  git push origin HEAD
+  380  git checkout -b daily/1.0.27
+  381  git pull online master
+  382  git pull online release/3.0.0
+  383  git add .
+  384  git commit -m '仓位止盈止损和资产页调整 — 当前持仓 — 弹出层 — 交互 — 0.3d. 【完成'
+  385  git push origin HEAD
+  386  git add .
+  387  git commit -m '删除console和不必要的注删'
+  388  git push origin HEAD
+  389  git add .
+  390  git commit -m '环境改成92'
+  391  git push origin HEAD
+  392  git checkout -b daily/1.0.28
+  393  git add .
+  394  git commit -m '环境改成92'
+  395  gti commit -m '仓位止盈止损和资产页调整'
+  396  git push origin HEAD
+  397  git add .
+  398  git commit -m '删注释'
+  399  git checkout -b daily/1.0.29
+  400  git push origin HEAD
+  401  git add .
+  402  git commit -m '删掉一个console.log'
+  403  git checkout -b daily/1.0.30
+  404  git add .
+  405  git push origin HEAD
+  406  git add .
+  407  git commit -m '- 仓位止盈止损和资产页调整 — 数量精度 【完成】'
+  408  git checkout -b daily/1.0.31
+  409  git push origin HEAD
+  410  git commit -m '- 仓位止盈止损和资产页调整 — 当前持仓 — 平仓功能区  — js功能 —  1d 【进行中】'
+  411  yarn serve
+  412  git add .
+  413  git commit -m '- 触发条件 表格里出现 false — bug 【已修复】'
+  414  git checkout -b daily/1.0.32
+  415  git push origin HEAD
+  416  git add .
+  417  git commit -m '- 解发条件 表格里出现 false — bug — 复现路径 — 从 “当前持仓”点计划在到 “当前委托” 就会出现false【完成】'
+  418  ls
+  419  cd demo/netease/
+  420  ls
+  421  cd new
+  422  ls
+  423  yarn install
+  424  vi package.json
+  425  npm runs start
+  426  npm run start
+  427  git add .
+  428  git commit -m '- 提示文案有语病 【已修复】'
+  429  git checkout -b daily/1.0.33
+  430  git push origin HEAD
+  431  git add .
+  432  git commit -m '- 提示文案有语病 【已修复】'
+  433  git checkout -b daily/1.0.34
+  434  git push origin HEAD
+  435  ls
+  436  cd dev
+  437  ls
+  438  mkdir liujiao
+  439  cd liujiao
+  440  ls
+  441  git clone git@gitlab.joyame.com:web/pcClient.git
+  442  vi ~/.ssh/id_rsa.pub
+  443  git clone git@gitlab.joyame.com:web/pcClient.git
+  444  code .
+  445  ls
+  446  cd pcClient
+  447  ls
+  448  code .
+  449  vscode
+  450  code .
+  451  cd /usr/local/bin/code
+  452  ls
+  453  pwd
+  454  cd /usr/local/bin/code
+  455  cd /usr/local/bin/
+  456  ls
+  457  chmod -R 755 ./
+  458  sudo chmod -R 755 ./
+  459  code .
+  460  cd ~/Applications/
+  461  ls
+  462  cd ..
+  463  ls
+  464  cd 
+  465  ls
+  466  cd Applications
+  467  ls
+  468  cd ..
+  469  ls
+  470  cd Library
+  471  ls
+  472  cd ..
+  473  ls
+  474  Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code ; exit;
+  475  sudo -
+  476  sudo su
+  477  ls
+  478  code .
+  479  sudo chown -R 777 /usr/local/bin
+  480  ls
+  481  cd /usr/local/bin
+  482  ls
+  483  code .
+  484  code
+  485  cd code
+  486  ls
+  487  ls -l
+  488  ./code
+  489  cd /private/var/folders/0h/ms_ff8y1495gxn363n22bbv40000gn/T/AppTranslocation/F250B5C7-FE1C-477F-A215-F1BC3FA9192D/d/Visual Studio Code.app/Contents/Resources/app/bin/
+  490  cd /private/var/folders/0h/ms_ff8y1495gxn363n22bbv40000gn/T/AppTranslocation/F250B5C7-FE1C-477F-A215-F1BC3FA9192D/d/
+  491  ln code  /Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code 
+  492  ln -s code /Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code 
+  493  ln -s /Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code code
+  494  rm -rvf code
+  495  sudo rm -rvf code
+  496  ln -s /Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code code
+  497  sudo ln -s /Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code code
+  498  ls
+  499  code 
+  500  cd ~/dev/
+  501  ls
+  502  cd liujiao
+  503  ls
+  504  cd pcClient
+  505  ls
+  506  code .
+  507  npm install
+  508  ls
+  509  cd dev
+  510  ls
+  511  cd liujiao
+  512  ls
+  513  nrm
+  514  nrm ls
+  515  npm install -g nrm
+  516  ls
+  517  rm -rvf pcClient
+  518  npm install -g nrm
+  519  cnpm
+  520  cd ..
+  521  ls
+  522  cnpm install -g nrm
+  523  sudo cnpm install -g nrm
+  524  nrm ls
+  525  nrm use taobao
+  526  nrm ls
+  527  ls
+  528  git clone git@gitlab.joyame.com:qihong/pcClient.git
+  529  ls
+  530  cd pcClient
+  531  ls
+  532  git checkout duban
+  533  pwd
+  534  ls
+  535  npm install 
+  536  cnpm install
+  537  npm install
+  538  ls
+  539  rm -rvf node_modules
+  540  git status
+  541  git add .
+  542  git commit -m '不知道为什么有两处文件被改变了'
+  543  git checkout -b daily/1.0.0
+  544  ls
+  545  npm install
+  546  nrm ls
+  547  cd p
+  548  cd pcClient
+  549  ls
+  550  tree ./
+  551  rm -rvf node_modules
+  552  yarn install
+  553  cnpm install
+  554  yarn install
+  555  ls
+  556  npm run dev
+  557  yarn
+  558  cnpm install --save -dev electron@14.0.0-beta.18
+  559  cnpm install --save-dev electron@14.0.0-beta.18
+  560  npm run dev
+  561  ls
+  562  tree ./
+  563  npm run dev
+  564  git add .
+  565  git commit -m 'test'
+  566  git checkout duban
+  567  git add remote online git@gitlab.joyame.com:web/pcClient.git
+  568  git pull online duban
+  569  vi .gi
+  570  vi .git/config
+  571  git remote add online git@gitlab.joyame.com:web/pcClient.git
+  572  git pull online duban
+  573  git checkout -b daily/1.0.1
+  574  ls
+  575  git add .
+  576  git commit -m 'test11'
+  577  ls
+  578  git checkout daily/1.0.0
+  579  git add .
+  580  git commit -m 'test11'
+  581  ls
+  582  npm run dev
+  583  git add .
+  584  git commit -m 'aaaa'
+  585  git checkout duban
+  586  ls
+  587  pwd
+  588  git pull online duban
+  589  git checkout -b daily/1.0.3
+  590  npm run dev
+  591  git add .
+  592  git status
+  593  git commit -m 'aaa'
+  594  git checkout daily/1.0.0
+  595  npm run dev
+  596  git add .
+  597  git commit -m 'null'
+  598  git checkout daily/1.0.3
+  599  npm run dev
+  600  cd
+  601  ls
+  602  cd demo/netease/new/
+  603  ls
+  604  npm run dev
+  605  vi package.json
+  606  npm runs tart
+  607  npm run start
+  608  code .
+  609  ls
+  610  cd demo/netease/new/
+  611  code .
+  612  git add .
+  613  git commit -m '加入弹窗'
+  614  code .
+  615  git add .
+  616  git commit -m 'differs from already included file name '
+  617  npm run start
+  618  vi package.json
+  619  npm run dev
+  620  code .
+  621  git add .
+  622  git commit -m 'aaa'
+  623  yarn add vuedraggable
+  624  npm i -S vuedraggable
+  625  git add .
+  626  git commit -m '加载了一个vue排序插件'
+  627  git push origin daily/1.0.3
+  628  git add 
+  629  git add .
+  630  git commit -m '消息分组部份样式'
+  631  npm run dev
+  632  vi package.json
+  633  npm run dev
+  634  history
+  635  vi package.json
+  636  npm run dev
+  637  rm -rvf node_modules/electron
+  638  yarn add electron@14.0.0-beta.18
+  639  cnpm inst
+  640  cnpm install --save-dev electron@14.0.0-beta.18
+  641  vi package.json
+  642  npm run dev
+  643  vi package.json
+  644  git add .
+  645  git commit -m '替换icon'
+  646  git checkout daily/1.0.4
+  647  ls
+  648  git checkout -b daily/1.0.4
+  649  ls
+  650  git add .
+  651  git commit -m 'aa'
+  652  npm run dev
+  653  git add .
+  654  git commit -m '排序功能'
+  655  git push origin daily/1.0.3
+  656  git push origin daily/1.0.4
+  657  git checkout -b daily/1.0.5
+  658  cd ..
+  659  ls
+  660  cd ..
+  661  ls
+  662  cd ..
+  663  ls
+  664  cd demo
+  665  ls
+  666  mkdir vuex
+  667  cd vuex
+  668  ls
+  669  mkdir lession1
+  670  cd lession1
+  671  ls
+  672  code .
+  673  npm install -g http-server
+  674  sudo npm install -g http-server
+  675  http-server
+  676  http-server ./
+  677  ls
+  678  cd ..
+  679  ls
+  680  cd lession1
+  681  ls
+  682  cd demo02
+  683  ls
+  684  yarn init -y
+  685  ls
+  686  yarn add vue vuex
+  687  ls
+  688  touch index.js
+  689  code .
+  690  node index.js
+  691  yarn add -D webpack webpack-cli
+  692  npm run build
+  693  yarn run build
+  694  yarn add global webpack
+  695  yarn run build
+  696  yarn add global webpack webpack-cli
+  697  yarn run build
+  698  ls
+  699  node dist/main.js
+  700  yarn run build
+  701  cd ..
+  702  ls
+  703  cd ..
+  704  ls
+  705  mkdir lession2
+  706  cd lession2
+  707  ls
+  708  mkdir demo01
+  709  cd demo01/
+  710  ls
+  711  cd ..
+  712  ls
+  713  cd ..
+  714  ls
+  715  code .
+  716  ls
+  717  http-server ./lession2/demo01/
+  718  git add .
+  719  git commit -m '消息管理页面结构和样式完成'
+  720  ls
+  721  npm run dev
+  722  git add .
+  723  git commit -m '消息分组- 分组管理 — 功能开发 — 改成vuex — 0.5d'
+  724  git push origin HEAD
+  725  git checkout -b daily/1.0.6
+  726  ls
+  727  npm run dev
+  728  cd 
+  729  ls
+  730  cd liujiao
+  731  cd
+  732  cd dev/liujiao
+  733  ls
+  734  npm install -g gitbook-cli
+  735  yarn global gitbook-cli
+  736  cnpm install -g gitbook-cli
+  737  sudo cnpm install -g gitbook-cli
+  738  /usr/local/bin/gitbook
+  739  ls
+  740  /usr/local/bin/gitbook
+  741  sudo gitbook init
+  742  gitbook init
+  743  npm run dev
+  744  git add .
+  745  git commit -m '与后端交互'
+  746  git push origin HEAD
+  747  git checkout daily/1.0.5
+  748  git checkout daily/1.0.6
+  749  npm run dev
+  750  git add .
+  751  git commit -m 'asdfasf'
+  752  npm run dev
+  753  git add .
+  754  git commit -m 'aaa'
+  755  git checkout -b daily/1.0.7
+  756  git pull online duban
+  757  npm run dev
+  758  yarn install
+  759  cnpm install
+  760  vi package.json
+  761  cnpm install electron-store@8.0.0
+  762  npm run dev
+  763  vi package.json
+  764  cnpm install electron@13.1.9
+  765  git add .
+  766  git commit -m 'aaa'
+  767  npm run dev
+  768  ls
+  769  cd dev/liujiao
+  770  ls
+  771  cd pcClient
+  772  ls
+  773  git add .
+  774  git commit -m 'bbbb'
+  775  vi package.json
+  776  npm run dev
+  777  code .
+  778  cd dev/liujiao/pcClient
+  779  code .
+  780  npm run dev
+  781  git add .
+  782  git commit -m '别人帮我写的'
+  783  git push origin HEAD
+  784  git checkout -b daily/1.0.8
+  785  ls
+  786  git add .
+  787  git commit -m 'asdfasdf'
+  788  git checkout daily/1.0.7
+  789  npm run dev
+  790  git add .
+  791  git commit -m 'aasadf'
+  792  git branch -a
+  793  git checkout -b daily/1.0.9
+  794  git pull online duban
+  795  git add .
+  796  git commit -m '冲突'
+  797  npm run dev
+  798  ls
+  799  ping www.baidu.com
+  800  npm run dev
+  801  ping www.baidu.com
+  802  npm run dev
+  803  ping www.baidu.com
+  804  npm run dev
+  805  git add ,
+  806  git add .
+  807  git commit -m '㹓提测一部份'
+  808  git checkout daily/1.0.10
+  809  git pull online duban
+  810  git add .
+  811  git commit -m 'aaa'
+  812  git branch
+  813  git checkout -b daily/1.0.10
+  814  ls
+  815  npm run build
+  816  cd dev/liujiao/pcClient
+  817  git add .
+  818  git commit -m 'aaa'
+  819  npm run build
+  820  npm run dev
+  821  git add .
+  822  git commit -m 'bbb'
+  823  npm run build
+  824  vi pac
+  825  vi package.json
+  826  npm run build
+  827  git add .
+  828  git commit -m 'aaa'
+  829  npm run dev
+  830  ls
+  831  vi package.json
+  832  npm run mac
+  833  vi package.json
+  834  ls
+  835  cd build/
+  836  ls
+  837  pwd
+  838  cd ..
+  839  ls
+  840  vi package.json
+  841  npm run buildmac
+  842  npm run dev
+  843  vi package.json
+  844  npm run buildmac
+  845  npm run build
+  846  npm run dev
+  847  vi package.json
+  848  git add .
+  849  git commit -m '主流程通了'
+  850  git push origin HEAD
+  851  git checkout -b daily/1.0.11
+  852  git pull online duban
+  853  npm run build
+  854  ls
+  855  git add .
+  856  git commit -m '合代码'
+  857  git push origin HEAD
+  858  git checkout -b daily/1.0.12
+  859  git pull 
+  860  git pull online duban
+  861  git add .
+  862  git commit -m '合并后的'
+  863  vi package.json
+  864  git add .
+  865  git commit -m '合并后的'
+  866  npm run build
+  867  git add .
+  868  git commit -m '合代码'
+  869  git push origin HEAD
+  870  git checkout -b daily/1.0.13
+  871  git pull online duban
+  872  npm run build
+  873  git add .
+  874  git commit -m '合代码'
+  875  git pull online duban
+  876  git add .
+  877  git commit -m '冲突'
+  878  npm run dev
+  879  git add .
+  880  git commit -m '冲突'
+  881  npm run build
+  882  git add .
+  883  git commit -m '主流程通了'
+  884  git push origin HEAD
+  885  npm run dev
+  886  ping www.baidu.com
+  887  npm run dev
+  888  git add .
+  889  git commit -m '展开收起'
+  890  git push origin HEAD
+  891  git checkout -b daily/1.0.14
+  892  git pull
+  893  git pull online duban
+  894  npm run build
+  895  vi package.json
+  896  npm run build
+  897  npm run dev
+  898  git add .
+  899  git coommit -m '打个测试包'
+  900  git commit -m '打测试包'
+  901  git push origin HEAD
+  902  git checkout -b daily/1.0.15
+  903  git pull online duban
+  904  vi package.json
+  905  git add .
+  906  git commit -m '打测试包'
+  907  npm run build
+  908  git add .
+  909  git commit -m '正式版'
+  910  git push origin HEAD
+  911  git checkout -b daily/1.0.16
+  912  git pull online duban
+  913  git add .
+  914  git commit -m '正式版'
+  915  npm run build
+  916  git add .
+  917  git coommit -m '打包'
+  918  git commit -m '打包'
+  919  git push origin HEAD
+  920  git checkout -b daily/1.0.17
+  921  git pull online duban
+  922  git add .
+  923  vi package.json
+  924  npm run build
+  925  npm run buildmac
+  926  npm run dev
+  927  git add .
+  928  git commit -m 'bug全部解'
+  929  git push origin HEAD
+  930  npm run build
+  931  git add .
+  932  git commit -m 'aaa'
+  933  git add .
+  934  git commit -m '打包'
+  935  git push origin HEAD
+  936  npm run dev
+  937  git checkout -b daily/1.0.18
+  938  git pull online duban
+  939  git add .
+  940  git commit -m '打包'
+  941  git pull online duban
+  942  npm run build
+  943  npm run buildmac
+  944  npm run dev
+  945  cd ..
+  946  ls
+  947  pwd
+  948  cd
+  949  ls
+  950  cd demo
+  951  ls
+  952  mkdir eventBus
+  953  cd eventBus
+  954  ls
+  955  yarn global vue-cli
+  956  npm install -g vue-cli
+  957  sudo npm install -g vue-cli
+  958  vue create eventBus
+  959  npm install -g @vue/cli
+  960  sudo npm install -g @vue/cli
+  961  sudo npm install -g @vue/cli -F
+  962  rm -rvf /usr/local/bin/vue
+  963  sudo rm -rvf /usr/local/bin/vue
+  964  sudo yarn global add @vue/cli
+  965  vue create eventBus
+  966  ls
+  967  vue create demo
+  968  git add .
+  969  git commit -m '最后一个bug'
+  970  git checkout -b daily/1.0.19
+  971  ls
+  972  npm run dev
+  973  git add .
+  974  git commit 
+  975  git commit -m 'bug修复'
+  976  git checkout -b daily/1.0.20
+  977  npm run build
+  978  ls
+  979  cd demo
+  980  ls
+  981  code .
+  982  vue serve
+  983  sudo npm i -g @vue/cli-service-global
+  984  vue serve
+  985  vi package.json
+  986  npm run serve
+  987  cd ..
+  988  ls
+  989  vue create demo1
+  990  ls
+  991  cd demo1
+  992  ls
+  993  code .
+  994  ls
+  995  npm run serve
+  996  npm run dev
+  997  npm run build
+  998  npm run dev
+  999  npm run build
+ 1000  vi package.json
+ 1001  npm run build
+ 1002  npm run serve
+ 1003  cd ..
+ 1004  ls
+ 1005  vue create demo2
+ 1006  ls
+ 1007  rm -rvf demo2
+ 1008  vue create demo2
+ 1009  cd demo2
+ 1010  code .
+ 1011  git add .
+ 1012  git commit -m '合并前'
+ 1013  git push origin HEAD
+ 1014  git checkout -b daily/1.0.21
+ 1015  git add .
+ 1016  git commit -m '合并后'
+ 1017  git pull online duban
+ 1018  git push online duban
+ 1019  git push origin HEAD
+ 1020  git pull online duban
+ 1021  npm run dev
+ 1022  git add .
+ 1023  git commit -m '合并'
+ 1024  git push origin HEAD
+ 1025  git checkout -b daily/1.0.22
+ 1026  git add .
+ 1027  git commit -m '改了两个小bug'
+ 1028  git push origin HEAD
+ 1029  npm run dev
+ 1030  git add .
+ 1031  git coommit -m '打包'
+ 1032  git commit -m 'aaa'
+ 1033  git pull online duban
+ 1034  git add .
+ 1035  git commit -m '合并打包上正在上生产环境'
+ 1036  git push origin HEAD
+ 1037  git checkout -b daily/1.0.23
+ 1038  npm run dev
+ 1039  code .
+ 1040  cd dev/liujiao/pcClient
+ 1041  ls
+ 1042  code .
+ 1043  ping www.baidu.com
+ 1044  git add .
+ 1045  git commit -m '修了两个bug'
+ 1046  git push origin HEAD
+ 1047  git checkout -b daily/1.0.24
+ 1048  git push origin HEAD
+ 1049  git pull online duban
+ 1050  code .
+ 1051  npm run dev
+ 1052  git add .
+ 1053  git commit -m 'aaa'
+ 1054  git push origin HEAD
+ 1055  git add .
+ 1056  git coommit -m '修复一个bug'
+ 1057  git commit -m 'aaa'
+ 1058  git push origin HEAD
+ 1059  git checkout -b daily/1.0.25
+ 1060  git add .
+ 1061  git commit -m '修了一个bug'
+ 1062  git push origin HEAD
+ 1063  npm run dev
+ 1064  git add .
+ 1065  git commit -m '修了两个bug'
+ 1066  git push origin HEAD
+ 1067  git checkout -b daily/1.0.26
+ 1068  git push origin HEAD
+ 1069  npm run dev
+ 1070  code .
+ 1071  ls
+ 1072  ssh -p 22@39.106.140.80
+ 1073  ping 39.106.140.80
+ 1074  ssh -p 22@39.106.140.80
+ 1075  ssh root@39.106.140.80
+ 1076  ls
+ 1077  cd person
+ 1078  ls
+ 1079  cd nestjs-init
+ 1080  ls
+ 1081  cd ..
+ 1082  ls
+ 1083  cd productManage
+ 1084  cd person
+ 1085  cd productManage
+ 1086  ls
+ 1087  rm -rvf .git
+ 1088  ls
+ 1089  yarn install
+ 1090  cnpm install
+ 1091  ls
+ 1092  cd ..
+ 1093  ls
+ 1094  cd nestjs-init
+ 1095  ls
+ 1096  nrm ls
+ 1097  cnpm install
+ 1098  ls
+ 1099  cd ..
+ 1100  ls
+ 1101  cd nestjs-init
+ 1102  ls
+ 1103  cd ..
+ 1104  ls
+ 1105  cd productManage
+ 1106  ls
+ 1107  yarn install
+ 1108  ls
+ 1109  rm -rvf node_modules
+ 1110  ls
+ 1111  yarn install
+ 1112  ls
+ 1113  cd ..
+ 1114  ls
+ 1115  cd nestjs-init
+ 1116  ls
+ 1117  vi src/config/configuration.ts
+ 1118  ls
+ 1119  cd ..
+ 1120  ls
+ 1121  cd ..
+ 1122  ls
+ 1123  cd demo
+ 1124  ls
+ 1125  cd ..
+ 1126  ls
+ 1127  cd dev
+ 1128  ls
+ 1129  cd liujiao
+ 1130  ls
+ 1131  cd pcClient
+ 1132  ls
+ 1133  npm run dev
+ 1134  pwd
+ 1135  cd dev/liujiao/pcClient
+ 1136  git add .
+ 1137  git commit -m '修复了一个bug'
+ 1138  git push origin HEAD
+ 1139  git checkout -b daily/1.0.27
+ 1140  git push origin HEAD
+ 1141  ls
+ 1142  cd dev/kine/kine-ui-front/
+ 1143  ls
+ 1144  vi package.json
+ 1145  npm run serve
+ 1146  code .
+ 1147  npm run serve
+ 1148  git add .
+ 1149  git commit -m '拉一下代码'
+ 1150  pwd
+ 1151  ls
+ 1152  git add .
+ 1153  git commit -m '拉一下代码'
+ 1154  git checkout -b daily/1.0.28
+ 1155  git pull online duban
+ 1156  git add .
+ 1157  git commit -m '装一个db'
+ 1158  vi package.json
+ 1159  yarn install
+ 1160  cnpm install
+ 1161  npm install
+ 1162  vi package.json
+ 1163  npm run dev
+ 1164  vi package.json
+ 1165  cnpm install electron@13.1.9
+ 1166  npm run dev
+ 1167  vi package.json
+ 1168  git add .
+ 1169  git commmit -m 'aaa'
+ 1170  git commit -m 'aaa'
+ 1171  yarn add vuedraggable
+ 1172  npm run dev
+ 1173  git add .
+ 1174  git commit -m 'aaa'
+ 1175  git checkout -b daily/1.0.27
+ 1176  git checkout daily/1.0.27
+ 1177  git checkout daily/1.0.28
+ 1178  cnpm install vuedraggable@2.24.3
+ 1179  npm run dev
+ 1180  git checkout daily/1.0.27
+ 1181  git checkout -b daily/1.0.29
+ 1182  git pull online duban
+ 1183  cnpm install nedb@1.8.0
+ 1184  npm run dev
+ 1185  git add .
+ 1186  git commit -m 'bbb'
+ 1187  git checkout daily/1.0.27
+ 1188  npm run dev
+ 1189  git checkout daily/1.0.26
+ 1190  npm run dev
+ 1191  git checkout daily/1.0.29
+ 1192  yarn install
+ 1193  npm run dev
+ 1194  rm -rvf node_modules/electron
+ 1195  cnpm install electron@13.1.9
+ 1196  npm run dev
+ 1197  npm run buildmac
+ 1198  npm run dev
+ 1199  npm run serve
+ 1200  git add .
+ 1201  git commit -m '拉代码'
+ 1202  git push origin HEAD
+ 1203  git checkout -b daily/1.0.30
+ 1204  git add .
+ 1205  git commit -m '有个bug'
+ 1206  git push origin HEAD
+ 1207  git pull online duban
+ 1208  npm run dev
+ 1209  git add .
+ 1210  git commit -m '同步搞好了'
+ 1211  git push origin HEAD
+ 1212  npm run buildmac
+ 1213  npm run dev
+ 1214  git add .
+ 1215  git commit -m '分组PC与APP同步'
+ 1216  git push origin HEAD
+ 1217  git checkout -b daily/1.0.31
+ 1218  ls
+ 1219  cd build
+ 1220  ls
+ 1221  rm -rvf *
+ 1222  cd ..
+ 1223  ls
+ 1224  npm run buildmac
+ 1225  git add .
+ 1226  git commit -m 'build/文件夹里的东西删掉了'
+ 1227  git checkout daily/1.0.30
+ 1228  ls
+ 1229  cd build
+ 1230  ls
+ 1231  cd ..
+ 1232  ls
+ 1233  cd ..
+ 1234  ls
+ 1235  mkdir bak
+ 1236  ls
+ 1237  cd pcClient
+ 1238  ls
+ 1239  cd build
+ 1240  ls
+ 1241  cp SixDuMacApp_* ../../bak/
+ 1242  cp entitlements.mas.* ../../bak
+ 1243  cp icons ../../bak
+ 1244  git checkout daily/1.0.31
+ 1245  ls
+ 1246  cd build
+ 1247  ls
+ 1248  pwd
+ 1249  ls
+ 1250  cp ../../bak/* ./
+ 1251  ls
+ 1252  cd ..
+ 1253  ls
+ 1254  git add .
+ 1255  git status
+ 1256  npm run buildmac
+ 1257  git add .
+ 1258  git commit -m 'build/文件夹里的东西删掉了'
+ 1259  git checkout daily/1.0.30
+ 1260  ls
+ 1261  git checkout daily/1.0.31
+ 1262  npm run buildmac
+ 1263  ls
+ 1264  cd build/
+ 1265  ls
+ 1266  cp ../../bak/icons ./
+ 1267  ls
+ 1268  cd ..
+ 1269  npm run buildmac
+ 1270  git add .
+ 1271  git commit -m 'aaa'
+ 1272  git checkout -b  daily/1.0.32
+ 1273  git pull online duban
+ 1274  git add 
+ 1275  git add .
+ 1276  git commit -m '合代码'
+ 1277  git push origin HEAD
+ 1278  npm run dev
+ 1279  ls
+ 1280  git add .
+ 1281  git commit -m '企业版/正式版PC端：【自定义分组】内会话置顶问题'
+ 1282  git branch -a
+ 1283  git checkout daily/1.0.15
+ 1284  git checkout daily/1.0.16
+ 1285  git add .
+ 1286  git commit -m '企业版/正式版PC端：【自定义分组】内会话置顶问题'
+ 1287  git branch -a
+ 1288  git checkout daily/1.0.16
+ 1289  git checkout daily/1.0.8
+ 1290  ls
+ 1291  npm run dev
+ 1292  ls
+ 1293  git add .
+ 1294  git commit -m '保存'
+ 1295  git checkout daily/1.0.32
+ 1296  git checkout -b daily/1.0.33
+ 1297  ls
+ 1298  git add .
+ 1299  git commit -m '数据处理'
+ 1300  git checkout -b daily/1.0.32
+ 1301  git checkout daily/1.0.32
+ 1302  ls
+ 1303  git add .
+ 1304  git commit -m ' 企业版/正式版PC端：【新建智能分组】输入关键词搜索后，搜索到的群聊名称不应全部显示蓝色没弄完'
+ 1305  git checkout daily/1.0.33
+ 1306  git checkout daily/1.0.32
+ 1307  ls
+ 1308  git add .
+ 1309  git commit -m ' 企业版/正式版PC端：【新建智能分组】输入关键词搜索后，搜索到的群聊名称不应全部显示蓝色没弄完'
+ 1310  npm run dev
+ 1311  git add .
+ 1312  git commit -m ' 企业版/正式版PC端：【新建智能分组】输入关键词搜索后，搜索到的群聊名称不应全部显示蓝色没弄完'
+ 1313  git checkout daily/1.0.33
+ 1314  git push origin HEAD
+ 1315  git checkout daily/1.0.32
+ 1316  git checkout daily/1.0.33
+ 1317  git push origin HEAD
+ 1318  git checkout daily/1.0.32
+ 1319  ls
+ 1320  cd demo
+ 1321  ls
+ 1322  mkdir toHanzi
+ 1323  cd toHanzi
+ 1324  ls
+ 1325  touch index.js
+ 1326  code .
+ 1327  node index.js
+ 1328  http-server ./s
+ 1329  ls
+ 1330  http-server ./
+ 1331  git add .
+ 1332  git commit -m '- 企业版/正式版PC端：【新建智能分组】输入关键词搜索后，搜索到的群聊不应后缀一个群字 【已修复】 9.15'
+ 1333  git push origin HEAD
+ 1334  npm run dev
+ 1335  git add .
+ 1336  git commit -m ' 238252代码错误企业版PC端：【会话分组】刷新按钮提示问题韦小宝    【完成】'
+ 1337  git checkout -b daily/1.0.34
+ 1338  git pull online duban
+ 1339  git add .
+ 1340  git status
+ 1341  git commit -m '238252代码错误企业版PC端：【会话分组】刷新按钮提示问题韦小宝    【完成】'
+ 1342  git push origin HEAD
+ 1343  npm run dev
+ 1344  ls
+ 1345  npm run dev
+ 1346  git add .
+ 1347  git commit -m '238252代码错误企业版PC端：【会话分组】刷新按钮提示问题韦小宝    【完成】'
+ 1348  git push origin HEAD
+ 1349  git branch -a
+ 1350  git checkout -b daily/1.0.35
+ 1351  git pull online localDEV
+ 1352  git status
+ 1353  ping www.baidu.com
+ 1354  npm run dev
+ 1355  ping www.baidu.com
+ 1356  npm run dev
+ 1357  cd dev/liujiao/pcClient
+ 1358  ls
+ 1359  npm run dev
+ 1360  cd dev/liujiao/pcClient
+ 1361  code .
+ 1362  git add .
+ 1363  git commit -m '新建智能分组】新建重名智能分组应覆盖已有同名智能分组 【完成】'
+ 1364  git push origin HED
+ 1365  git push origin HEAD
+ 1366  git checkout -b daily/1.0.36
+ 1367  git pull online localDEV
+ 1368  git checkout -b daily/1.0.37
+ 1369  git pull online duban
+ 1370  ls
+ 1371  npm run dev
+ 1372  git add .
+ 1373  git commit -m '新建智能分组】新建重名智能分组应覆盖已有同名智能分组 【完成】'
+ 1374  git push origin HEAD
+ 1375  npm run build
+ 1376  vi package.json
+ 1377  npm run build
+ 1378  npm run buildmac
+ 1379  git add .
+ 1380  git commit -m '新建智能分组】新建重名智能分组应覆盖已有同名智能分组 【完成】'
+ 1381  git push origin HEAD
+ 1382  git add .
+ 1383  git commit -m '置顶后移动没有取消置顶 — 设置页面没有同布取消【已解决】'
+ 1384  git push origin HEAD
+ 1385  ifconfig eth0
+ 1386  ifconfig
+ 1387  cd
+ 1388  ls
+ 1389  cd getting-started
+ 1390  ls
+ 1391  docker run -d -p 80:80 docker/getting-started
+ 1392  docker version
+ 1393  docker image pull node:8.9.0-alpine
+ 1394  docker image ls
+ 1395  ls
+ 1396  pwd
+ 1397  ls
+ 1398  code .
+ 1399  ping 43.252.230.6
+ 1400  pign 24os.cn
+ 1401  ping 24os.cn
+ 1402  ls
+ 1403  code
+ 1404  ls
+ 1405  cd demo
+ 1406  ls
+ 1407  mkdir marp
+ 1408  cd marp
+ 1409  ls
+ 1410  code .
+ 1411  ls
+ 1412  cd ..
+ 1413  ls
+ 1414  cd ..
+ 1415  ls
+ 1416  cd Movies
+ 1417  ls
+ 1418  _ffmpeg -i 2022-01-02\ 16-29-07.mkv -c copy aaa.mp4
+ 1419  sudo _ffmpeg -i 2022-01-02\ 16-29-07.mkv -c copy aaa.mp4
+ 1420  _ffmpeg
+ 1421  cd
+ 1422  ls
+ 1423  cd ~
+ 1424  ls
+ 1425  pwd
+ 1426  nvm ls
+ 1427  nrm ls
+ 1428  nrm add npm.youyong.ba
+ 1429  nrm add http://npm.youyong.ba
+ 1430  nrm add https://npm.youyong.ba
+ 1431  nrm --help
+ 1432  nrm add xiaohong cpm http://npm.youyong.ba
+ 1433  nrm use xiaohong
+ 1434  npm install @xiaohong/tools
+ 1435  sudo npm install -g @xiaohong/tools
+ 1436  nrm curent
+ 1437  ls
+ 1438  nrm ls
+ 1439  nrm delete xiaohong
+ 1440  nrm ls
+ 1441  nrm del xiaohong
+ 1442  nrm ls
+ 1443  nrm add xiaohong https://npm.youyong.ba
+ 1444  nrm use xiaohong
+ 1445  nrm ls
+ 1446  npm install @xiaohong/tools
+ 1447  sudo npm install -g @xiaohong/tools
+ 1448  nrm del xiaohong
+ 1449  nrm add xiaohong http://npm.youyong.ba
+ 1450  nrm use xiaohong
+ 1451  sudo npm install -g @xiaohong/tools
+ 1452  ls
+ 1453  cd
+ 1454  ls
+ 1455  sudo npm install -g @xiaohong/tools
+ 1456  tree
+ 1457  ls
+ 1458  tools\t
+ 1459  ls
+ 1460  pwd
+ 1461  cd demo/netease/new/
+ 1462  tree
+ 1463  vi .git/config
+ 1464  cd ..
+ 1465  ls
+ 1466  cd new
+ 1467  ls
+ 1468  cd ..
+ 1469  ls
+ 1470  tools
+ 1471  tools1902
+ 1472  cd ..
+ 1473  ls
+ 1474  git clone git@gitee.com:youyonba/jd.git
+ 1475  ls
+ 1476  git clone https://github.com/qihong1983/1901a_pwa.git
+ 1477  ls
+ 1478  cd 1901a_pwa
+ 1479  ls
+ 1480  cd 北京小洪科技有限公司
+ 1481  ls
+ 1482  cd 电商
+ 1483  ls
+ 1484  touch doc.rd
+ 1485  code .
+ 1486  ping shopfiy.com
+ 1487  sudo spctl --master-disable
+ 1488  sudo xattr -r -d com.apple.quarantine /Users/qihong/Downloads/Adobe_Photoshop_2021_22.4.2.242_ACR13.3_M1_SP_20210630\(1\).dmg 
+ 1489  sudo xattr -r -d com.apple.quarantine /Users/qihong/Downloads/BaiduNetdisk_mac_4.7.1.dmg 
+ 1490  sudo xattr -r -d com.apple.quarantine /Users/qihong/Downloads/Adobe_Photoshop_2021_22.4.2.242_ACR13.3_M1_SP_20210630.dmg 
+ 1491  pwd
+ 1492  docker image ls
+ 1493  docker --version
+ 1494  ping wwww.baidu.com
+ 1495  ping www.baidu.com
+ 1496  docker --version
+ 1497  docker image ls
+ 1498  docker image pull hello-world
+ 1499  docker image ls
+ 1500  docker container run hello-world
+ 1501  docker container run -it ubuntu bash
+ 1502  docker image ls
+ 1503  docker container ls
+ 1504  docker container kill eb1e
+ 1505  docker container ls
+ 1506  ls
+ 1507  python3 hello.py
+ 1508  ls
+ 1509  pwd
+ 1510  cd demo
+ 1511  ls
+ 1512  touch docker
+ 1513  rm -rvf docker
+ 1514  mkdir docker
+ 1515  cd docker
+ 1516  ls
+ 1517  mkdir lession1
+ 1518  cd lession1
+ 1519  ls
+ 1520  touch hello.py
+ 1521  vi hello.py
+ 1522  python3 hello.py
+ 1523  tree
+ 1524  cd ..
+ 1525  tree ./
+ 1526  ls
+ 1527  tree ./
+ 1528  ls
+ 1529  cd 
+ 1530  ls
+ 1531  pwd
+ 1532  cd 北京小洪科技有限公司
+ 1533  ls
+ 1534  cd 电商
+ 1535  ls
+ 1536  cd 字母篇
+ 1537  ls
+ 1538  cd ..
+ 1539  ls
+ 1540  cd dockerdemo
+ 1541  ls
+ 1542  ls -a
+ 1543  docker image build -t python3-app .
+ 1544  docker image ls
+ 1545  ls
+ 1546  docker image build -t python3-app .
+ 1547  ls
+ 1548  docker image ls
+ 1549  docker container run python3-app
+ 1550  ls
+ 1551  cd ..
+ 1552  ls
+ 1553  cd 电商
+ 1554  ls
+ 1555  cd dockerdemo
+ 1556  ls
+ 1557  cd ..
+ 1558  ls
+ 1559  cd dockerdemo/
+ 1560  ls
+ 1561  mkdir lession1
+ 1562  cp * lession1
+ 1563  ls
+ 1564  rm -rvf Dockerfile
+ 1565  rm -rvf hello.py
+ 1566  ls
+ 1567  cd lession1
+ 1568  ls
+ 1569  cd ..
+ 1570  ls
+ 1571  pwd
+ 1572  ls
+ 1573  mkdir lession2
+ 1574  mv pyramid.py lession2
+ 1575  ls
+ 1576  cd lession2
+ 1577  ls
+ 1578  python3 pyramid.py
+ 1579  python3 pyramid.py 3
+ 1580  python3 pyramid.py 5
+ 1581  python3 pyramid.py 10
+ 1582  ls
+ 1583  docker image build . --tag pyramid
+ 1584  docker image ls
+ 1585  docker run pyramid
+ 1586  docker run pyramid 10
+ 1587  docker run pyramid 0.1
+ 1588  docker run pyramid 100
+ 1589  docker run pyramid 50
+ 1590  docker run pyramid
+ 1591  cd ..
+ 1592  ls
+ 1593  cd lession3_backend
+ 1594  ls
+ 1595  python3 server.py
+ 1596  pip3 install -r requirements.txt
+ 1597  pip install --upgrade pip
+ 1598  pip3 install --upgrade pip3
+ 1599  ls
+ 1600  docker build --tag web-app-backend 
+ 1601  docker build . --tag web-app-backend 
+ 1602  pip3 install -r requirements.txt
+ 1603  sudo pip3 install -r requirements.txt
+ 1604  python3 server.py
+ 1605  ls
+ 1606  docker image ls
+ 1607  touch text
+ 1608  docker run -p 4000:5000 web-app-backend
+ 1609  docker container ls
+ 1610  docker run -p 4000:5000 web-app-backend
+ 1611  pwd
+ 1612  cd /北京小洪科技有限公司/电商/dockerdemo/lession3_backend
+ 1613  pwd
+ 1614  ls
+ 1615  cd 北京小洪科技有限公司/电商/dockerdemo/lession3_backend
+ 1616  ls
+ 1617  cd ..
+ 1618  ls
+ 1619  cd lession4_frontend
+ 1620  ls
+ 1621  python3 server.py
+ 1622  cd ..
+ 1623  cd lession4_frontend
+ 1624  ls
+ 1625  docker build . --tag web-app-frontend
+ 1626  docker image ls
+ 1627  ls
+ 1628  docker run -p 3000:3000 web-app-frontend
+ 1629  ls
+ 1630  cd ..
+ 1631  ls
+ 1632  cd lession5_volume
+ 1633  s
+ 1634  ls
+ 1635  python3 server.py
+ 1636  ls
+ 1637  cat server.py
+ 1638  python3 server.py
+ 1639  docker run -p 3000:3000 web-app-frontend
+ 1640  ls
+ 1641  docker build . --tag volume-app-frontend
+ 1642  docker run -p 3000:3000 valume-app-frontend
+ 1643  docker run -p 3000:3000 volume-app-frontend
+ 1644  pwd
+ 1645  docker run -p 3000:3000 -v /Users/qihong/北京小洪科技有限公司/电商/dockerdemo/lession5_volume:/app/volume_data volume-app-frontend
+ 1646  ls
+ 1647  docker run -p 3000:3000 -v /Users/qihong/北京小洪科技有限公司/电商/dockerdemo/lession5_volume/volume_data:/app/volume_data volume-app-frontend
+ 1648  docker run -p 3000:3000 -v /Users/qihong/北京小洪科技有限公司/电商/dockerdemo/lession5_volume:/app volume-app-frontend
+ 1649  docker container run -it volume-app-frontend bash
+ 1650  ls
+ 1651  docker container run -it volume-app-frontend bash
+ 1652  docker volume create book-data
+ 1653  ls
+ 1654  docker volume ls
+ 1655  docker volume inspect book-data
+ 1656  docker run -p 3000:3000 -v book-data:/app/volume_data volume-app-frontend
+ 1657  cd ..
+ 1658  ls
+ 1659  cd lession5_volume
+ 1660  ls
+ 1661  docker run -v book-data:/book-data -it ubuntu
+ 1662  docker container run -it centos bash
+ 1663  docker iamge ls
+ 1664  docker image ls
+ 1665  docker run -v book-data:/book-data -it centos
+ 1666  ls
+ 1667  docker run -it volume-app-frontend
+ 1668  docker -it volume-app-frontend
+ 1669  docker container -it volume-app-frontend bash
+ 1670  docker container run -it volume-app-frontend bash
+ 1671  docker container ls
+ 1672  docker image ls
+ 1673  docker volume ls
+ 1674  docker volume 
+ 1675  ls
+ 1676  docker
+ 1677  cd ..
+ 1678  ls
+ 1679  docker-compose up
+ 1680  ls
+ 1681  docker container ls
+ 1682  ls
+ 1683  cd app2
+ 1684  ls
+ 1685  touch docker-compose.yml
+ 1686  ls
+ 1687  docker-compose up
+ 1688  docker-compose down
+ 1689  docker image ls
+ 1690  docker-compose up
+ 1691  docker-compose down
+ 1692  docker container -it redis bash
+ 1693  docker container run -it redis bash
+ 1694  docker-compose up
+ 1695  docker-compose down
+ 1696  docker-compose up
+ 1697  docker container run -it redis bash
+ 1698  docker-compose up
+ 1699  docker-compose down
+ 1700  pip3 install -r redis
+ 1701  pip install -r redis
+ 1702  pip3 install redis
+ 1703  docker container run -it volume-app-frontend bash
+ 1704  pip3 install -r redis
+ 1705  pip3 install redis
+ 1706  docker-compose up
+ 1707  docker-compose down
+ 1708  docker-compose down
+ 1709  pip install -i https://pypi.douban.com/simple/ redis
+ 1710  pip3 install -i https://pypi.douban.com/simple/ redis
+ 1711  docker-compose up
+ 1712  docker-compose down
+ 1713  docker-compose up
+ 1714  docker-compose dow
+ 1715  docker-compose down
+ 1716  docker-compose up
+ 1717  docker-compose down
+ 1718  cd ..
+ 1719  ls
+ 1720  cd app2
+ 1721  ls
+ 1722  docker-compose down
+ 1723  ls
+ 1724  docker image ls
+ 1725  docker rmi app2_backenddemo
+ 1726  docker rmi app2_backend
+ 1727  docker image ls
+ 1728  docker rmi app2_backend
+ 1729  docker rmi app2_backend force
+ 1730  docker rmi app2_backend -force
+ 1731  docker rmi app2_backend --force
+ 1732  ls
+ 1733  docker image ls
+ 1734  docker-compose up
+ 1735  docker-compose down
+ 1736  ls
+ 1737  docker-compose up
+ 1738  docker ps
+ 1739  docker-compose down
+ 1740  docker ps
+ 1741  docker run -d -p 5000:5000 --name registry registry:2
+ 1742  docker ps
+ 1743  docker image ls
+ 1744  docker rmi registry
+ 1745  docker ps
+ 1746  docker container kill b33
+ 1747  docker ps
+ 1748  docker image ls
+ 1749  docker rmi registry
+ 1750  docker registry
+ 1751  docker run -d -p 5000:5000 --name registry ddd:20
+ 1752  docker run -d -p 5000:5000 --name test registry:20
+ 1753  docker run -d -p 5000:5000 --name registry registry:3
+ 1754  docker run -d -p 5000:5000 --name registry registry:2
+ 1755  docker run -d -p 5000:5000 --name registry registry:1
+ 1756  docker run -d -p 5000:5000 --name registry registry:2
+ 1757  docker ps
+ 1758  docker container stop registry
+ 1759  docker run -d -p 5000:5000 --name registry registry:3
+ 1760  docker run -d -p 5000:5000 --name registry registry:2
+ 1761  docker run -d -p 5000:5001 --name registry registry:2
+ 1762  docker run -d -p 5000:5001 --name registry registry:3
+ 1763  docker run -d -p 4000:4000 --name test registry:3
+ 1764  docker run -d -p 4000:4000 --name test registry:2
+ 1765  docker run -d -p 4000:4000 --name test registry:3
+ 1766  docker run -d -p 4000:4000 --name test registry:4
+ 1767  docker run -d -p 4000:4000 --name test registry:2.1
+ 1768  docker run -d -p 4000:4000 --name test registry:2
+ 1769  docker ps
+ 1770  docker container stop registry
+ 1771  docker ps
+ 1772  docker container stop test
+ 1773  docker ps
+ 1774  docker image ls
+ 1775  docker run -d -p 5000:5000 --name test registry:2
+ 1776  docker run -d -p 5000:5000 --name test1 registry:2
+ 1777  docker image ls
+ 1778  ls
+ 1779  docker image ls
+ 1780  ls
+ 1781  docker image ls
+ 1782  docker ps
+ 1783  docker container stop test1
+ 1784  docker ps
+ 1785  docker container ls
+ 1786  docker image ls
+ 1787  docker run -d -p 5000:5000 --name test1 registry:2
+ 1788  docker container run 7095bff4f5b0b7cd3a30b9fa9ca6e6ecac5efc395a84a177c618ea77159ae2e0
+ 1789  docker container run test1
+ 1790  docker container run test
+ 1791  docker run -d -p 5000:5000 --name test2 registry:latest
+ 1792  docker ps
+ 1793  docker image ls
+ 1794  docker container stop test2
+ 1795  docker run -d -p 5000:5000 --name test2 registry:3
+ 1796  docker run -d -p 5000:5000 --name test2 registry:latest
+ 1797  docker run --help
+ 1798  docker run test2 --restart
+ 1799  docker container start test2
+ 1800  docker ps
+ 1801  docker container stop test2
+ 1802  docker container rmi test2
+ 1803  docker container rm test2
+ 1804  docker container start test2
+ 1805  docker image ls
+ 1806  docker tag ls
+ 1807  docker tag --help
+ 1808  docker image ls
+ 1809  docker run -d -p 5000:5000 --name store registry:latest
+ 1810  docker ps
+ 1811  docker tag ubuntu localhost:5000/my-ubuntu
+ 1812  docker images
+ 1813  git push localhost:5000/my-ubuntu
+ 1814  docker push localhost:5000/my-ubuntu
+ 1815  docker rmi ubuntu localhost:5000/my-ubuntu
+ 1816  docker ps
+ 1817  docker rmi localhost:5000/my-ubuntu
+ 1818  docker rmi localhost:5000/my-ubuntu --force
+ 1819  docker rmi unbutu
+ 1820  docker rmi ubuntu
+ 1821  docker images
+ 1822  docker pull localhost:5000/my-ubuntu
+ 1823  docker images
+ 1824  docker run -it localhost:5000/my-ubuntu
+ 1825  docker container stop store
+ 1826  docker container rm store
+ 1827  docker images
+ 1828  docker tag localhost:5000/my-ubuntu qihong1222/my-private-repo
+ 1829  docker images
+ 1830  docker push qihong1222/my-private-repo
+ 1831  docker images
+ 1832  docker rmi qihong122/my-private-repo
+ 1833  docker rmi qihong1222/my-private-repo
+ 1834  docker rmi localhost:5000/my-ubuntu
+ 1835  docker images
+ 1836  docker rmi localhost:5000/my-ubuntu
+ 1837  docker rmi localhost:5000/my-ubuntu --force
+ 1838  docker images
+ 1839  docker pull qihong1222/my-private-repo
+ 1840  docker images;
+ 1841  docker run -it qihong1222/my-private-repo
+ 1842  ls
+ 1843  cd ..
+ 1844  ls
+ 1845  cd lession5_volume
+ 1846  ls
+ 1847  docker run -p 3000:3000 -v local_folder_path: /app/volume_data  volume-app-frontend
+ 1848  pwd
+ 1849  docker run -p 3000:3000 -v /Users/qihong/北京小洪科技有限公司/电商/dockerdemo/lession5_volume:/app/volume_data  volume-app-frontend
+ 1850  ls
+ 1851  docker run -p 3000:3000 -v /Users/qihong/北京小洪科技有限公司/电商/dockerdemo/lession5_volume/volume_data:/app/volume_data  volume-app-frontend
+ 1852  cd ..
+ 1853  cd lession5_volume
+ 1854  ls
+ 1855  docker run -it volume-app-frontend
+ 1856  docker run -it volume-app-frontend sh
+ 1857  docker run -it volume-app-frontend bash
+ 1858  docker run -it centos bash
+ 1859  docker tag centos gitbook_docker
+ 1860  docker run -it gitbook_docker bash
+ 1861  docker exec -it gitbook_docker /bin/bash
+ 1862  docker exec -it centos /bin/bash
+ 1863  docker run -it gitbook_docker bash
+ 1864  docker exec -it gitbook_docker bash
+ 1865  docker ps
+ 1866  docker exec -t 8b7cfc bash
+ 1867  docker exec -i 8b7efc900b3at  bash
+ 1868  docker exec -it gitbook_docker bash
+ 1869  docker run exec -it gitbook_docker bash
+ 1870  docker exec -it gitbook_docker bash
+ 1871  docker images;
+ 1872  docker exec -it centos bash
+ 1873  docker ps
+ 1874  docker container run centos
+ 1875  docker ps
+ 1876  docker container run -it centos bash
+ 1877  docker exec -it gitbook_docker bash
+ 1878  docker container ls
+ 1879  docker exec -it f1ddce9bdd5a bash
+ 1880  docker container run -it centos bash
+ 1881  cd ..
+ 1882  ls
+ 1883  mkdir lession6_gitbook
+ 1884  cd lession6_gitbook
+ 1885  ls
+ 1886  docker search -s 3 gitbook
+ 1887  docker pull fellah/gitbook
+ 1888  pwd
+ 1889  docker run -v /Users/qihong/北京小洪科技有限公司/电商/dockerdemo/lession6_gitbook:/srv/gitbook -v /Users/qihong/北京小洪科技有限公司/电商/dockerdemo/lession6_gitbook/html:/srv/html fellah/gitbook gitbook build . /srv/html
+ 1890  ls
+ 1891  cd html
+ 1892  ls
+ 1893  cd ..
+ 1894  ls
+ 1895  ls -l
+ 1896  code .
+ 1897  docker run -v /Users/qihong/北京小洪科技有限公司/电商/dockerdemo/lession6_gitbook:/srv/gitbook -v /Users/qihong/北京小洪科技有限公司/电商/dockerdemo/lession6_gitbook/html:/srv/html fellah/gitbook gitbook build . /srv/html
+ 1898  ls
+ 1899  cd html
+ 1900  ls
+ 1901  cat index.html
+ 1902  ls
+ 1903  cd ..
+ 1904  ls
+ 1905  docker pull nginx
+ 1906  ls
+ 1907  docker run --name my-nginx -v /Users/qihong/北京小洪科技有限公司/电商/dockerdemo/lession6_gitbook/html:/usr/share/nginx/html -d -p 8080:80 nginx
+ 1908  docker ps
+ 1909  docker container kill 68fe3
+ 1910  docker ps
+ 1911  ls
+ 1912  cd ..
+ 1913  ls
+ 1914  cd lession6_gitbook
+ 1915  ls
+ 1916  dockers
+ 1917  docker ls
+ 1918  docker images
+ 1919  ls
+ 1920  docker run -v ./:/srv/gitbook -v ./html:/srv/html fellah/gitbook gitbook build . /srv/html
+ 1921  docker ps
+ 1922  pwd
+ 1923  docker run -v /Users/qihong/北京小洪科技有限公司/电商/dockerdemo/lession6_gitbook/:/srv/gitbook -v /Users/qihong/北京小洪科技有限公司/电商/dockerdemo/lession6_gitbook/html:/srv/html fellah/gitbook gitbook build . /srv/html
+ 1924  docker ps
+ 1925  ls
+ 1926  docker run --name my-nginx -v /yourpath/html:/usr/share/nginx/html -d -p 8080:80 nginx
+ 1927  docker container ls
+ 1928  docker run --name my-nginx -v /Users/qihong/北京小洪科技有限公司/电商/dockerdemo/lession6_gitbook/html:/usr/share/nginx/html -d -p 8080:80 nginx
+ 1929  docker container start my-nginx
+ 1930  cd ..
+ 1931  ls
+ 1932  mkdir lession6_gitbook_git
+ 1933  cd lession6_gitbook_git
+ 1934  ls
+ 1935  git clone https://github.com/qihong1983/test111.git
+ 1936  ls
+ 1937  cd test111
+ 1938  ls
+ 1939  vi book.json
+ 1940  ls
+ 1941  rm -rvf node_modules
+ 1942  ls
+ 1943  cd _book
+ 1944  ls
+ 1945  cd ..
+ 1946  ls
+ 1947  cp -rvf * ../../lession6_gitbook/
+ 1948  cd ..
+ 1949  ls
+ 1950  cd lession6_gitbook
+ 1951  ls
+ 1952  docker run -v /Users/qihong/北京小洪科技有限公司/电商/dockerdemo/lession6_gitbook/:/srv/gitbook -v /Users/qihong/北京小洪科技有限公司/电商/dockerdemo/lession6_gitbook/html:/srv/html fellah/gitbook gitbook build . /srv/html
+ 1953  ls
+ 1954  rm -rvf book.json
+ 1955  rm -rvf _book/
+ 1956  docker run -v /Users/qihong/北京小洪科技有限公司/电商/dockerdemo/lession6_gitbook/:/srv/gitbook -v /Users/qihong/北京小洪科技有限公司/电商/dockerdemo/lession6_gitbook/html:/srv/html fellah/gitbook gitbook build . /srv/html
+ 1957  ls
+ 1958  code .
+ 1959  docker run -v /Users/qihong/北京小洪科技有限公司/电商/dockerdemo/lession6_gitbook/:/srv/gitbook -v /Users/qihong/北京小洪科技有限公司/电商/dockerdemo/lession6_gitbook/html:/srv/html fellah/gitbook gitbook build . /srv/html
+ 1960  vi .ssh/id_rsa.pub
+ 1961  code .ssh/id_rsa.pub
+ 1962  ls
+ 1963  cd ..
+ 1964  ls
+ 1965  mkdir github_global
+ 1966  cd github_global
+ 1967  ls
+ 1968  git init
+ 1969  ls
+ 1970  echo "# youyongba.github.io" >> README.md
+ 1971  ls
+ 1972  git commit -m "first commit"
+ 1973  git add .
+ 1974  git coommit -m 'first commit'
+ 1975  git commit -m "first commit"
+ 1976  git push origin master
+ 1977  git remote add origin git@github.com:youyongba/youyongba.github.io.git
+ 1978  git push origin master
+ 1979  git pull origin master
+ 1980  ls
+ 1981  code .
+ 1982  git add .
+ 1983  git commit -m "提交"
+ 1984  git push origin HEAD
+ 1985  ls
+ 1986  mkdir github_blog
+ 1987  cd github_blog
+ 1988  ls
+ 1989  touch readme.md
+ 1990  cd ..
+ 1991  s
+ 1992  ls
+ 1993  git add .
+ 1994  git commit -m 'asdf'
+ 1995  git push origin HEAD
+ 1996  git pull origin master
+ 1997  git push origin HEAD
+ 1998  git pull origin master
+ 1999  git add .
+ 2000  git commit -m 'asdf'
+ 2001  git push origin HEAD
+ 2002  cd ..
+ 2003  ls
+ 2004  mkdir github_glog
+ 2005  cd github_blog
+ 2006  cd github_glog
+ 2007  ls
+ 2008  git init
+ 2009  git remote add origin git@github.com:youyongba/GitHubBlog.git
+ 2010  ls
+ 2011  cp -rvf * ../../dockerdemo/lession6_gitbook/github_blog/readme.md ./
+ 2012  cp -rvf  ../../dockerdemo/lession6_gitbook/github_blog/readme.md ./
+ 2013  ls
+ 2014  git add .
+ 2015  git commit -m 'first commit'
+ 2016  git push origin HEAD
+ 2017  cd ..
+ 2018  ls
+ 2019  cd github_global
+ 2020  git add .
+ 2021  git commit -m 'first commit'
+ 2022  git push origin HEAD
+ 2023  ls
+ 2024  cd github_blog
+ 2025  ls
+ 2026  vi readme.md
+ 2027  cd ..
+ 2028  ls
+ 2029  vi README.md
+ 2030  cp ~/Movies/githubblog.gif ./
+ 2031  ls
+ 2032  git add .
+ 2033  git commit -m 'gif图片'
+ 2034  git push origin HEAD
+ 2035  ls
+ 2036  mkdir resources
+ 2037  ls
+ 2038  mv githubblog.gif resources
+ 2039  git add .
+ 2040  git commit -m 'gif图片'
+ 2041  git push origin HEAD
+ 2042  git add .
+ 2043  ls
+ 2044  cd resources
+ 2045  ls
+ 2046  mkdir images
+ 2047  ls
+ 2048  mv githubblog.gif images
+ 2049  cd ..
+ 2050  ls
+ 2051  git add .
+ 2052  git commit -m 'gif图片'
+ 2053  git push origin HEAD
+ 2054  ls
+ 2055  git add .
+ 2056  cd ..
+ 2057  .s
+ 2058  ls
+ 2059  cd github_glog
+ 2060  ls
+ 2061  vi readme.md
+ 2062  vi .git/config
+ 2063  code .
+ 2064  git add .
+ 2065  git commit -m 'gif图片'
+ 2066  git push origin HEAD
+ 2067  git pull origin master
+ 2068  code .
+ 2069  git add .
+ 2070  git coommit -m 'first commit'
+ 2071  git commit -m 'more commit'
+ 2072  git push origin HEAD
+ 2073  cd ..
+ 2074  ls
+ 2075  cd lession6_gitbook
+ 2076  ls
+ 2077  cd ..
+ 2078  ls
+ 2079  cd lession6_gitbook
+ 2080  ls
+ 2081  cd ..
+ 2082  cd lession6_gitbook_git
+ 2083  ls
+ 2084  cd ..
+ 2085  rm -rvf lession6_gitbook_git
+ 2086  ls
+ 2087  cd lession6_gitbook
+ 2088  ls
+ 2089  docker run -v /Users/qihong/北京小洪科技有限公司/电商/dockerdemo/lession6_gitbook/:/srv/gitbook -v /Users/qihong/北京小洪科技有限公司/电商/dockerdemo/lession6_gitbook/html:/srv/html fellah/gitbook gitbook build . /srv/html
+ 2090  cd ..
+ 2091  ls
+ 2092  cd dev
+ 2093  ls
+ 2094  mkdir lession
+ 2095  cd lession
+ 2096  ls
+ 2097  mv github_glo* ~/dev/lession
+ 2098  ls
+ 2099  mv github_global github_blog_index
+ 2100  mv github_glog github_blog_detail
+ 2101  ls
+ 2102  cd github_blog_index
+ 2103  ls
+ 2104  rm -rvf .git
+ 2105  ls
+ 2106  git init
+ 2107  git remote add origin git@github.com:youyongba/youyong.github.io.git
+ 2108  git add .
+ 2109  git commit -m 'frist commit'
+ 2110  git push origin HEAD
+ 2111  rm -rvf .git
+ 2112  git init
+ 2113  git remote add origin git@github.com:youyongba/youyongba.github.io.git
+ 2114  git add .
+ 2115  git commit -m 'first commit'
+ 2116  git push origin HEAD
+ 2117  ls
+ 2118  rm -rvf .git
+ 2119  git init
+ 2120  git remote add origin git@github.com:youyongba/youyongba.github.io.git
+ 2121  git add .
+ 2122  git commit -m 'first commit'
+ 2123  ls
+ 2124  git push origin HEAD
+ 2125  ls
+ 2126  cd lession6_gitbook
+ 2127  ls
+ 2128  cd ..
+ 2129  ls
+ 2130  rm -rvf .git
+ 2131  cd lession6_gitbook
+ 2132  git init
+ 2133  ls
+ 2134  git remote add origin git@github.com:youyongba/youyongba.github.io.git
+ 2135  git add .
+ 2136  git commit -m 'first commit'
+ 2137  git push origin HEAD
+ 2138  ls
+ 2139  rm -rvf .git
+ 2140  ls
+ 2141  cd html
+ 2142  ls
+ 2143  git init
+ 2144  git remote add origin git@github.com:youyongba/youyongba.github.io.git
+ 2145  git add .
+ 2146  git commit -m 'first commit'
+ 2147  git push origin HEAD
+ 2148  ls
+ 2149  docker run -v /Users/qihong/北京小洪科技有限公司/电商/dockerdemo/lession6_gitbook/:/srv/gitbook -v /Users/qihong/北京小洪科技有限公司/电商/dockerdemo/lession6_gitbook/html:/srv/html fellah/gitbook gitbook build . /srv/html
+ 2150  ls
+ 2151  cd github_blog
+ 2152  ls
+ 2153  code test.md
+ 2154  cd 
+ 2155  ls
+ 2156  cd dev
+ 2157  ls
+ 2158  cd lession
+ 2159  ls
+ 2160  mkdir ppt
+ 2161  cd ppt
+ 2162  ls
+ 2163  cp -rvf ~/北京小洪科技有限公司
+ 2164  cp -rvf ~/北京小洪科技有限公司/电商/dockerdemo/lession6_gitbook/github_blog/test.md ./
+ 2165  ls
+ 2166  code test.md
+ 2167  code .
+ 2168  ls
+ 2169  cp -rvf ../github_blog_index/resources/images/githubblog.gif ./
+ 2170  ls
+ 2171  code .
+ 2172  ls
+ 2173  rm -rvf test.html
+ 2174  ls
+ 2175  code .
+ 2176  ls
+ 2177  cd ..
+ 2178  ls
+ 2179  mkdir test
+ 2180  touch README.md
+ 2181  code README.md
+ 2182  vi README.md
+ 2183  git init
+ 2184  git add .
+ 2185  git commit -m 'first commit'
+ 2186  ls
+ 2187  cd ..
+ 2188  ls
+ 2189  pwd
+ 2190  cd lession
+ 2191  ls
+ 2192  cd test
+ 2193  ls
+ 2194  vi .git/config
+ 2195  git remote add origin git@github.com:youyongba/youyongba.github.io.git
+ 2196  git push origin HEAD
+ 2197  ls
+ 2198  cd ..
+ 2199  ls
+ 2200  rm -rvf test
+ 2201  ls
+ 2202  cd ..
+ 2203  ls
+ 2204  mkdir test
+ 2205  cd test
+ 2206  git init
+ 2207  echo "# youyongba.github.io" >> README.md
+ 2208  cat README.md
+ 2209  git add .
+ 2210  git commit -m 'first commit'
+ 2211  git remote add origin git@github.com:youyongba/youyongba.github.io.git
+ 2212  git push origin HEAD
+ 2213  git pull origin master
+ 2214  ls
+ 2215  git push origin HEAD
+ 2216  vi .git/config
+ 2217  ls
+ 2218  cd ..
+ 2219  cd test
+ 2220  ls
+ 2221  git pull origin master
+ 2222  ls
+ 2223  cd ..
+ 2224  ls
+ 2225  mkdir test1
+ 2226  cd test1
+ 2227  ls
+ 2228  git init
+ 2229  git remote add origin git@github.com:youyongba/youyongba.github.io.git
+ 2230  echo "# youyongba.github.io" >> README.md
+ 2231  git add .
+ 2232  git commit -m 'first commit'
+ 2233  git push origin HEAD
+ 2234  cd ..
+ 2235  ls
+ 2236  mkdir test2
+ 2237  ls
+ 2238  cd test2
+ 2239  ls
+ 2240  git init
+ 2241  git remote add origin git@github.com:youyongba/test1.git
+ 2242  echo "# test1" >> README.md
+ 2243  git add .
+ 2244  git commit -m 'first commit'
+ 2245  git push origin HEAD
+ 2246  cd ..
+ 2247  ls
+ 2248  cd test1
+ 2249  ls
+ 2250  code .
+ 2251  git add .
+ 2252  git commit -m '第二次提交'
+ 2253  git push origin HEAD
+ 2254  pwd
+ 2255  ls
+ 2256  cat README.md
+ 2257  git add .
+ 2258  git commit -m 'asdf'
+ 2259  git push origin HEAD
+ 2260  git pull origin master
+ 2261  cat README.md
+ 2262  git push origin HEAD
+ 2263  git add .
+ 2264  git commit -m '关联错了'
+ 2265  git push origin HEAD
+ 2266  git add .
+ 2267  git commit -m '关联错了'
+ 2268  git push origin HEAD
+ 2269  ls
+ 2270  cd ..
+ 2271  cd test1
+ 2272  cd ..
+ 2273  ls
+ 2274  cd lession
+ 2275  ls
+ 2276  cd github_blog_index
+ 2277  ls
+ 2278  cd ..
+ 2279  ls
+ 2280  cd ..
+ 2281  ls
+ 2282  cd lession
+ 2283  ls
+ 2284  cd ..
+ 2285  cd test1
+ 2286  ls
+ 2287  cp -rvf ../github_blog_index/* ./
+ 2288  cp -rvf ../lession/github_blog_index/* ./
+ 2289  ls
+ 2290  git add .
+ 2291  git commit -m '资源文件'
+ 2292  git push origin HEAD
+ 2293  cd ..
+ 2294  ls
+ 2295  cd test2
+ 2296  ls
+ 2297  git add .
+ 2298  git commit -m '编辑readme.md'
+ 2299  git push origin HEAD
+ 2300  git pull origin master
+ 2301  git push origin HEAD
+ 2302  ls
+ 2303  cd ..
+ 2304  ls
+ 2305  cd ..
+ 2306  ls
+ 2307  cd 北京小洪科技有限公司/电商/dockerdemo/lession6_gitbook
+ 2308  ls
+ 2309  cp -rvf * ../../../../dev/test2
+ 2310  ls
+ 2311  cd ~/dev/test2
+ 2312  ls
+ 2313  cp -rvf html/* ./
+ 2314  ls
+ 2315  git add .
+ 2316  git commit -m 'html'
+ 2317  git push origin HEAD
+ 2318  ls
+ 2319  cd ..
+ 2320  ls
+ 2321  cd lession
+ 2322  ls
+ 2323  cd github_blog_index
+ 2324  ls
+ 2325  rm -rvf .git
+ 2326  ls
+ 2327  cd ..
+ 2328  ls
+ 2329  rm -rvf .git
+ 2330  ls
+ 2331  cd github_blog_index
+ 2332  ls
+ 2333  git remote add origin git@github.com:youyongba/youyongba.github.io.git
+ 2334  git init
+ 2335  git remote add origin git@github.com:youyongba/youyongba.github.io.git
+ 2336  ls
+ 2337  git add .
+ 2338  git commit -m 'first commit'
+ 2339  git push origin HEAD
+ 2340  ls
+ 2341  code .
+ 2342  git add .
+ 2343  git commit -m 'first commit'
+ 2344  git push origin HEAD
+ 2345  ls
+ 2346  cd ..
+ 2347  ls
+ 2348  git init
+ 2349  git remote add origin git@github.com:youyongba/doc.git
+ 2350  git add .
+ 2351  git commit -m 'first commit'
+ 2352  git push origin HEAD
+ 2353  ls
+ 2354  cd ..
+ 2355  ls
+ 2356  history
+ 2357  ls
+ 2358  cd html
+ 2359  rm -rvf .git
+ 2360  cd ..
+ 2361  git init
+ 2362  git remote add origin git@github.com:youyongba/doc.git
+ 2363  git add .
+ 2364  git commit -m 'first commit'
+ 2365  git push origin HEAD
+ 2366  ls
+ 2367  cd github_blog_index
+ 2368  ls
+ 2369  code .
+ 2370  git add .
+ 2371  git commit -m 'first commit'
+ 2372  git push origin HEAD
+ 2373  git pull origin master
+ 2374  git push origin HEAD
+ 2375  docker run -v /Users/qihong/北京小洪科技有限公司/电商/dockerdemo/lession6_gitbook/:/srv/gitbook -v /Users/qihong/北 京小洪科技有限公司/电商/dockerdemo/lession6_gitbook/html:/srv/html fellah/gitbook gitbook build . /srv/html
+ 2376  history
+ 2377  docker run -v /Users/qihong/北京小洪科技有限公司/电商/dockerdemo/lession6_gitbook:/srv/gitbook -v /Users/qihong/北京小洪科技有限公司/电商/dockerdemo/lession6_gitbook/html:/srv/html fellah/gitbook gitbook build . /srv/html
+ 2378  ls
+ 2379  mkdir markdown
+ 2380  cd markdown/
+ 2381  touch README.md
+ 2382  cd ..
+ 2383  ls
+ 2384  pwd
+ 2385  code .
+ 2386  ls
+ 2387  cat README.md
+ 2388  git add .
+ 2389  git commit -m 'first commit'
+ 2390  git push origin HEAD
+ 2391  docker run -v /Users/qihong/北京小洪科技有限公司/电商/dockerdemo/lession6_gitbook:/srv/gitbook -v /Users/qihong/北京小洪科技有限公司/电商/dockerdemo/lession6_gitbook/html:/srv/html fellah/gitbook gitbook build . /srv/html
+ 2392  git add .
+ 2393  git commit -m 'first commit'
+ 2394  git push origin HEAD
+ 2395  git pull origin master
+ 2396  git push origin HEAD
+ 2397  git add .
+ 2398  git commit -m 'first commit'
+ 2399  git psuh origin HEAD
+ 2400  git push origin HEAD
+ 2401  docker run -it centos bash
+ 2402  docker run -v /Users/qihong/北京小洪科技有限公司/电商/dockerdemo/lession6_gitbook:/srv/gitbook -v /Users/qihong/北京小洪科技有限公司/电商/dockerdemo/lession6_gitbook/html:/srv/html fellah/gitbook gitbook build . /srv/html
+ 2403  git add .
+ 2404  git commit -m 'first commit'
+ 2405  git push origin HEAD
+ 2406  code .
+ 2407  git add .
+ 2408  git commit -m '修改文要当'
+ 2409  git push origin HEAD
+ 2410  ls
+ 2411  code .
+ 2412  ls
+ 2413  code .
+ 2414  ls
+ 2415  code .
+ 2416  docker run -v /Users/qihong/北京小洪科技有限公司/电商/dockerdemo/lession6_gitbook:/srv/gitbook -v /Users/qihong/北京小洪科技有限公司/电商/dockerdemo/lession6_gitbook/html:/srv/html fellah/gitbook gitbook build . /srv/html
+ 2417  git add .
+ 2418  git commit -m '修改'
+ 2419  git push origin HEAD
+ 2420  ls
+ 2421  cd demo
+ 2422  ls
+ 2423  cd ..
+ 2424  ls
+ 2425  cd dev
+ 2426  ls
+ 2427  cd lession
+ 2428  ls
+ 2429  mkdir test
+ 2430  cd test
+ 2431  ls
+ 2432  touch README.md
+ 2433  code .
+ 2434  ls
+ 2435  docker run -v /Users/qihong/北京小洪科技有限公司/电商/dockerdemo/lession6_gitbook:/srv/gitbook -v /Users/qihong/北京小洪科技有限公司/电商/dockerdemo/lession6_gitbook/html:/srv/html fellah/gitbook gitbook build . /srv/html
+ 2436  git add .
+ 2437  git commit -m 'fsdf'
+ 2438  git push origin HEAD
+ 2439  docker run -v /Users/qihong/北京小洪科技有限公司/电商/dockerdemo/lession6_gitbook:/srv/gitbook -v /Users/qihong/北京小洪科技有限公司/电商/dockerdemo/lession6_gitbook/html:/srv/html fellah/gitbook gitbook build . /srv/html
+ 2440  git add .
+ 2441  git commit -m 'asdf'
+ 2442  git push origin HEAD
+ 2443  docker run -v /Users/qihong/北京小洪科技有限公司/电商/dockerdemo/lession6_gitbook:/srv/gitbook -v /Users/qihong/北京小洪科技有限公司/电商/dockerdemo/lession6_gitbook/html:/srv/html fellah/gitbook gitbook build . /srv/html
+ 2444  git add .
+ 2445  git commit -m 'ffff'
+ 2446  git push origin HEAD
+ 2447  ls
+ 2448  mkdir imgs
+ 2449  cp -rvf markdown/imgs/* ~/dev/lession/test/imgs
+ 2450  ls
+ 2451  cd dev/lession
+ 2452  ls
+ 2453  rm -rvf test
+ 2454  ls
+ 2455  mkdir test
+ 2456  ls
+ 2457  cd test
+ 2458  ls
+ 2459  code .
+ 2460  ls
+ 2461  cd ..
+ 2462  ls
+ 2463  cd ~/北京小洪科技有限公司/电商/dockerdemo/lession6_gitbook
+ 2464  ls
+ 2465  docker run -v /Users/qihong/北京小洪科技有限公司/电商/dockerdemo/lession6_gitbook:/srv/gitbook -v /Users/qihong/北京小洪科技有限公司/电商/dockerdemo/lession6_gitbook/html:/srv/html fellah/gitbook gitbook build . /srv/html
+ 2466  docker container ls
+ 2467  docker images
+ 2468  docker run -v /Users/qihong/北京小洪科技有限公司/电商/dockerdemo/lession6_gitbook:/srv/gitbook -v /Users/qihong/北京小洪科技有限公司/电商/dockerdemo/lession6_gitbook/html:/srv/html fellah/gitbook gitbook build . /srv/html
+ 2469  docker container ls
+ 2470  docker rmi fellah/gitbook
+ 2471  docker rmi fellah/gitbook --force
+ 2472  docker rmi nginx
+ 2473  docker rmi nginx --force
+ 2474  cd dev/lession/
+ 2475  ls
+ 2476  mkdir gitbooktest111
+ 2477  cd gitbooktest111
+ 2478  ls
+ 2479  git clone git@github.com:qihong1983/test111.git
+ 2480  ls
+ 2481  cd test111
+ 2482  ls
+ 2483  cd ..
+ 2484  ls
+ 2485  mkdir test
+ 2486  cd test111
+ 2487  ls
+ 2488  cp -rvf *.md ../test/
+ 2489  ls
+ 2490  cd ..
+ 2491  ls
+ 2492  cd ..
+ 2493  ls
+ 2494  cd gitbooktest111
+ 2495  ls
+ 2496  cd test
+ 2497  ls
+ 2498  cd ..
+ 2499  ls
+ 2500  cd ..
+ 2501  ls
+ 2502  cd test
+ 2503  ls
+ 2504  cd ..
+ 2505  ls
+ 2506  cd gitbooktest111
+ 2507  ls
+ 2508  cd test
+ 2509  ls
+ 2510  docker images
+ 2511  docker pull fellah/gitbook
+ 2512  docker images
+ 2513  ls
+ 2514  pwd
+ 2515  mkdir html
+ 2516  docker run -v /Users/qihong/dev/lession/gitbooktest111/test:/srv/gitbook -v /Users/qihong/dev/lession/gitbooktest111/test/html:/srv/html fellah/gitbook gitbook build . /srv/html
+ 2517  tree ./
+ 2518  docker images
+ 2519  docker pull nginx
+ 2520  docker run  -v /Users/qihong/dev/lession/gitbooktest111/test/html:/usr/share/nginx/html -d -p 8080:80 nginx
+ 2521  ls
+ 2522  cd ..
+ 2523  ls
+ 2524  cd test111
+ 2525  ls
+ 2526  cp -rvf user ../test/
+ 2527  cd ../test
+ 2528  ls
+ 2529  docker images
+ 2530  ls
+ 2531  pwd
+ 2532  docker run -v /Users/qihong/dev/lession/gitbooktest111/test:/srv/gitbook -v /Users/qihong/dev/lession/gitbooktest111/test/html:/srv/html fellah/gitbook gitbook build . /srv/html
+ 2533  docker run --name my-nginx -v /Users/qihong/dev/lession/gitbooktest111/test/html:/usr/share/nginx/html -d -p 8080:80 nginx
+ 2534  docker container ls
+ 2535  docker container rmi 876
+ 2536  docker container kill 876
+ 2537  docker container ls
+ 2538  ls
+ 2539  rm -rvf html/*
+ 2540  ls
+ 2541  tree ./
+ 2542  pwd
+ 2543  docker run -v /Users/qihong/dev/lession/gitbooktest111/test:/srv/gitbook -v /Users/qihong/dev/lession/gitbooktest111/test/html:/srv/html fellah/gitbook gitbook build . /srv/html
+ 2544  tree ./
+ 2545  docker run --name my-nginx -v /Users/qihong/dev/lession/gitbooktest111/test/html:/usr/share/nginx/html -d -p 8080:80 nginx
+ 2546  docker run --name my-nginx1 -v /Users/qihong/dev/lession/gitbooktest111/test/html:/usr/share/nginx/html -d -p 8080:80 nginx
+ 2547  npm init
+ 2548  ls
+ 2549  code .
+ 2550  npm run start
+ 2551  git init
+ 2552  git add .
+ 2553  git commit -m 'first commit'
+ 2554  git remote add origin git@github.com:youyongba/test111.git
+ 2555  git push origin HEAD
+ 2556  cd ..
+ 2557  ls
+ 2558  cd ..
+ 2559  ls
+ 2560  docker pull gitlab/gitlab-ce:latest
+ 2561  docker images
+ 2562  ls
+ 2563  mkdir gitlabdemo
+ 2564  cd gitlabdemo
+ 2565  ls
+ 2566  mkdir config
+ 2567  mkdir logs
+ 2568  mkdir data
+ 2569  touch gitlab_start.sh
+ 2570  code .
+ 2571  pwd
+ 2572  ls
+ 2573  ls -l
+ 2574  chmod +x gitlab_start.sh   
+ 2575  ls -l
+ 2576  ./gitlab_start.sh
+ 2577  docker run -h 0.0.0.0 -p 443:443 -p 80:80 -p 10080:22 --restart always -v /Users/qihong/dev/lession/gitlabdemo/config:/etc/gitlab -v /Users/qihong/dev/lession/gitlabdemo/logs:/var/log/gitlab -v /Users/qihong/dev/lession/gitlabdemo/data:/var/opt/gitlab gitlab/gitlab-ce:latest
+ 2578  docker container ls
+ 2579  docker container kill 3f29
+ 2580  ls
+ 2581  docker container ls
+ 2582  ls
+ 2583  ./gitlab_start.sh
+ 2584  ls
+ 2585  cd dev/lession/gitlabdemo/
+ 2586  ls
+ 2587  cd data/
+ 2588  ls
+ 2589  docker ps -a
+ 2590  docker container ls
+ 2591  docker container rm 7b99
+ 2592  docker container rm 7b99 --force
+ 2593  docker container ls
+ 2594  ./gitlab_start.sh
+ 2595  docker container ls
+ 2596  docker container rm 352 --force
+ 2597  ls
+ 2598  ./g
+ 2599  ./gitlab_start.sh
+ 2600  docker run -p 8088:8080 nginx
+ 2601  docker container ls
+ 2602  docker container kill 6de29
+ 2603  docker run -p 8088:8080 nginx
+ 2604  docker run -p 8088:8088 nginx
+ 2605  docker run --name my-nginx2 -p 8088:8088 nginx
+ 2606  docker container ls
+ 2607  docker container kill b523
+ 2608  ./gitlab_start.sh
+ 2609  docker container ls
+ 2610  docker container kill c995
+ 2611  ls
+ 2612  rm -rvf *
+ 2613  ls
+ 2614  cd ..
+ 2615  ls
+ 2616  rm -rvf logs/*
+ 2617  ls
+ 2618  rm -rvf config/*
+ 2619  ls
+ 2620  pwd
+ 2621  ./gitlab_start.sh
+ 2622  docker container ls
+ 2623  docker exec -it --user root gitlab /bin/bash
+ 2624  ping 172.17.0.2
+ 2625  docker exec -it --user root gitlab /bin/bash
+ 2626  docker container stop gitlab
+ 2627  docker container start gitlab
+ 2628  docker exec -it --user root gitlab /bin/bash
+ 2629  vi /etc/gitlab/gitlab.rb
+ 2630  docker exec -it --user root gitlab /bin/bash
+ 2631  ls
+ 2632  cd dev/lession/gitlabdemo/
+ 2633  ls
+ 2634  ocker exec -it --user root gitlab /bin/bash
+ 2635  docker exec -it --user root gitlab /bin/bash
+ 2636  ifconfig
+ 2637  ocker exec -it --user root gitlab /bin/bash
+ 2638  docker exec -it --user root gitlab /bin/bash
+ 2639  ping 172.17.0.2
+ 2640  docker exec -it --user root gitlab /bin/bash
+ 2641  docker container stop gitlab
+ 2642  docker container start gitlab
+ 2643  docker exec -it --user root gitlab /bin/bash
+ 2644  docker container stop gitlab
+ 2645  docker container start gitlab
+ 2646  docker container rmi gitlab
+ 2647  docker container rm gitlab
+ 2648  docker container ls
+ 2649  docker container stop gitlab
+ 2650  docker pull yrzr/gitlab-ce-arm64v8
+ 2651  docker images;
+ 2652  ls
+ 2653  cd dev/lession/gitlabdemo/
+ 2654  ls
+ 2655  ./gitlab_start.sh
+ 2656  docker container rm 19a9b2eecaf30354e87d56c1ac3ca03cc3fbd5da049c34df1fc30a7998527
+ 2657  ./gitlab_start.sh
+ 2658  docker exec -it --user root gitlab /bin/bash
+ 2659  docker container ls
+ 2660  docker exec -it --user root gitlab /bin/bash
+ 2661  docker container restart gitlab
+ 2662  docker exec -it --user root gitlab /bin/bash
+ 2663  ls
+ 2664  rm -rvf config/*
+ 2665  docker container ls
+ 2666  docker container rm b3480
+ 2667  docker container ls
+ 2668  docker container stop gitlab
+ 2669  docker container ls
+ 2670  docker container rm gitlab
+ 2671  ls
+ 2672  rm -rvf config/*
+ 2673  rm -rvf data/*
+ 2674  ls
+ 2675  rm -rvf logs/*
+ 2676  ls
+ 2677  docker exec -it c995a042012419f5ba614409ba7ce7fa98e964b0899c132964324eec58914102 /bin/sh
+ 2678  ls
+ 2679  docker logs -f gitlab
+ 2680  ls
+ 2681  cd ~
+ 2682  cd /dev/
+ 2683  ls
+ 2684  cd ..
+ 2685  ls
+ 2686  cd home
+ 2687  ls
+ 2688  cd ..
+ 2689  ls
+ 2690  exit
+ 2691  ls
+ 2692  cd dev/lession/gitlabdemo/
+ 2693  ls
+ 2694  rm -rvf config/*
+ 2695  rm -rvf data/*
+ 2696  ls
+ 2697  rm -rvf logs/*
+ 2698  ls
+ 2699  ./gitlab_start.sh
+ 2700  docker logs -f gitlab
+ 2701  docker exec -it --user root gitlab /bin/bash
+ 2702  docker logs -f gitlab
+ 2703  docker container ls 
+ 2704  docker container stop gitlab
+ 2705  docker container rm gitlab
+ 2706  ls
+ 2707  rm -rvf config/*
+ 2708  rm -rvf data/*
+ 2709  ls
+ 2710  rm -rvf logs/*
+ 2711  ls
+ 2712  ./gitlab_start.sh
+ 2713  docker logs -f gitlab
+ 2714  docker exec -it --user root gitlab /bin/bash
+ 2715  gitlab-ctl status
+ 2716  docker exec -it --user root gitlab /bin/bash
+ 2717  docker logs -f gitlab
+ 2718  docker container ls
+ 2719  docker container stop gitlab
+ 2720  docker container rm gitlab
+ 2721  cd ..
+ 2722  ls
+ 2723  mkdir easymock
+ 2724  cd easymock
+ 2725  ls
+ 2726  code .
+ 2727  pwd
+ 2728  mkdir -p easy-mock/data
+ 2729  mkdir -p easy-mock/data/db
+ 2730  mkdir -p easy-mock/data/redis
+ 2731  mkdir -p easy-mock/logs
+ 2732  docker-compose up
+ 2733  pwd
+ 2734  ls
+ 2735  docker-compose up
+ 2736  ls
+ 2737  cd easy-mock/logs
+ 2738  ls
+ 2739  cd ..
+ 2740  cd data
+ 2741  ls
+ 2742  cd db
+ 2743  ls
+ 2744  cd redis
+ 2745  ls
+ 2746  cd ..
+ 2747  ls
+ 2748  ls -l
+ 2749  cd ..
+ 2750  ls
+ 2751  cd ..
+ 2752  ls
+ 2753  chmod 777 -R easy-mock/*
+ 2754  chmod -R 777 easy-mock/*
+ 2755  ls
+ 2756  docker-compose up
+ 2757  docker container ls
+ 2758  docker-compose down
+ 2759  docker-compose stop
+ 2760  docker-compose up
+ 2761  docker container ls
+ 2762  docker-compose stop
+ 2763  cd ~/dev/lession/easymock
+ 2764  ls
+ 2765  docker-compose stop
+ 2766  ls
+ 2767  cd 北京小洪科技有限公司/电商/dockerdemo/
+ 2768  ls
+ 2769  cd lession5_volume
+ 2770  ls
+ 2771  cd ..
+ 2772  ls
+ 2773  cd lession4_frontend
+ 2774  ls
+ 2775  cd ..
+ 2776  ls
+ 2777  code .
+ 2778  docker-compose up
+ 2779  docker-compose stop
+ 2780  ls
+ 2781  docker-compose up
+ 2782  cd ..
+ 2783  ls
+ 2784  git clone git@github.com:youyongba/doc.git
+ 2785  code .
+ 2786  ls
+ 2787  cp gitbooktest111/test/package.json ./doc
+ 2788  cd doc
+ 2789  ls
+ 2790  code .
+ 2791  ls
+ 2792  pwd
+ 2793  npm run start
+ 2794  ls
+ 2795  cd marp
+ 2796  ls
+ 2797  cp -rvf ../../test/* ./
+ 2798  ls
+ 2799  cd ..
+ 2800  ls
+ 2801  pwd
+ 2802  mkdir dockerEasyMock
+ 2803  pwd
+ 2804  npm run start
+ 2805  git add .
+ 2806  git commit -m 'first commit'
+ 2807  git push origin HEAD
+ 2808  npm run start
+ 2809  git add .
+ 2810  git commit -m 'first commit'
+ 2811  git push origin HEAD
+ 2812  pwd
+ 2813  docker-compose stop
+ 2814  docker-compose down
+ 2815  ls
+ 2816  cd ..
+ 2817  ls
+ 2818  mkdir easymocktest
+ 2819  cd easymocktest
+ 2820  ls
+ 2821  mkdir -p data/db
+ 2822  mkdir -p data/redis
+ 2823  mkdir -p logs
+ 2824  ls
+ 2825  code .
+ 2826  pwd
+ 2827  ls
+ 2828  rm -rvf *
+ 2829  ls
+ 2830  cd ..
+ 2831  ls
+ 2832  cd doc
+ 2833  ls
+ 2834  npm run start
+ 2835  git add .
+ 2836  git commit -m 'first commit'
+ 2837  git push origin HEAD
+ 2838  ls
+ 2839  docker images;
+ 2840  pwd
+ 2841  docker run --name my-nginx -v /Users/qihong/dev/lession/doc:/usr/share/nginx/html -d -p 8080:80 nginx
+ 2842  docker container rm my-nginx
+ 2843  docker run --name my-nginx -v /Users/qihong/dev/lession/doc:/usr/share/nginx/html -d -p 8080:80 nginx
+ 2844  docker container ls
+ 2845  docker container stop my-nginx
+ 2846  docker container rm my-nginx
+ 2847  docker run --name my-nginx -v /Users/qihong/dev/lession/doc/html:/usr/share/nginx/html -d -p 8080:80 nginx
+ 2848  npm run start
+ 2849  ls
+ 2850  cd ..
+ 2851  ls
+ 2852  cd easymocktest
+ 2853  ls
+ 2854  mkdir -p data/db
+ 2855  mkdir -p data/redis
+ 2856  mkdir -p logs
+ 2857  pwd
+ 2858  docker-compose up
+ 2859  docker-compose down
+ 2860  docker-compose up
+ 2861  docker-compose down
+ 2862  ls
+ 2863  rm -rvf *
+ 2864  ls
+ 2865  mkdir -p data/db
+ 2866  mkdir -p data/redis
+ 2867  mkdir -p logs
+ 2868  ls
+ 2869  pwd
+ 2870  docker-compose up
+ 2871  docker-compose down
+ 2872  ls
+ 2873  rm -rvf *
+ 2874  ls
+ 2875  mkdir -p data/db
+ 2876  mkdir -p data/redis
+ 2877  mkdir -p logs
+ 2878  pwd
+ 2879  docker-compose up
+ 2880  docker-compose down
+ 2881  ls
+ 2882  cd ..
+ 2883  ls
+ 2884  mkdir harbor
+ 2885  cd harbor
+ 2886  ls
+ 2887  cp -rvf ~/Downloads/harbor-online-installer-v2.5.3.tgz ./
+ 2888  ls
+ 2889  tar xvf harbor-online-installer-v2.5.3.tgz
+ 2890  ls
+ 2891  cd harbor
+ 2892  ls
+ 2893  code .
+ 2894  ls
+ 2895  code .
+ 2896  ls
+ 2897  mkdir data
+ 2898  mkdir log
+ 2899  ifconfig
+ 2900  pwd
+ 2901  ./install.sh
+ 2902  docker container rm b331be8e7c66e14c6f12254aea6d46a5a204a1be54292613e0c327bca044517a
+ 2903  docker container ls
+ 2904  docker container rm *
+ 2905  ls
+ 2906  docker container rm a2d
+ 2907  docker container rm a2db0d458f96
+ 2908  docker container rm a2db0d458f96 --force
+ 2909  docker container rm 5e7c8ab47cc6 --force
+ 2910  docker container rm d91f11d4ffb3 --force
+ 2911  docker container rm a094e92d0628 --force
+ 2912  docker container rm a252e15c65bc --force
+ 2913  ls
+ 2914  ./install.sh
+ 2915  docker container ls
+ 2916  docker exec -it --user root harbor-portal /bin/bash
+ 2917  docker images;
+ 2918  docker -it harbor-portal
+ 2919  docker -it harbor-portal bash
+ 2920  docker -it volume-app-frontend
+ 2921  docker exec -it --user root harbor-portal /bin/bash
+ 2922  docker -it --user root harbor-portal /bin/bash
+ 2923  docker -it --user root nginx /bin/bash
+ 2924  docker -it  nginx /bin/bash
+ 2925  docker --it  nginx /bin/bash
+ 2926  docker images;
+ 2927  docker network list
+ 2928  docker container ls
+ 2929  docker container stop
+ 2930  docker container down
+ 2931  ls
+ 2932  docker-compose down
+ 2933  docker container run -it redis bash
+ 2934  docker container run -it harbor-portal bash
+ 2935  docker-compose up
+ 2936  docker-compose down
+ 2937  ./install.sh
+ 2938  docker container run -it harbor-portal bash
+ 2939  docker images;
+ 2940  docker container ls
+ 2941  docker-compose down
+ 2942  docker container ls
+ 2943  docker image rm goharbor/*
+ 2944  goharbor/redis-photon
+ 2945  docker image rm goharbor/redis-photon
+ 2946  docker image rmi goharbor/redis-photon
+ 2947  docker image ls
+ 2948  docker rmi goharbor/*
+ 2949  docker rmi goharbor/redis-photon
+ 2950  docker ls
+ 2951  docker images;
+ 2952  docker image rmi goharbor/redis-photon
+ 2953  docker image rmi goharbor
+ 2954  docker image rmi goharbor/redis-photon --force
+ 2955  docker ps
+ 2956  docker images;
+ 2957  docker rmi 5dc5331f3de8
+ 2958  docker images;
+ 2959  docker rmi 942de6829d43;
+ 2960  docker images;
+ 2961  docker rmi fb1278854b91;
+ 2962  docker images;
+ 2963  docker rmi -f 91877cbc147a;
+ 2964  docker images;
+ 2965  docker rmi -f ca36fb3b68a6;
+ 2966  docker images;
+ 2967  docker rmi -f 75e6a7496590;
+ 2968  docker images;
+ 2969  docker rmi -f 93a775677473;
+ 2970  docker images;
+ 2971  docker rmi -f d78f9bbad9ee;
+ 2972  docker images;
+ 2973  docker rmi -f bd50ae1eccdf;
+ 2974  docker images;
+ 2975  docker run -it goharbor/prepare /bash/bin
+ 2976  docker run -it 15102b9ebde6 /bash/bin
+ 2977  docker rmi -f 15102b9ebde6;
+ 2978  docker images;
+ 2979  ./install.sh
+ 2980  docker images;
+ 2981  ./install.sh
+ 2982  cd ~
+ 2983  cd dev/lession/
+ 2984  ls
+ 2985  cd doc
+ 2986  ls
+ 2987  git add .
+ 2988  git commit -m 'first commit'
+ 2989  code .
+ 2990  ls
+ 2991* cd ..
+ 2992* ls
+ 2993* history
+ 2994* ls
+ 2995* history >> history.txt
+ 2996* ls
+ 2997* code history.txt
+ 2998  ls
+ 2999  vi package.json
+ 3000  npm run start
+ 3001  git add .
+ 3002  git commit -m 'first commit'
+ 3003  git push origin HEAD
+ 3004  git add .
+ 3005  npm run start
+ 3006  ls
+ 3007  git add .
+ 3008  git commit -m 'first commit'
+ 3009  git push origin HEAD
+ 3010  pwd
+ 3011  docker run --name my-nginx -v /Users/qihong/dev/lession/doc/html:/usr/share/nginx/html -d -p 8080:80 nginx
+ 3012  npm run start
+ 3013  git add .
+ 3014  git commit -m 'first commit'
+ 3015  git push origin HEAD
+ 3016* ls
+ 3017* rm -rvf *
+ 3018* ls
+ 3019* docker container ls
+ 3020* docker container rmi cd0f9b7b3aa5
+ 3021* docker container rm cd0f9b7b3aa5
+ 3022  docker container stop my-nginx
+ 3023* docker container ls
+ 3024* docker container rm 714a4d6e4d23
+ 3025* docker container stop nginx
+ 3026* docker container ls
+ 3027* docker container stop harbor-jobservice
+ 3028* docker container stop {harbor-core,harbor-core}
+ 3029* docker container ls
+ 3030* docker container stop {registry, harbor-db, registryctl, harbor-portal, redis, harbor-log}
+ 3031* docker container stop {registry,harbor-db,registryctl,harbor-portal,redis,harbor-log}
+ 3032* docker container ls
+ 3033* ls
+ 3034* cd harbor
+ 3035* ls
+ 3036* cd data
+ 3037* ls
+ 3038* cd database
+ 3039* ls
+ 3040* cd pg13
+ 3041* ls
+ 3042* cd ..
+ 3043* ls
+ 3044* cd ..
+ 3045* ls
+ 3046* rm -rvf harbor
+ 3047* ls
+ 3048* docker container ls
+ 3049* docker images;
+ 3050* docker rmi -f {goharbor/redis-photon,goharbor/harbor-registryctl,goharbor/*}
+ 3051* docker rmi -f {goharbor/redis-photon,goharbor/harbor-registryctl,goharbor}
+ 3052* docker rmi -f {goharbor/redis-photon,goharbor/harbor-registryctl}
+ 3053* docker images;
+ 3054* docker rmi -f {5dc5331f3de8,942de6829d43,fb1278854b91,91877cbc147a,ca36fb3b68a6,75e6a7496590,93a775677473,d78f9bbad9ee,bd50ae1eccdf,15102b9ebde6}
+ 3055* docker images;
+ 3056* ls
+ 3057* cp -rvf ~/Downloads/harbor-online-installer-v2.5.3.tgz ./
+ 3058* ls
+ 3059* mkdir harbor
+ 3060* cd harbor
+ 3061* cd .
+ 3062* c d..
+ 3063* cd ..
+ 3064* ls
+ 3065* tar xvf harbor-online-installer-v2.5.3.tgz
+ 3066* ls
+ 3067* cd harbor
+ 3068* ls
+ 3069* mkdir -p {data, log}
+ 3070* mkdir {data, log}
+ 3071* mkdir {data,log}
+ 3072* ls
+ 3073* ls -l
+ 3074* ls
+ 3075* cp -rvf harbor.yml.tmpl harbor.yml
+ 3076* ls
+ 3077* code .
+ 3078* ifconfig
+ 3079* pwd
+ 3080* ls
+ 3081* ls -l
+ 3082* ./install.sh
+ 3083* ls
+ 3084* docker container ls
+ 3085* docker-compose down
+ 3086* docker-compose up
+ 3087* docker-compose down
+ 3088* docker-compose up
+ 3089* ./install.sh
+ 3090* docker-compose down
+ 3091* docker-compose up
+ 3092* docker-compose down
+ 3093* ./install.sh
+ 3094* docker restart
+ 3095* docker restart --help
+ 3096* docker --help
+ 3097* docker network list
+ 3098* docker network restart harbor-harbor
+ 3099* docker network restart
+ 3100* docker network
+ 3101* launchctl list
+ 3102* launchctl list | grep docker
+ 3103* launchctl stop application.com.docker.docker.9517690.9518002
+ 3104* launchctl start application.com.docker.docker.9517690.9518002
+ 3105* ls
+ 3106* docker-compose up
+ 3107* ./install.sh
+ 3108* docker-compose down
+ 3109* cat /etc/resolv.conf
+ 3110* vi /etc/resolv.conf
+ 3111* sudo find / -name rsyslog.conf
+ 3112* cd /etc/
+ 3113* ls
+ 3114* ./install.sh
+ 3115* docker-compose down
+ 3116* ls
+ 3117* docker images;
+ 3118* docker rmi -f {5dc5331f3de8,942de6829d43,fb1278854b91,91877cbc147a,ca36fb3b68a6,75e6a7496590,93a775677473,d78f9bbad9ee,bd50ae1eccdf,15102b9ebde6}
+ 3119* docker-compose up
+ 3120* docker container ls
+ 3121* docker-compose down
+ 3122* docker-compose start
+ 3123* docker-compose up
+ 3124* rm -rvf data/*
+ 3125* rm -rvf log/*
+ 3126* docker-compose up
+ 3127* docker-compose down
+ 3128* docker-compose up
+ 3129* ls
+ 3130* docker-compose down
+ 3131* ls
+ 3132* docker images;
+ 3133* docker rmi -f {5dc5331f3de8,942de6829d43,fb1278854b91,91877cbc147a,ca36fb3b68a6,75e6a7496590,93a775677473,d78f9bbad9ee,bd50ae1eccdf}
+ 3134* ls
+ 3135* cd ..
+ 3136* ls
+ 3137* rm -rvf harbor
+ 3138* ls
+ 3139* tar xvf harbor-online-installer-v2.5.3.tgz
+ 3140* ls
+ 3141* cd harbor
+ 3142* ls
+ 3143* mkdir {data,log}
+ 3144* ls
+ 3145* ifconfig
+ 3146* ifconfig eth0
+ 3147* ifconfig eth
+ 3148* ifconfig eth0
+ 3149* ifconfig
+ 3150* ifconfig en0
+ 3151* pwd
+ 3152* ls
+ 3153* docker-compose up
+ 3154* ls
+ 3155* ./install.sh
+ 3156* docker-compose down
+ 3157* ls
+ 3158* docker-compose down
+ 3159* ls
+ 3160* docker container ls
+ 3161* docker images;
+ 3162* launchctl start application.com.docker.docker.9517690.9518002
+ 3163* launchctl list | grep docker
+ 3164* launchctl stop application.com.docker.docker.9517690.9518002
+ 3165* launchctl start application.com.docker.docker.9517690.9518002
+ 3166* docker images;
+ 3167* docker container ls
+ 3168* docker rmi -f {5dc5331f3de8,942de6829d43,fb1278854b91,91877cbc147a,ca36fb3b68a6,75e6a7496590,93a775677473,d78f9bbad9ee,bd50ae1eccdf,15102b9ebde6}
+ 3169* docker-compose up -d
+ 3170* docker container ls
+ 3171* docker container frendly_shirley
+ 3172* docker container stop frendly_shirley
+ 3173* docker container stop b523a3b43742
+ 3174* docker container ls
+ 3175* docker-compose up -d
+ 3176* docker container ls
+ 3177* docker-compose up
+ 3178* docker images;
+ 3179* docker container ls
+ 3180* docker rmi -f {5dc5331f3de8,942de6829d43,fb1278854b91,91877cbc147a,ca36fb3b68a6,75e6a7496590,93a775677473,d78f9bbad9ee,bd50ae1eccdf}
+ 3181* ls
+ 3182* docker images;
+ 3183* ls
+ 3184* cd ..
+ 3185* ls
+ 3186* rm -rvf harbor
+ 3187* ls
+ 3188* rm -rvf harbor-online-installer-v2.5.3.tgz
+ 3189* ls
+ 3190* cp ~/Downloads/harbor-online-installer-v2.5.3.tgz ./
+ 3191* ls
+ 3192* tar xvf harbor-online-installer-v2.5.3.tgz
+ 3193* ls
+ 3194* cd harbor
+ 3195* ls
+ 3196* pwd
+ 3197* code .
+ 3198* ifconfig en0
+ 3199* pwd
+ 3200* ls
+ 3201* ./install.sh
+ 3202* docker images;
+ 3203* docker-compose down
+ 3204* docker-compose up -d
+ 3205* docker-compose down
+ 3206* docker-compose up -d
+ 3207* docker-compose down
+ 3208* docker-compose up -d
+ 3209* docker container ls
+ 3210* docker images;
+ 3211* docker pull goharbor/harbor-log
+ 3212* docker pull goharbor/harbor-log@v2.5.3
+ 3213* docker pull goharbor/harbor-log:v2.5.3
+ 3214* docker-compose up -d
+ 3215* docker logs -f --tail=10 harbor-log
+ 3216* docker-compose up -d
+ 3217* docker container ls
+ 3218* nmap 127.0.0.1
+ 3219* sudo docker-compose up -d
+ 3220* docker ps
+ 3221* sudo docker-compose up
+ 3222* docker-compose up
+ 3223* docker ps
+ 3224* docker container ls
+ 3225* docker images;
+ 3226* docker container ls
+ 3227* ps -aux | grep docker-proxy
+ 3228* ps -au | grep docker-proxy
+ 3229* ps  | grep docker-proxy
+ 3230* docker ps -aq
+ 3231* docker rm $(docker ps -aq)\n\n
+ 3232* find / -name local-kv.db
+ 3233* launchctl stop application.com.docker.docker.9517690.9518002
+ 3234* launchctl start application.com.docker.docker.9517690.9518002
+ 3235* docker images;
+ 3236* launchctl restart application.com.docker.docker.9517690.9518002
+ 3237* docker images;
+ 3238* docker-compose up -d
+ 3239* docker-compose down
+ 3240* docker-compose up -d
+ 3241* docker-compose down
+ 3242* docker-compose up -d
+ 3243  npm run start
+ 3244  git add .
+ 3245  git commit -m 'first commit'
+ 3246  git push origin HEAD
+ 3247* docker-compose down
+ 3248* docker-compose up -d
+ 3249* docker-compose down
+ 3250* docker-compose up -d
+ 3251* docker-compose down
+ 3252* docker-compose up -d
+ 3253* docker-compose down
+ 3254* docker-compose up
+ 3255* docker-compose down
+ 3256* docker images;
+ 3257* docker rmi -f {5dc5331f3de8,942de6829d43,fb1278854b91,91877cbc147a,ca36fb3b68a6,75e6a7496590,93a775677473,d78f9bbad9ee,bd50ae1eccdf}
+ 3258* docker-compose up
+ 3259* docker-compose down
+ 3260* docker-compose up
+ 3261* docker-compose down
+ 3262* docker-compose up
+ 3263* docker-compose down
+ 3264* docker-compose up
+ 3265  ifconfig en0
+ 3266* docker-compose down
+ 3267* docker-compose up
+ 3268* docker-compose down
+ 3269* docker-compose up
+ 3270* docker-compose down
+ 3271* docker-compose up
+ 3272* docker-compose down
+ 3273* docker-compose up
+ 3274* docker-compose down
+ 3275* docker-compose up
+ 3276* docker-compose down
+ 3277* docker-compose up
+ 3278* docker-compose down
+ 3279* docker-compose up
+ 3280* docker-compose down
+ 3281* docker-compose up
+ 3282* docker-compose down
+ 3283* docker rm $(docker ps -aq)
+ 3284* docker rm -rvf $(docker ps -aq)
+ 3285* docker container ls
+ 3286* docker container stop harbor-db
+ 3287* docker container rm eefa6f27cc10 --force
+ 3288* docker rm -rvf $(docker ps -aq)
+ 3289* docker rm $(docker ps -aq)
+ 3290* docker container stop 6b69b52ba52fd5d8c14af2913e82211379c9ac5cbae027cd83ec0f9bc475186b.
+ 3291* docker container stop harbor-log
+ 3292* docker rm $(docker ps -aq)
+ 3293* docker container ls
+ 3294* docker container stop harbor-db
+ 3295* docker container rm eefa6f27cc10 --force
+ 3296* docker container stop harbor-db --force
+ 3297* docker container stop harbor-db
+ 3298* asdfasdflajsdf
+ 3299* asdf
+ 3300* asdfas
+ 3301* df
+ 3302* asd
+ 3303* fasdf
+ 3304* a
+ 3305* f
+ 3306* a
+ 3307* aa
+ 3308* s
+ 3309* d
+ 3310* fd
+ 3311* docker rm $(docker ps -aq)
+ 3312* docker-compose up
+ 3313* docker-compose down
+ 3314* docker-compose up
+ 3315* docker-compose down
+ 3316* docker-compose up
+ 3317* docker-compose down
+ 3318* docker-compose up
+ 3319* docker-compose down
+ 3320* docker-compose up
+ 3321* cd ~/dev/lession/harbor/harbor
+ 3322* ls
+ 3323* docker-compose down
+ 3324* df -h
+ 3325* docker-compose up
+ 3326* docker-compose down
+ 3327* docker-compose up
+ 3328* docker-compose down
+ 3329* docker-compose up
+ 3330* docker-compose down
+ 3331* docker rmi -f {5dc5331f3de8,942de6829d43,fb1278854b91,91877cbc147a,ca36fb3b68a6,75e6a7496590,93a775677473,d78f9bbad9ee,bd50ae1eccdf}
+ 3332* docker-compose up
+ 3333* wget
+ 3334* wget https://github.com/goharbor/harbor/releases/download/v2.5.3/harbor-offline-installer-v2.5.3.tgz
+ 3335* ls
+ 3336* cd dev
+ 3337* ls
+ 3338* cd lession
+ 3339* ls
+ 3340* wget https://github.com/goharbor/harbor/releases/download/v2.5.3/harbor-offline-installer-v2.2.2.tgz
+ 3341* wget https://github.com/goharbor/harbor/releases/download/v2.2.2/harbor-online-installer-v2.2.2.tgz
+ 3342* ls
+ 3343* docker-compose down
+ 3344* docker rmi -f {5dc5331f3de8,942de6829d43,fb1278854b91,91877cbc147a,ca36fb3b68a6,75e6a7496590,93a775677473,d78f9bbad9ee,bd50ae1eccdf}
+ 3345* ls
+ 3346* cd ..
+ 3347* ls
+ 3348* rm -rvf harbor
+ 3349* ls
+ 3350* cp ../harbor-online-installer-v2.2.2.tgz ./
+ 3351* ls
+ 3352* tar xvf harbor-online-installer-v2.2.2.tgz
+ 3353* ls
+ 3354* cd harbor
+ 3355* code .
+ 3356* ifconfig en0
+ 3357* pwd
+ 3358* ls
+ 3359* mkdir {data,log}
+ 3360* ls
+ 3361* ls -l
+ 3362* chmod -R 777 *
+ 3363* ls
+ 3364* ls -l
+ 3365* docker rm $(docker ps -aq)
+ 3366* docker ps -aq
+ 3367* ./install.sh
+ 3368* docker-compose down
+ 3369* ./install.sh
+ 3370* docker-compose down
+ 3371* docker-compose up
+ 3372* docker-compose down
+ 3373* docker-compose up
+ 3374* docker-compose down
+ 3375* docker-compose up
+ 3376* docker-compose down
+ 3377* ls
+ 3378* pwd
+ 3379* ls
+ 3380* pwd
+ 3381* ls
+ 3382* cd ..
+ 3383* ls
+ 3384* cd harbor
+ 3385* ls
+ 3386* cd ..
+ 3387* ls
+ 3388* wget https://github.com/goharbor/harbor/releases/download/v2.5.3/harbor-offline-installer-v2.5.3.tgz
+ 3389* docker images;
+ 3390* docker-compose up
+ 3391* ls
+ 3392* docker-compose down
+ 3393* docker-compose up
+ 3394* docker-compose down
+ 3395* docker-compose up
+ 3396* docker-compose down
+ 3397* docker-compose up
+ 3398* docker-compose down
+ 3399* docker-compose up
+ 3400* docker-compose down
+ 3401* dorker ps -aq
+ 3402* docker ps -aq
+ 3403* docker images;
+ 3404* docker rm -f 15102b9ebde6
+ 3405* docker rmi -f 15102b9ebde6
+ 3406* docker images;
+ 3407* docker rmi -f {11a777ead643,461e67c4ec3d,fb9295e771e6,6744b15891f6,3837bbad1328,c9db96b1363f,2e6b040afa40,c240f7374709,e6b67be16b5b,eb938b7f85aa}
+ 3408* ls
+ 3409* cd ..
+ 3410* ls
+ 3411* rm -rvf harbor
+ 3412* ls
+ 3413* tar xvf harbor-offline-installer-v2.5.3.tgz
+ 3414* ls
+ 3415* cd harbor
+ 3416* ls
+ 3417* ifconfig en0
+ 3418* ls
+ 3419* ./install.sh
+ 3420* pwd
+ 3421* mkdir {data,log}
+ 3422* ./install.sh
+ 3423* dorker-compose down
+ 3424* ls
+ 3425* ls -l
+ 3426* chmod -R 777 *
+ 3427* dorker-compose down
+ 3428* docker-compose down
+ 3429* docker-compose up
+ 3430* docker-compose down
+ 3431* docker-compose up
+ 3432* docker-compose down
+ 3433* ping youyong.ba
+ 3434* ls
+ 3435  npm run start
+ 3436  git add .
+ 3437  git commit -m 'first commit'
+ 3438  git push origin HEAD
+ 3439  ls
+ 3440  docker login youyong.ba:8088
+ 3441  cat /etc/docker/daemon.json
+ 3442  find / -name daemon.json
+ 3443  ls
+ 3444  vim ~/.docker/daemon.json
+ 3445  ls
+ 3446  docker login youyong.ba:8088
+ 3447  launchctl restart application.com.docker.docker.9517690.9518002
+ 3448  launchctl stop application.com.docker.docker.9517690.9518002
+ 3449  launchctl start application.com.docker.docker.9517690.9518002
+ 3450  launchctl list
+ 3451  launchctl list | grep docker
+ 3452  docker login youyong.ba:8088
+ 3453  docker images;
+ 3454  docker login youyong.ba:8088
+ 3455  ls
+ 3456  vi ~/.docker/daemon.json
+ 3457  launchctl stop application.com.docker.docker.9517690.9518002
+ 3458  docker images;
+ 3459  docker login youyong.ba:8088
+ 3460  ls
