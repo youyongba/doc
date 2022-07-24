@@ -2,7 +2,7 @@
 <!DOCTYPE HTML>
 <html lang="" >
     <head>
-        <title>docker搭建gitbook · GitBook</title>
+        <title>Github Copilot · GitBook</title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
@@ -12,20 +12,20 @@
         
         
     
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../gitbook/style.css">
 
     
             
                 
-                <link rel="stylesheet" href="gitbook-plugin-highlight/website.css">
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
                 
             
                 
-                <link rel="stylesheet" href="gitbook-plugin-search/search.css">
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
                 
             
                 
-                <link rel="stylesheet" href="gitbook-plugin-fontsettings/website.css">
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
                 
             
         
@@ -53,14 +53,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="images/apple-touch-icon-precomposed-152.png">
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="../dockerEasyMock/" />
     
-    
-    <link rel="prev" href="../marp/" />
+    <link rel="prev" href="../expressMongodb/" />
     
 
     </head>
@@ -148,9 +146,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="2.4" data-path="./">
+        <li class="chapter " data-level="2.4" data-path="../gitbook/">
             
-                <a href="./">
+                <a href="../gitbook/">
             
                     
                     docker搭建gitbook
@@ -187,9 +185,9 @@
             
         </li>
     
-        <li class="chapter " data-level="2.7" data-path="../GithubCopilot/">
+        <li class="chapter active" data-level="2.7" data-path="./">
             
-                <a href="../GithubCopilot/">
+                <a href="./">
             
                     
                     Github Copilot
@@ -385,7 +383,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >docker搭建gitbook</a>
+        <a href=".." >Github Copilot</a>
     </h1>
 </div>
 
@@ -400,11 +398,10 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="docker&#x642D;&#x5EFA;gitbook">Docker&#x642D;&#x5EFA;gitbook</h1><h2 id="&#x67E5;&#x627E;&#x955C;&#x50CF;">&#x67E5;&#x627E;&#x955C;&#x50CF;</h2><pre><code class="lang-shell">docker search -s 3 gitbook</code></pre>
-<h2 id="&#x5B89;&#x88C5;gitbook&#x955C;&#x50CF;">&#x5B89;&#x88C5;gitbook&#x955C;&#x50CF;</h2><pre><code class="lang-shell">docker pull fellah/gitbook</code></pre>
-<h2 id="&#x83B7;&#x53D6;gitbook&#x9759;&#x6001;html&#x6587;&#x4EF6;">&#x83B7;&#x53D6;gitbook&#x9759;&#x6001;html&#x6587;&#x4EF6;</h2><blockquote><p>/yourpath&#x4E0B;&#x9700;&#x8981;&#x6709;README.md&#x548C;SUMMARY.md&#x6587;&#x4EF6;&#x3002;</p></blockquote><pre><code class="lang-shell">docker run -v /yourpath:/srv/gitbook -v /yourpath/html:/srv/html fellah/gitbook gitbook build . /srv/html</code></pre>
-<h2 id="&#x5B89;&#x88C5;nginx">&#x5B89;&#x88C5;nginx</h2><pre><code class="lang-shell">docker pull nginx
-docker run --name my-nginx -v /yourpath/html:/usr/share/nginx/html -d -p 8080:80 nginx</code></pre>
+                                <h1 id="github-copilot&#x5C1D;&#x8BD5;">GitHub Copilot&#x5C1D;&#x8BD5;</h1><h2 id="&#x5730;&#x5740;">&#x5730;&#x5740;</h2><ul><li><a href="https://github.com/features/copilot/" target="_blank">https://github.com/features/copilot/</a>
+</li></ul>
+<h2 id="&#x6559;&#x7A0B;">&#x6559;&#x7A0B;</h2><ul><li><a href="https://docs.github.com/en/copilot/quickstart" target="_blank">https://docs.github.com/en/copilot/quickstart</a>
+</li></ul>
 
                                 
                                 </section>
@@ -432,14 +429,10 @@ docker run --name my-nginx -v /yourpath/html:/usr/share/nginx/html -d -p 8080:80
 
             
                 
-                <a href="../marp/" class="navigation navigation-prev " aria-label="Previous page: marp快速写ppt模板">
+                <a href="../expressMongodb/" class="navigation navigation-prev navigation-unique" aria-label="Previous page: express+mongodb">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
-                
-                <a href="../dockerEasyMock/" class="navigation navigation-next " aria-label="Next page: docker搭建easy-mock">
-                    <i class="fa fa-angle-right"></i>
-                </a>
                 
             
         
@@ -448,37 +441,37 @@ docker run --name my-nginx -v /yourpath/html:/usr/share/nginx/html -d -p 8080:80
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"docker搭建gitbook","level":"2.4","depth":1,"next":{"title":"docker搭建easy-mock","level":"2.5","depth":1,"path":"dockerEasyMock/README.md","ref":"dockerEasyMock/README.md","articles":[]},"previous":{"title":"marp快速写ppt模板","level":"2.3","depth":1,"path":"marp/README.md","ref":"marp/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"gitbook/index.md","mtime":"2022-07-17T11:57:43.667Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2022-07-24T06:13:05.996Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Github Copilot","level":"2.7","depth":1,"next":{"title":"Docker学习","level":"2.8","depth":1,"ref":"","articles":[{"title":"基础","level":"2.8.1","depth":2,"path":"dockerLearn/lession1.md","ref":"dockerLearn/lession1.md","articles":[]},{"title":"demo1","level":"2.8.2","depth":2,"path":"dockerLearn/demo1.md","ref":"dockerLearn/demo1.md","articles":[]},{"title":"demo2","level":"2.8.3","depth":2,"path":"dockerLearn/demo2.md","ref":"dockerLearn/demo2.md","articles":[]},{"title":"demo3","level":"2.8.4","depth":2,"path":"dockerLearn/demo3.md","ref":"dockerLearn/demo3.md","articles":[]},{"title":"demo4","level":"2.8.5","depth":2,"path":"dockerLearn/demo4.md","ref":"dockerLearn/demo4.md","articles":[]},{"title":"demo5","level":"2.8.6","depth":2,"path":"dockerLearn/demo5.md","ref":"dockerLearn/demo5.md","articles":[]},{"title":"demo6","level":"2.8.7","depth":2,"path":"dockerLearn/demo6.md","ref":"dockerLearn/demo6.md","articles":[]}]},"previous":{"title":"express+mongodb","level":"2.6","depth":1,"path":"expressMongodb/index.md","ref":"expressMongodb/index.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"GithubCopilot/index.md","mtime":"2022-07-24T06:03:55.513Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2022-07-24T06:13:05.996Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
 
         
-    <script src="gitbook.js"></script>
-    <script src="theme.js"></script>
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
     
         
-        <script src="gitbook-plugin-search/search-engine.js"></script>
-        
-    
-        
-        <script src="gitbook-plugin-search/search.js"></script>
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
         
     
         
-        <script src="gitbook-plugin-lunr/lunr.min.js"></script>
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
         
     
         
-        <script src="gitbook-plugin-lunr/search-lunr.js"></script>
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
         
     
         
-        <script src="gitbook-plugin-sharing/buttons.js"></script>
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
         
     
         
-        <script src="gitbook-plugin-fontsettings/fontsettings.js"></script>
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
         
     
 

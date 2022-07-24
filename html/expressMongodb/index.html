@@ -1,0 +1,634 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <title>express+mongodb · GitBook</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.0">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../GithubCopilot/" />
+    
+    
+    <link rel="prev" href="../dockerEasyMock/" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../github_blog/readme.html">
+            
+                <a href="../github_blog/readme.html">
+            
+                    
+                    github博客搭建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../markdown/">
+            
+                <a href="../markdown/">
+            
+                    
+                    markdown入门
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../marp/">
+            
+                <a href="../marp/">
+            
+                    
+                    marp快速写ppt模板
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../gitbook/">
+            
+                <a href="../gitbook/">
+            
+                    
+                    docker搭建gitbook
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="../dockerEasyMock/">
+            
+                <a href="../dockerEasyMock/">
+            
+                    
+                    docker搭建easy-mock
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.6" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    express+mongodb
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="../GithubCopilot/">
+            
+                <a href="../GithubCopilot/">
+            
+                    
+                    Github Copilot
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8" >
+            
+                <span>
+            
+                    
+                    Docker学习
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.8.1" data-path="../dockerLearn/lession1.html">
+            
+                <a href="../dockerLearn/lession1.html">
+            
+                    
+                    基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.2" data-path="../dockerLearn/demo1.html">
+            
+                <a href="../dockerLearn/demo1.html">
+            
+                    
+                    demo1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.3" data-path="../dockerLearn/demo2.html">
+            
+                <a href="../dockerLearn/demo2.html">
+            
+                    
+                    demo2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.4" data-path="../dockerLearn/demo3.html">
+            
+                <a href="../dockerLearn/demo3.html">
+            
+                    
+                    demo3
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.5" data-path="../dockerLearn/demo4.html">
+            
+                <a href="../dockerLearn/demo4.html">
+            
+                    
+                    demo4
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.6" data-path="../dockerLearn/demo5.html">
+            
+                <a href="../dockerLearn/demo5.html">
+            
+                    
+                    demo5
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.7" data-path="../dockerLearn/demo6.html">
+            
+                <a href="../dockerLearn/demo6.html">
+            
+                    
+                    demo6
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9" >
+            
+                <span>
+            
+                    
+                    Harbor
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.9.1" data-path="../harbor/">
+            
+                <a href="../harbor/">
+            
+                    
+                    搭建harbor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9.2" data-path="../harbor/use.html">
+            
+                <a href="../harbor/use.html">
+            
+                    
+                    使用harbor
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >express+mongodb</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="express--mongodb--redis">Express + Mongodb + Redis</h1><h2 id="express-&#x751F;&#x6210;&#x5668;-&#x5B98;&#x65B9;&#x6587;&#x6863;">express &#x751F;&#x6210;&#x5668; &#x5B98;&#x65B9;&#x6587;&#x6863;</h2><ul><li><a href="https://www.expressjs.com.cn/starter/generator.html" target="_blank">https://www.expressjs.com.cn/starter/generator.html</a>
+</li></ul>
+<h2 id="&#x751F;&#x6210;ejs&#x677F;&#x677F;&#x7684;&#x6587;&#x4EF6;-express--e">&#x751F;&#x6210;ejs&#x677F;&#x677F;&#x7684;&#x6587;&#x4EF6; express -e</h2><pre><code class="lang-shell">express -e xxx #xxx&#x4E3A;&#x9879;&#x76EE;&#x540D;&#x79F0;</code></pre>
+<h2 id="&#x4FEE;&#x6539;packagejson">&#x4FEE;&#x6539;package.json</h2><pre><code>{
+  &quot;name&quot;: &quot;project&quot;,
+  &quot;version&quot;: &quot;0.0.0&quot;,
+  &quot;private&quot;: true,
+  &quot;scripts&quot;: {
+    &quot;start&quot;: &quot;nodemon ./bin/www&quot;  // node &#x6362;&#x6210; nodemon
+  },
+  &quot;dependencies&quot;: {
+    &quot;cookie-parser&quot;: &quot;~1.4.4&quot;,
+    &quot;debug&quot;: &quot;~2.6.9&quot;,
+    &quot;ejs&quot;: &quot;~2.6.1&quot;,
+    &quot;express&quot;: &quot;~4.16.1&quot;,
+    &quot;http-errors&quot;: &quot;~1.6.3&quot;,
+    &quot;morgan&quot;: &quot;~1.9.1&quot;
+  }
+}
+
+</code></pre>
+<h2 id="mongodb-&#x6570;&#x636E;&#x5E93;&#x5B89;&#x88C5;">mongodb &#x6570;&#x636E;&#x5E93;&#x5B89;&#x88C5;</h2><h3 id="&#x5B98;&#x7F51;&#x4E0B;&#x8F7D;">&#x5B98;&#x7F51;&#x4E0B;&#x8F7D;</h3><ul><li><a href="https://www.mongodb.com/" target="_blank">https://www.mongodb.com/</a>
+</li>
+<li><a href="https://www.mongodb.com/try/download/community" target="_blank">https://www.mongodb.com/try/download/community</a>
+</li></ul>
+<h3 id="&#x5B89;&#x88C5;">&#x5B89;&#x88C5;</h3><pre><code class="lang-shell">tar xvf mongodb-macos-x86_64-6.0.0.tgz
+mv mongodb-macos-x86_64-6.0.0 mongodb
+mkdir ~/bin
+mv mongodb ~/bin</code></pre>
+<h3 id="&#x4FEE;&#x6539;&#x73AF;&#x5883;&#x53D8;&#x91CF;-&#x7F16;&#x8F91;-zshrc-&#x6587;&#x4EF6;">&#x4FEE;&#x6539;&#x73AF;&#x5883;&#x53D8;&#x91CF; &#x7F16;&#x8F91; .zshrc &#x6587;&#x4EF6;</h3><h4 id="&#x547D;&#x4EE4;">&#x547D;&#x4EE4;</h4><pre><code class="lang-shell">vi ~/.zshrc</code></pre>
+<h4 id="&#x7F16;&#x8F91;">&#x7F16;&#x8F91;</h4><pre><code class="lang-shell"># &#x590D;&#x5236; &#x8FD9;&#x6BB5;&#x8BDD;
+export PATH=$HOME/bin:/usr/local/bin:/$HOME/bin/mongodb/bin:$PATH
+
+source ~/.zshrc</code></pre>
+<h4 id="&#x67E5;&#x770B;&#x662F;&#x5426;&#x5B89;&#x88C5;&#x6210;&#x529F;">&#x67E5;&#x770B;&#x662F;&#x5426;&#x5B89;&#x88C5;&#x6210;&#x529F;</h4><pre><code class="lang-shell">mongod -version</code></pre>
+<h4 id="&#x521B;&#x5EFA;mongodb-&#x6570;&#x636E;&#x6587;&#x4EF6;&#x5939;data--&#x65E5;&#x5FD7;&#x6587;&#x4EF6;&#x5939;">&#x521B;&#x5EFA;mongodb &#x6570;&#x636E;&#x6587;&#x4EF6;&#x5939;data  &#x65E5;&#x5FD7;&#x6587;&#x4EF6;&#x5939;</h4><pre><code class="lang-shell">cd ~/bin/mongodb/
+mkdir {data,log}</code></pre>
+<h4 id="&#x8FD0;&#x884C;">&#x8FD0;&#x884C;</h4><pre><code class="lang-shell"># &#x5F53;&#x524D;&#x9879;&#x76EE;&#xFF0C;&#x5728;&#x5B9E;&#x8DF5;&#x9879;&#x76EE;&#x91CC;&#x4E0D;&#x8981;&#x5728;&#x9879;&#x76EE;&#x76EE;&#x5F55;&#x91CC;&#x642D;&#x5EFA;
+mongod --fork --dbpath ~/bin/mongodb/data --logpath ~/bin/mongodb/log/test.log --logappend
+
+</code></pre>
+<h5 id="&#x53C2;&#x6570;&#x8BF4;&#x660E;">&#x53C2;&#x6570;&#x8BF4;&#x660E;</h5><table>
+<thead>
+<tr><th> &#x53C2;&#x6570;&#x540D; </th>
+<th> &#x8BF4;&#x660E; </th>
+</tr></thead><tbody>
+<tr><td style="text-align:left"> --fork </td>
+<td style="text-align:right"> &#x540E;&#x53F0;&#x8FD0;&#x884C; </td>
+</tr><tr><td style="text-align:left"> --dbpath </td>
+<td style="text-align:right"> &#x6570;&#x636E;&#x5E93;&#x6570;&#x636E;&#x5B58;&#x50A8;&#x5F55;&#x5F84; </td>
+</tr><tr><td style="text-align:left"> --logpath </td>
+<td style="text-align:right"> &#x65E5;&#x5FD7;&#x5B58;&#x50A8;&#x5F55;&#x5F84; </td>
+</tr><tr><td style="text-align:left"> --logappend </td>
+<td style="text-align:right"> &#x6307;&#x5B9A;&#x5B83;&#x7684;&#x65B9;&#x5F0F;&#x662F;&#x6DFB;&#x52A0; &#x800C;&#x4E0D;&#x662F;&#x6BCF;&#x6B21;&#x90FD;&#x91CD;&#x5199;</td>
+</tr></tbody></table>
+
+<h4 id="&#x901A;&#x8FC7;&#x6D4F;&#x89C8;&#x5668;&#x68C0;&#x67E5;&#x662F;&#x5426;&#x542F;&#x52A8;">&#x901A;&#x8FC7;&#x6D4F;&#x89C8;&#x5668;&#x68C0;&#x67E5;&#x662F;&#x5426;&#x542F;&#x52A8;</h4><pre><code class="lang-shell">http://127.0.0.1:27017/</code></pre>
+<h4 id="&#x5173;&#x95ED;&#x6570;&#x636E;&#x5E93;">&#x5173;&#x95ED;&#x6570;&#x636E;&#x5E93;</h4><ol><li><p>&#x8FD0;&#x884C;&#x4E2D;&#x5173;&#x95ED;</p><pre><code class="lang-shell">ctrl+C</code></pre>
+<ol><li>&#x4F7F;&#x7528;&#x6570;&#x636E;&#x5E93;&#x547D;&#x4EE4;&#x5173;&#x95ED;
+</li></ol>
+<pre><code class="lang-shell">mongod -f ~/bin/mongodb/data/db.conf</code></pre>
+<ol><li>&#x767B;&#x5F55;&#x6570;&#x636E;&#x5E93;
+</li></ol>
+</li></ol>
+<pre><code class="lang-shell">    &gt; use admin;
+    &gt; db.shutdownServer();</code></pre>
+<ol><li>&#x4F7F;&#x7528;mongodb&#x547D;&#x4EE4;&#x5173;&#x95ED;
+<pre><code class="lang-shell">mongod  --shutdown  --dbpath ~/bin/mongodb/data/</code></pre>
+</li></ol>
+<h4 id="&#x521B;&#x5EFA;mongodbconf">&#x521B;&#x5EFA;mongodb.conf</h4><pre><code class="lang-shell">port=27017
+dbpath=/Users/qihong/bin/mongodb/data
+logpath=/Users/qihong/bin/mongodb/log/test.log
+#&#x4F7F;&#x7528;&#x8FFD;&#x52A0;&#x7684;&#x65B9;&#x5F0F;&#x5199;&#x65E5;&#x5FD7;
+logappend=true
+#&#x4EE5;&#x5B88;&#x62A4;&#x7A0B;&#x5E8F;&#x7684;&#x65B9;&#x5F0F;&#x542F;&#x7528;&#xFF0C;&#x5728;&#x540E;&#x53F0;&#x8FD0;&#x884C;
+fork=true
+#&#x6700;&#x5927;&#x540C;&#x65F6;&#x8FDE;&#x63A5;&#x6570;
+maxConns=100
+#&#x542F;&#x7528;&#x9A8C;&#x8BC1;
+#auth=true
+#&#x6BCF;&#x6B21;&#x5199;&#x5165;&#x4F1A;&#x8BB0;&#x5F55;&#x4E00;&#x6761;&#x64CD;&#x4F5C;&#x65E5;&#x5FD7;&#xFF08;&#x901A;&#x8FC7;journal&#x53EF;&#x4EE5;&#x91CD;&#x65B0;&#x6784;&#x9020;&#x51FA;&#x5199;&#x5165;&#x7684;&#x6570;&#x636E;&#xFF09;
+journal=true
+#&#x5B58;&#x50A8;&#x5F15;&#x64CE;&#x6709;mmapv1&#x3001;wiretiger&#x3001;mongorocks&#xFF0C;&#x5373;&#x4F7F;&#x5B95;&#x673A;&#xFF0C;&#x542F;&#x52A8;&#x65F6;wiredtiger&#x4F1A;&#x5148;&#x5C06;&#x6570;&#x636E;&#x6062;&#x590D;&#x5230;&#x6700;&#x8FD1;&#x4E00;&#x6B21;&#x7684;checkpoint&#x70B9;&#xFF0C;&#x7136;&#x540E;&#x91CD;&#x653E;&#x540E;&#x7EED;&#x7684;journal&#x65E5;&#x5FD7;&#x6765;&#x6062;&#x590D;
+storageEngine=wiredTiger
+#&#x8FD9;&#x6837;&#x5C31;&#x53EF;&#x5916;&#x90E8;&#x8BBF;&#x95EE;&#x4E86;&#xFF0C;&#x4F8B;&#x5982;&#x4ECE;win10&#x4E2D;&#x53BB;&#x8FDE;&#x865A;&#x62DF;&#x673A;&#x4E2D;&#x7684;MongoDB
+bind_ip = 0.0.0.0</code></pre>
+<ul><li>&#x542F;&#x52A8;&#x670D;&#x52A1;
+<pre><code class="lang-shell">  mongod -f ./mongodb.conf</code></pre>
+</li></ul>
+<h4 id="mongodb&#x5BA2;&#x6237;&#x7AEF;&#x8FDE;&#x63A5;">mongodb&#x5BA2;&#x6237;&#x7AEF;&#x8FDE;&#x63A5;</h4><pre><code class="lang-shell">mongo</code></pre>
+<h4 id="&#x5E38;&#x7528;&#x7684;&#x7528;&#x6237;&#x64CD;&#x4F5C;">&#x5E38;&#x7528;&#x7684;&#x7528;&#x6237;&#x64CD;&#x4F5C;</h4><pre><code class="lang-shell">#&#x521B;&#x5EFA;&#x8D85;&#x7EA7;&#x7BA1;&#x7406;&#x5458;
+use admin;
+db.createUser({user:&quot;root&quot;,pwd:&quot;root2020!&quot;,roles:[&quot;root&quot;]})
+#&#x4FEE;&#x6539;&#x81EA;&#x5DF1;&#x5BC6;&#x7801;
+use admin
+db.changeUserPassword(&quot;username&quot;, &quot;xxx&quot;)
+#&#x67E5;&#x770B;&#x7528;&#x6237;&#x4FE1;&#x606F;
+db.runCommand({usersInfo:&quot;userName&quot;})
+#&#x521B;&#x5EFA;&#x666E;&#x901A;&#x7BA1;&#x7406;&#x5458;
+&gt; use admin;
+switched to db admin
+&gt; db.createUser({user:&quot;admin&quot;,pwd:&quot;root123456&quot;,roles:[&quot;userAdminAnyDatabase&quot;]});
+Successfully added user: { &quot;user&quot; : &quot;admin&quot;, &quot;roles&quot; : [ &quot;userAdminAnyDatabase&quot; ] }
+&gt; exit
+#&#x521B;&#x5EFA;&#x666E;&#x901A;&#x7528;&#x6237;&#xFF0C;&#x53EA;&#x5BF9;testdb&#x8FDB;&#x884C;&#x8BFB;&#x5199;
+&gt; use testdb;
+switched to db testdb
+&gt; db.createUser({user:&quot;syhdbtest&quot;,pwd:&quot;syhdbtest!&quot;,roles:[{role:&quot;readWrite&quot;,db:&quot;syhmongodbtest&quot;}]});
+&gt; exit
+#&#x4E0D;&#x7528;&#x91CD;&#x542F;&#x670D;&#x52A1;&#x76F4;&#x63A5;&#x8FDB;&#x5165;
+&gt; use testdb;
+switched to db testdb
+&gt; db.auth(&quot;test&quot;,&quot;test123&quot;);
+1
+&gt; db.user.insert({name:&quot;joy1&quot;,city:&quot;zhengzhou&quot;,phone:&quot;123456&quot;});
+WriteResult({ &quot;nInserted&quot; : 1 })
+&gt; db.user.find();
+{ &quot;_id&quot; : ObjectId(&quot;5c4ad0325cdcfe8e8ad6257f&quot;), &quot;name&quot; : &quot;joy&quot;, &quot;city&quot; : &quot;zhengzhou&quot;, &quot;phone&quot; : &quot;123456&quot; }
+&gt; exit
+#&#x6B63;&#x5E38;&#x5173;&#x95ED;mongodb&#x670D;&#x52A1;
+&gt; use admin;
+&gt; db.shutdownServer();</code></pre>
+<h4 id="mongodb&#x7B2C;&#x4E09;&#x65B9;&#x5BA2;&#x6237;&#x7AEF;">mongodb&#x7B2C;&#x4E09;&#x65B9;&#x5BA2;&#x6237;&#x7AEF;</h4><ul><li>&#x4E0B;&#x8F7D;&#x5730;&#x5740;
+<ul><li><a href="https://studio3t.com/download-thank-you/?OS=osx" target="_blank">https://studio3t.com/download-thank-you/?OS=osx</a>
+</li></ul>
+</li></ul>
+<h4 id="&#x6570;&#x636E;&#x5E93;&#x8868;-users">&#x6570;&#x636E;&#x5E93;&#x8868; users</h4><pre><code class="lang-shell">use project
+db.createCollection(&quot;users&quot;)
+show collections
+db.users.insertOne({name:&apos;geekxia&apos;})
+db.users.find()
+</code></pre>
+<h3 id="express&#x5B89;&#x88C5;-mongodb">express&#x5B89;&#x88C5; mongodb</h3><h4 id="&#x5740;&#x5740;">&#x5740;&#x5740;</h4><ul><li>npmjs.com/package/mongodb
+</li></ul>
+<h4 id="express&#x5728;&#x9879;&#x76EE;&#x91CC;&#x64CD;&#x4F5C;">express&#x5728;&#x9879;&#x76EE;&#x91CC;&#x64CD;&#x4F5C;</h4><ol><li><p>&#x521B;&#x5EFA;&#x76EE;&#x5F55;modal&#x548C;index.js</p><pre><code class="lang-shell">mkdir modal
+cd modal
+touch index.js</code></pre>
+<ol><li>index.js
+</li></ol>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> MongoClient = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;mongodb&apos;</span>).MongoClient
+
+<span class="hljs-keyword">var</span> url = <span class="hljs-string">&apos;mongodb://localhost:27017&apos;</span>
+<span class="hljs-keyword">var</span> dbName = <span class="hljs-string">&apos;project&apos;</span>
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">connect</span>(<span class="hljs-params"></span>) </span>{
+    MongoClient.connect(url, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">err, client</span>) </span>{
+        <span class="hljs-keyword">if</span> (err) {
+            <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;&#x8FDE;&#x63A5;&#x6570;&#x636E;&#x5E93;&#x9519;&#x8BEF;&#xFF1A;&apos;</span>,error);
+        }
+    })
+}</code></pre>
+</li></ol>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../dockerEasyMock/" class="navigation navigation-prev " aria-label="Previous page: docker搭建easy-mock">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../GithubCopilot/" class="navigation navigation-next " aria-label="Next page: Github Copilot">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"express+mongodb","level":"2.6","depth":1,"next":{"title":"Github Copilot","level":"2.7","depth":1,"path":"GithubCopilot/index.md","ref":"GithubCopilot/index.md","articles":[]},"previous":{"title":"docker搭建easy-mock","level":"2.5","depth":1,"path":"dockerEasyMock/README.md","ref":"dockerEasyMock/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"expressMongodb/index.md","mtime":"2022-07-23T17:52:25.554Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2022-07-24T06:13:05.996Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
