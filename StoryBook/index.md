@@ -5,10 +5,11 @@
 - vscode 
 - nodeJs
 - reactJs
+
 ## 先按装react
 ```shell
-    yarn global reate-react-app
-    create-react-app storybook
+yarn global reate-react-app
+create-react-app storybook
 ```
 
 ## 按装 StoryBook
