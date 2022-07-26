@@ -15,8 +15,9 @@
 - brew
 - vscode
 - nginx
+- mkcert
 
-## mkert 安装
+## mkcert 安装
 
 ```shell
 brew install mkcert
