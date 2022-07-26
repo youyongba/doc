@@ -2,7 +2,7 @@
 <!DOCTYPE HTML>
 <html lang="" >
     <head>
-        <title>github博客搭建 · GitBook</title>
+        <title>mkcert+nginx配置本地https · GitBook</title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
@@ -57,10 +57,6 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="../markdown/" />
-    
-    
-    <link rel="prev" href="../" />
     
 
     </head>
@@ -109,9 +105,9 @@
         
         
     
-        <li class="chapter active" data-level="2.1" data-path="readme.html">
+        <li class="chapter " data-level="2.1" data-path="../github_blog/readme.html">
             
-                <a href="readme.html">
+                <a href="../github_blog/readme.html">
             
                     
                     github博客搭建
@@ -214,9 +210,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="2.8.1" data-path="../mkcert/">
+        <li class="chapter active" data-level="2.8.1" data-path="./">
             
-                <a href="../mkcert/">
+                <a href="./">
             
                     
                     mkcert+nginx配置本地https
@@ -449,7 +445,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >github博客搭建</a>
+        <a href=".." >mkcert+nginx配置本地https</a>
     </h1>
 </div>
 
@@ -464,59 +460,81 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="github&#x535A;&#x5BA2;&#x642D;&#x5EFA;">github&#x535A;&#x5BA2;&#x642D;&#x5EFA;</h1><h2 id="&#x8BBF;&#x95EE;&#x5730;&#x5740;">&#x8BBF;&#x95EE;&#x5730;&#x5740;</h2><ul><li><a href="https://github.com/" target="_blank">https://github.com/</a>
-</li></ul>
-<h2 id="&#x6F14;&#x793A;">&#x6F14;&#x793A;</h2><p><img alt="" src="https://raw.githubusercontent.com/youyongba/youyongba.github.io/master/resources/images/githubblog.gif"></p><h2 id="&#x4E0B;&#x8F7D;vscode-&#x7F16;&#x8F91;&#x5668;&#x975E;&#x5E38;&#x91CD;&#x8981;">&#x4E0B;&#x8F7D;vscode &#x7F16;&#x8F91;&#x5668;&#x975E;&#x5E38;&#x91CD;&#x8981;</h2><blockquote><p>&#x4E0B;&#x9762;&#x7684;&#x7F51;&#x7AD9;&#x4E0B;&#x8F7D;</p><ul><li><a href="https://code.visualstudio.com/" target="_blank">https://code.visualstudio.com/</a>
-</li></ul>
-</blockquote><h2 id="&#x6CE8;&#x518C;&#x767B;&#x5F55;">&#x6CE8;&#x518C;&#x767B;&#x5F55;</h2><blockquote><p>&#x7565;</p></blockquote><h2 id="&#x5F00;&#x59CB;&#x642D;&#x5EFA;&#x535A;&#x5BA2;">&#x5F00;&#x59CB;&#x642D;&#x5EFA;&#x535A;&#x5BA2;</h2><ol><li>&#x5148;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;Repositories
-</li></ol>
-<p><img alt="" src="https://youyongba.oss-cn-beijing.aliyuncs.com/&#x56FE;&#x7247;/WX20220623-103507%402x.png?versionId=CAEQHhiBgIDY1tO5jBgiIGQyMmI4NGZiYjQ0ZjQ2NjI4NTNmOTU5OWVhY2Q0OTli"></p><ol><li>&#x7136;&#x540E;&#x7ED9;&#x81EA;&#x5DF1;&#x7684;Repositories&#x53D6;&#x4E00;&#x4E2A;&#x540D;&#x5B57;&#xFF0C;&#x6CE8;&#x610F;&#xFF1A;&#x540D;&#x79F0;&#x683C;&#x5F0F;&#x6700;&#x597D;&#x4E3A;&#xFF1A;&#x7528;&#x6237;&#x540D;.github.io
-</li></ol>
-<p><img alt="" src="https://youyongba.oss-cn-beijing.aliyuncs.com/&#x56FE;&#x7247;/2.png?versionId=CAEQHhiBgMDI0Ye6jBgiIGViNzUxM2RiMDdiMjRjMTE5ODAzN2E5YjgxNmYyYTI5"></p><ol><li>&#x521B;&#x5EFA;&#x5185;&#x5BB9;
-</li></ol>
-<p><img alt="" src="https://youyongba.oss-cn-beijing.aliyuncs.com/&#x56FE;&#x7247;/3.png?versionId=CAEQHhiBgICz25K6jBgiIDhjZjY0MWFkZGYzNjQzNTZiOTA0ZDJlODZmNWU2MWQ0"></p><pre><code class="lang-bash"><span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;# youyongba.github.io&quot;</span> &gt;&gt; README.md
-git init
-git add README.md
-git commit -m <span class="hljs-string">&quot;first commit&quot;</span>
-git branch main
-git remote add origin ssh://github.com/youyongba/youyongba.github.io.git
-git push  origin main</code></pre>
-<ol><li>&#x627E;&#x5230;setting
-</li></ol>
-<p><img alt="" src="https://youyongba.oss-cn-beijing.aliyuncs.com/&#x56FE;&#x7247;/4.png?versionId=CAEQHhiBgMC75M26jBgiIDI0ZGQ1ZDE2Mjg1YzRlZDJhODhjZmJjZmNmNmQxMDNm"></p><ol><li>&#x627E;&#x5230;Pages (&#x5728;&#x5DE6;&#x4FA7;&#x680F;)
-</li></ol>
-<p><img alt="" src="https://youyongba.oss-cn-beijing.aliyuncs.com/&#x56FE;&#x7247;/5.png?versionId=CAEQHhiBgMDssNq6jBgiIDUxYThiMDAxNzNlYzQ2OTA5ZDcxYjI2OTE2OTg4ZGRl"></p><ol><li>&#x770B;&#x5230;&#x7EFF;&#x8272;&#xFF08;&#x5982;&#x679C;&#x770B;&#x5230;&#x7684;&#x662F;&#x84DD;&#x8272;&#x8FD8;&#x5728;&#x66F4;&#x65B0;&#x9700;&#x8981;&#x7B49;&#x5F85;&#x4E00;&#x4F1A;&#xFF09;
-</li></ol>
-<p><img alt="" src="https://youyongba.oss-cn-beijing.aliyuncs.com/&#x56FE;&#x7247;/6.png?versionId=CAEQHhiBgICP1uK6jBgiIGVjMDg1ZTkyZWNkYjRjY2VhYmY2MjNlYmRkMjY1NmVj"></p><ol><li><p>&#x521B;&#x5EFA;&#x5B50;&#x9875;&#x9762;</p><ul><li>&#x9664;&#x4E86;&#x4EE5;&#x4E0A;&#x7B2C;2&#x6B65;&#x4E0D;&#x9700;&#x8981;&#x53D8;&#x6210;&#xFF0C;&#x4E0D;&#x9700;&#x8981;xxx.github.io,&#x53EA;&#x9700;&#x8981;&#x8D77;&#x88AB;&#x901A;&#x7684;&#x4ED3;&#x5E93;&#x540D;&#x79F0;&#x5C31;&#x53EF;&#x4EE5;&#x3002;
+                                <h1 id="mkert--nginx">mkert + nginx</h1><h2 id="&#x4EF7;&#x503C;">&#x4EF7;&#x503C;</h2><blockquote><p>&#x4E0D;&#x6B62;&#x4EE5;&#x4E0B;&#x5185;&#x5BB9;&#x9700;&#x8981;https&#x8BBF;&#x95EE;&#xFF0C;&#x5728;web&#x9886;&#x57DF;&#x51E0;&#x4E4E;&#x6210;&#x4E86;&#x6807;&#x914D;</p></blockquote><ul><li>&#x5C0F;&#x7A0B;&#x5E8F;&#x540E;&#x7AEF;&#x63A5;&#x53E3;
 </li>
-<li>&#x7B2C;6&#x6B65;&#xFF0C;&#x5728;Source&#x8FD9;&#x4E2A;&#x4E0B;&#x8FB9;&#x7684;&#x9009;&#x9879;&#x5C06;node&#x6539;&#x6210;master
+<li>PWA&#xFF08;Progressive Web App&#xFF09;&#x6E10;&#x8FDB;&#x5F0F;&#x7F51;&#x9875;&#x5E94;&#x7528;
 </li>
-<li>&#x6210;&#x529F;&#x540E;&#x4F1A;&#x83B7;&#x5F97;&#x5230;&#x4E00;&#x4E2A;&#x5730;&#x5740; &#x6BD4;&#x5982;&#xFF1A; <a href="https://youyongba.github.io/GitHubBlog/" target="_blank">https://youyongba.github.io/GitHubBlog/</a>
-</li></ul>
+<li>webRTC
 </li>
-<li><p>&#x5173;&#x8054;&#x5B50;&#x9875;&#x9762;</p><ul><li>&#x7528;vscode &#x6253;&#x5F00;&#x6E90;&#x6587;&#x4EF6;
+<li>...
 </li></ul>
-</li></ol>
-<p><img alt="" src="https://youyongba.oss-cn-beijing.aliyuncs.com/&#x56FE;&#x7247;/7.png?versionId=CAEQHhiBgIDJ3ou7jBgiIDRmZTYzOTNmZGI4ZDRiM2FiMWVjYmJkZGM1NzIzYmYz"></p><h2 id="&#x8D44;&#x6E90;&#x6587;&#x4EF6;&#xFF08;&#x6BD4;&#x5982;&#x8BF4;&#x56FE;&#x7247;&#xFF09;">&#x8D44;&#x6E90;&#x6587;&#x4EF6;&#xFF08;&#x6BD4;&#x5982;&#x8BF4;&#x56FE;&#x7247;&#xFF09;</h2><blockquote><p>&#x5B58;&#x50A8;&#x4E00;&#x822C;&#x5927;&#x591A;&#x6570;&#x90FD;&#x662F;&#x6536;&#x8D39;&#x7684;&#xFF0C;&#x4F46;&#x662F;github&#x6709;&#x4E00;&#x4E2A;&#x514D;&#x8D39;&#x7684;&#x65B9;&#x5F0F;&#x3002;&#x53EF;&#x4EE5;&#x5C06;&#x56FE;&#x7247;&#x5B58;&#x5728;&#x91CC;&#x9762;&#x3002;</p></blockquote><ul><li><p>&#x53EF;&#x4EE5;&#x5728;&#x9996;&#x9875;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;resources/images&#x7684;&#x6587;&#x4EF6;&#x5939;&#xFF0C;&#x5C06;&#x56FE;&#x7247;&#x653E;&#x5728;&#x91CC;&#x9762;&#xFF0C;&#x63A8;&#x9001;&#x8FC7;&#x53BB;</p></li>
-<li><p>&#x5982;&#x4F55;&#x8BBF;&#x95EE;&#x56FE;&#x7247;</p><p><a href="https://github.com/youyongba/youyongba.github.io/blob/master/resources/images/githubblog.gif" target="_blank">https://github.com/youyongba/youyongba.github.io/blob/master/resources/images/githubblog.gif</a></p><ol><li>&#x5C06;github.com --&gt; raw.githubusercontent.com&#xFF0C;&#x5728;&#x5C06;blob&#x5220;&#x6389;,&#x4F1A;&#x53D8;&#x6210;<a href="https://raw.githubusercontent.com/youyongba/youyongba.github.io/master/resources/images/githubblog.gif" target="_blank">https://raw.githubusercontent.com/youyongba/youyongba.github.io/master/resources/images/githubblog.gif</a>
-</li></ol>
+<h2 id="&#x73AF;&#x5883;">&#x73AF;&#x5883;</h2><ul><li>OSX M1
 </li></ul>
-<hr><h2 id="&#x4EE3;&#x7801;">&#x4EE3;&#x7801;</h2><h3 id="readmemd">README.md</h3><blockquote><p>&#x9996;&#x9875;</p></blockquote><pre><code class="lang-md">web&#x5F00;&#x53D1;&#x7B14;&#x8BB0;&#xFF0C;&#x7528;&#x6765;&#x8BB0;&#x5F55;&#x81EA;&#x5DF1;&#x7684;&#x6709;&#x6548;&#x79EF;&#x7D2F;
-<span class="hljs-bullet">* </span>[<span class="hljs-string">&#x4ECB;&#x7ECD;</span>](<span class="hljs-link">README.md</span>)
+<h2 id="&#x6240;&#x9700;&#x8D44;&#x6E90;">&#x6240;&#x9700;&#x8D44;&#x6E90;</h2><ul><li>brew
+</li>
+<li>vscode
+</li>
+<li>nginx
+</li></ul>
+<h2 id="mkert-&#x5B89;&#x88C5;">mkert &#x5B89;&#x88C5;</h2><pre><code class="lang-shell">brew install mkcert
+# brew install nss
+brew install nginx</code></pre>
+<h2 id="&#x751F;&#x6210;&#x6839;&#x8BC1;&#x4E66;">&#x751F;&#x6210;&#x6839;&#x8BC1;&#x4E66;</h2><blockquote><p>&#x901A;&#x8FC7;&#x201C;&#x94A5;&#x5319;&#x4E32;&#x8BBF;&#x95EE;.app&#x201D;&#x641C;&#x7D22;mkcert&#xFF0C;&#x5E76;&#x4FE1;&#x4EFB;&#x8BC1;&#x4E66;&#x3002;</p></blockquote><pre><code class="lang-shell">mkcert -install</code></pre>
+<h2 id="&#x751F;&#x6210;&#x4E2A;&#x4EBA;&#x8BC1;&#x4E66;">&#x751F;&#x6210;&#x4E2A;&#x4EBA;&#x8BC1;&#x4E66;</h2><pre><code class="lang-shell">mkcert my.com localhost 127.0.0.1 xxx.com www.xxx.com app.xxx.com</code></pre>
+<ul><li>&#x8BC1;&#x4E66;&#x6587;&#x4EF6;&#x5728;&#x6267;&#x884C;&#x76EE;&#x5F55;&#x4E2D;&#xFF0C;&#x6210;&#x529F;&#x521B;&#x5EFA;&#x4E4B;&#x540E;&#xFF0C;&#x4F1A;&#x5728;&#x8BE5;&#x76EE;&#x5F55;&#x4E0B;&#x751F;&#x6210;&#x5982;&#x4E0B;&#x4E24;&#x4E2A;&#x6587;&#x4EF6;
+<ul><li>&#x8BC1;&#x4E66; XXX.pem
+</li>
+<li>&#x79C1;&#x94A5; XXX-key.pem
+</li></ul>
+</li></ul>
+<h2 id="nginx-&#x914D;&#x7F6E;">nginx &#x914D;&#x7F6E;</h2><pre><code class="lang-shell">
+/opt/homebrew/etc/nginx/nginx.conf #nginx&#x914D;&#x7F6E;&#x6587;&#x4EF6;
+/opt/homebrew/etc/nginx/servers/app.conf #&#x5E94;&#x7528;&#x914D;&#x7F6E; &#x9700;&#x8981;&#x65B0;&#x5EFA;app.conf &#x539F;&#x5219;&#x662F;&#x4EFB;&#x610F;&#x7684;
+/opt/homebrew/var/www    # &#x7F51;&#x7AD9;&#x6839;&#x76EE;&#x5F55;
+</code></pre>
+<h3 id="opthomebrewetcnginxnginxconf-&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x5185;&#x5BB9;">/opt/homebrew/etc/nginx/nginx.conf &#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x5185;&#x5BB9;</h3><pre><code class="lang-javascript">
+server {
+        listen       443 ssl;
+        server_name  xxx.com;
 
-&#x76EE;&#x5F55;
-<span class="hljs-bullet">* </span>[<span class="hljs-string">github&#x535A;&#x5BA2;&#x642D;&#x5EFA;</span>](<span class="hljs-link">github_blog/readme.md</span>)</code></pre>
-<h3 id="blogreadmemd">blog/README.md</h3><blockquote><p>&#x5B50;&#x9875;&#x9762;</p></blockquote><pre><code class="lang-markdown"><span class="hljs-section"># github&#x535A;&#x5BA2;&#x642D;&#x5EFA;</span>
-<span class="hljs-section">## &#x8BBF;&#x95EE;&#x5730;&#x5740;</span>
- - https://github.com/
+        #&#x8BC1;&#x4E66;
+        ssl_certificate /Users/qihong/conf/nginx/cert/my.com+5.pem;
+        #&#x79C1;&#x94A5;
+        ssl_certificate_key /Users/qihong/conf/nginx/cert/my.com+5-key.pem;
 
-<span class="hljs-section">## &#x6F14;&#x793A;</span>
-![](https://raw.githubusercontent.com/youyongba/youyongba.github.io/master/resources/images/githubblog.gif &apos;&#x5FAE;&#x4FE1;&#x626B;&#x7801;&#x4EA4;&#x6D41;1&apos;)
+#       ssl_certificate      cert.pem;
+#       ssl_certificate_key  cert.key;
 
-<span class="hljs-section">## &#x4E0B;&#x8F7D;vscode &#x7F16;&#x8F91;&#x5668;&#x975E;&#x5E38;&#x91CD;&#x8981;</span>
-<span class="hljs-quote">&gt; &#x4E0B;&#x9762;&#x7684;&#x7F51;&#x7AD9;&#x4E0B;&#x8F7D;</span>
- - https://code.visualstudio.com/</code></pre>
+        ssl_session_cache    shared:SSL:1m;
+        ssl_session_timeout  5m;
 
+        ssl_ciphers  HIGH:!aNULL:!MD5;
+        ssl_prefer_server_ciphers  on;
+
+        location / {
+            root   html;
+            index  index.html index.htm;
+        }
+    }
+    include servers/*;
+</code></pre>
+<h3 id="appconf-&#x6587;&#x4EF6;&#x914D;&#x7F6E;">app.conf &#x6587;&#x4EF6;&#x914D;&#x7F6E;</h3><pre><code class="lang-shell">server {
+        listen 443;
+
+        server_name app.xxx.com;
+
+         location / {
+                 proxy_pass http://127.0.0.1:6006;
+                 proxy_set_header Host $host;
+                 proxy_set_header X-Real-IP $remote_addr;
+                 proxy_redirect http:// $scheme://;
+                 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+         }
+}</code></pre>
+<h3 id="nginx-&#x8FD0;&#x884C;">nginx &#x8FD0;&#x884C;</h3><pre><code class="lang-shell">brew services start nginx</code></pre>
+<h2 id="&#x5C40;&#x57DF;&#x7F51;&#x53C2;&#x8003;&#x4E0B;&#x9762;&#x7684;&#x6587;&#x7AE0;&#xFF0C;&#x6211;&#x4E0D;&#x60F3;&#x6F14;&#x793A;&#x4E86;&#xFF08;&#x4E5F;&#x5F88;&#x7B80;&#x5355;&#xFF09;">&#x5C40;&#x57DF;&#x7F51;&#x53C2;&#x8003;&#x4E0B;&#x9762;&#x7684;&#x6587;&#x7AE0;&#xFF0C;&#x6211;&#x4E0D;&#x60F3;&#x6F14;&#x793A;&#x4E86;&#xFF08;&#x4E5F;&#x5F88;&#x7B80;&#x5355;&#xFF09;</h2><blockquote><p>&#x4E00;&#x822C;&#x662F;&#x6307;&#x6D4B;&#x8BD5;&#x670D;&#x52A1;&#x5668;&#x548C;&#x9884;&#x53D1;&#x670D;&#x52A1;&#x5668;&#x914D;&#x7F6E;</p><ul><li><a href="https://zhuanlan.zhihu.com/p/379501905" target="_blank">https://zhuanlan.zhihu.com/p/379501905</a>
+</li></ul>
+</blockquote>
                                 
                                 </section>
                             
@@ -543,14 +561,6 @@ git push  origin main</code></pre>
 
             
                 
-                <a href="../" class="navigation navigation-prev " aria-label="Previous page: 介绍">
-                    <i class="fa fa-angle-left"></i>
-                </a>
-                
-                
-                <a href="../markdown/" class="navigation navigation-next " aria-label="Next page: markdown入门">
-                    <i class="fa fa-angle-right"></i>
-                </a>
                 
             
         
@@ -559,7 +569,7 @@ git push  origin main</code></pre>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"github博客搭建","level":"2.1","depth":1,"next":{"title":"markdown入门","level":"2.2","depth":1,"path":"markdown/README.md","ref":"markdown/README.md","articles":[]},"previous":{"title":"介绍","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"github_blog/readme.md","mtime":"2022-07-07T15:11:55.301Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2022-07-26T07:02:21.844Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"mkcert+nginx配置本地https","level":"2.8.1","depth":2,"next":{"title":"StoryBook","level":"2.9","depth":1,"ref":"","articles":[{"title":"StoryBook按装","level":"2.9.1","depth":2,"path":"StoryBook/index.md","ref":"StoryBook/index.md","articles":[]}]},"previous":{"title":"mkcert","level":"2.8","depth":1,"ref":"","articles":[{"title":"mkcert+nginx配置本地https","level":"2.8.1","depth":2,"path":"mkcert/index.md","ref":"mkcert/index.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"mkcert/index.md","mtime":"2022-07-26T07:00:45.815Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2022-07-26T07:02:21.844Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
