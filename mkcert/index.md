@@ -31,6 +31,22 @@ brew install nginx
 mkcert -install
 ```
 
+## 修改hosts
+
+
+
+```shell
+sudo vi /etc/hosts
+
+```
+
+### /etc/hosts 文件内容
+
+```shell
+127.0.0.1       xxx.com
+127.0.0.1       www.xxx.com
+127.0.0.1       app.xxx.com
+```
 
 
 ## 生成个人证书
@@ -42,6 +58,10 @@ mkcert my.com localhost 127.0.0.1 xxx.com www.xxx.com app.xxx.com
 - 证书文件在执行目录中，成功创建之后，会在该目录下生成如下两个文件
     - 证书 XXX.pem
     - 私钥 XXX-key.pem
+
+
+
+
 
 ## nginx 配置
 
