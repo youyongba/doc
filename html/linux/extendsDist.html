@@ -1,0 +1,804 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <title>如何为根分区扩容（centos7为例） · GitBook</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.0">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../github_blog/readme.html">
+            
+                <a href="../github_blog/readme.html">
+            
+                    
+                    github博客搭建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../markdown/">
+            
+                <a href="../markdown/">
+            
+                    
+                    markdown入门
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../marp/">
+            
+                <a href="../marp/">
+            
+                    
+                    marp快速写ppt模板
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../gitbook/">
+            
+                <a href="../gitbook/">
+            
+                    
+                    docker搭建gitbook
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="../dockerEasyMock/">
+            
+                <a href="../dockerEasyMock/">
+            
+                    
+                    docker搭建easy-mock
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="../expressMongodb/">
+            
+                <a href="../expressMongodb/">
+            
+                    
+                    express+mongodb
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="../GithubCopilot/">
+            
+                <a href="../GithubCopilot/">
+            
+                    
+                    Github Copilot
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8" >
+            
+                <span>
+            
+                    
+                    内网穿透
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.8.1" data-path="../ngroke/ngroke.html">
+            
+                <a href="../ngroke/ngroke.html">
+            
+                    
+                    本地通过express启动http服务 通过ngroke生成外网地址访问（内网穿透）
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9" >
+            
+                <span>
+            
+                    
+                    配置https
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.9.1" data-path="../mkcert/">
+            
+                <a href="../mkcert/">
+            
+                    
+                    mkcert+nginx配置本地https
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9.2" data-path="../letSEncrypt/">
+            
+                <a href="../letSEncrypt/">
+            
+                    
+                    CentOS7 通过 Certbot 安装 Let`s Encrypt 通配符证书
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.10" >
+            
+                <span>
+            
+                    
+                    linux
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="2.10.1" data-path="extendsDist.html">
+            
+                <a href="extendsDist.html">
+            
+                    
+                    如何为根分区扩容（centos7为例）
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.11" >
+            
+                <span>
+            
+                    
+                    StoryBook
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.11.1" data-path="../StoryBook/">
+            
+                <a href="../StoryBook/">
+            
+                    
+                    StoryBook按装
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.12" >
+            
+                <span>
+            
+                    
+                    Docker学习
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.12.1" data-path="../dockerLearn/centosisntall.html">
+            
+                <a href="../dockerLearn/centosisntall.html">
+            
+                    
+                    centos按装笔记
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.12.2" data-path="../dockerLearn/lession1.html">
+            
+                <a href="../dockerLearn/lession1.html">
+            
+                    
+                    基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.12.3" data-path="../dockerLearn/demo1.html">
+            
+                <a href="../dockerLearn/demo1.html">
+            
+                    
+                    demo1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.12.4" data-path="../dockerLearn/demo2.html">
+            
+                <a href="../dockerLearn/demo2.html">
+            
+                    
+                    demo2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.12.5" data-path="../dockerLearn/demo3.html">
+            
+                <a href="../dockerLearn/demo3.html">
+            
+                    
+                    demo3
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.12.6" data-path="../dockerLearn/demo4.html">
+            
+                <a href="../dockerLearn/demo4.html">
+            
+                    
+                    demo4
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.12.7" data-path="../dockerLearn/demo5.html">
+            
+                <a href="../dockerLearn/demo5.html">
+            
+                    
+                    demo5
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.12.8" data-path="../dockerLearn/demo6.html">
+            
+                <a href="../dockerLearn/demo6.html">
+            
+                    
+                    demo6
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.13" >
+            
+                <span>
+            
+                    
+                    Harbor
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.13.1" data-path="../harbor/">
+            
+                <a href="../harbor/">
+            
+                    
+                    搭建harbor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.13.2" data-path="../harbor/use.html">
+            
+                <a href="../harbor/use.html">
+            
+                    
+                    使用harbor
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >如何为根分区扩容（centos7为例）</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x5982;&#x4F55;&#x4E3A;&#x6839;&#x5206;&#x533A;&#x6269;&#x5BB9;&#xFF08;centos7&#x4E3A;&#x4F8B;&#xFF09;">&#x5982;&#x4F55;&#x4E3A;&#x6839;&#x5206;&#x533A;&#x6269;&#x5BB9;&#xFF08;centos7&#x4E3A;&#x4F8B;&#xFF09;</h1><blockquote><p>linux&#x7CFB;&#x7EDF;&#x6240;&#x6709;&#x7684;&#x6587;&#x4EF6;&#x90FD;&#x662F;&#x5B58;&#x653E;&#x5728;&#x6839;&#x5206;&#x533A;&#x4E2D;&#x7684;&#xFF0C;&#x5982;&#x679C;&#x6839;&#x5206;&#x533A;&#x5BB9;&#x91CF;&#x5373;&#x5C06;&#x8017;&#x5C3D;&#xFF0C;&#x6211;&#x4EEC;&#x5C31;&#x9700;&#x8981;&#x7ED9;&#x6839;&#x5206;&#x533A;&#x6269;&#x5BB9;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;lsblk&#x547D;&#x4EE4;&#x6765;&#x67E5;&#x770B;&#xFF0C;&#x7CFB;&#x7EDF;&#x7684;&#x6839;&#x5206;&#x533A;&#x5B9E;&#x9645;&#x662F;&#x903B;&#x8F91;&#x5377;&#xFF0C;&#x6240;&#x4EE5;&#x60F3;&#x8981;&#x6269;&#x5C55;&#x6839;&#x5206;&#x533A;&#x53EA;&#x8981;&#x5C06;&#x903B;&#x8F91;&#x5377;&#x6269;&#x5BB9;&#x5C31;&#x53EF;&#x4EE5;&#x4E86;&#x3002;&#x6B64;&#x65F6;&#x6211;&#x7684;&#x6839;&#x5206;&#x533A;&#x5BB9;&#x91CF;&#x4E3A;17G&#xFF0C;&#x5DF2;&#x7528;12G&#xFF0C;&#x6211;&#x60F3;&#x8981;&#x7ED9;&#x5B83;&#x6269;&#x5C55;&#x5BB9;&#x91CF;&#x5E94;&#x8BE5;&#x600E;&#x4E48;&#x505A;&#x5462;</p></blockquote><h2 id="&#x53C2;&#x8003;&#x7684;&#x539F;&#x6587;">&#x53C2;&#x8003;&#x7684;&#x539F;&#x6587;</h2><blockquote><p>&#x6015;&#x7F51;&#x7AD9;&#x6CA1;&#x6709;&#x4E86;&#x627E;&#x4E0D;&#x5230;</p></blockquote><ul><li><a href="https://www.cnblogs.com/Agnostida-Trilobita/p/11434943.html" target="_blank">https://www.cnblogs.com/Agnostida-Trilobita/p/11434943.html</a>
+</li></ul>
+<h2 id="&#x67E5;&#x770B;&#x78C1;&#x76D8;">&#x67E5;&#x770B;&#x78C1;&#x76D8;</h2><pre><code class="lang-shell">[root@v1 ~]# df -h
+&#x6587;&#x4EF6;&#x7CFB;&#x7EDF;             &#x5BB9;&#x91CF;  &#x5DF2;&#x7528;  &#x53EF;&#x7528; &#x5DF2;&#x7528;% &#x6302;&#x8F7D;&#x70B9;
+/dev/mapper/cl-root   17G   12G  5.8G   66% /
+devtmpfs             478M     0  478M    0% /dev
+tmpfs                489M     0  489M    0% /dev/shm
+tmpfs                489M  6.7M  482M    2% /run
+tmpfs                489M     0  489M    0% /sys/fs/cgroup
+/dev/sda1           1014M  139M  876M   14% /boot
+tmpfs                 98M     0   98M    0% /run/user/0
+/dev/sr0             4.1G  4.1G     0  100% /mnt
+
+[root@v1 ~]# lsblk
+NAME        MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+sda           8:0    0   20G  0 disk 
+&#x251C;&#x2500;sda1        8:1    0    1G  0 part /boot
+&#x2514;&#x2500;sda2        8:2    0   19G  0 part 
+  &#x251C;&#x2500;cl-root 253:0    0   17G  0 lvm  /
+  &#x2514;&#x2500;cl-swap 253:1    0    2G  0 lvm  [SWAP]
+sr0          11:0    1  4.1G  0 rom  /mnt</code></pre>
+<h2 id="&#x65B0;&#x6DFB;&#x52A0;&#x4E00;&#x5757;&#x786C;&#x76D8;">&#x65B0;&#x6DFB;&#x52A0;&#x4E00;&#x5757;&#x786C;&#x76D8;</h2><blockquote><p>&#x5DF2;&#x7ECF;&#x521B;&#x5EFA;&#x597D;&#x4E86;&#x4E00;&#x4E2A;&#x5206;&#x533A;</p></blockquote><pre><code class="lang-shell">[root@v1 ~]# lsblk
+NAME        MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+sda           8:0    0   20G  0 disk 
+&#x251C;&#x2500;sda1        8:1    0    1G  0 part /boot
+&#x2514;&#x2500;sda2        8:2    0   19G  0 part 
+  &#x251C;&#x2500;cl-root 253:0    0   17G  0 lvm  /
+  &#x2514;&#x2500;cl-swap 253:1    0    2G  0 lvm  [SWAP]
+sdb           8:16   0   10G  0 disk 
+sr0          11:0    1  4.1G  0 rom</code></pre>
+<h2 id="&#x5C06;&#x65B0;&#x6DFB;&#x52A0;&#x7684;&#x78C1;&#x76D8;&#x521B;&#x5EFA;&#x5206;&#x533A;">&#x5C06;&#x65B0;&#x6DFB;&#x52A0;&#x7684;&#x78C1;&#x76D8;&#x521B;&#x5EFA;&#x5206;&#x533A;</h2><pre><code class="lang-shell">
+
+[root@v1 ~]# fdisk /dev/sdb
+&#x6B22;&#x8FCE;&#x4F7F;&#x7528; fdisk (util-linux 2.23.2)&#x3002;
+
+&#x66F4;&#x6539;&#x5C06;&#x505C;&#x7559;&#x5728;&#x5185;&#x5B58;&#x4E2D;&#xFF0C;&#x76F4;&#x5230;&#x60A8;&#x51B3;&#x5B9A;&#x5C06;&#x66F4;&#x6539;&#x5199;&#x5165;&#x78C1;&#x76D8;&#x3002;
+&#x4F7F;&#x7528;&#x5199;&#x5165;&#x547D;&#x4EE4;&#x524D;&#x8BF7;&#x4E09;&#x601D;&#x3002;
+
+Device does not contain a recognized partition table
+&#x4F7F;&#x7528;&#x78C1;&#x76D8;&#x6807;&#x8BC6;&#x7B26; 0x0d87e961 &#x521B;&#x5EFA;&#x65B0;&#x7684; DOS &#x78C1;&#x76D8;&#x6807;&#x7B7E;&#x3002;
+
+&#x547D;&#x4EE4;(&#x8F93;&#x5165; m &#x83B7;&#x53D6;&#x5E2E;&#x52A9;)&#xFF1A;n
+Partition type:
+   p   primary (0 primary, 0 extended, 4 free)
+   e   extended
+Select (default p): 
+Using default response p
+&#x5206;&#x533A;&#x53F7; (1-4&#xFF0C;&#x9ED8;&#x8BA4; 1)&#xFF1A;
+&#x8D77;&#x59CB; &#x6247;&#x533A; (2048-20971519&#xFF0C;&#x9ED8;&#x8BA4;&#x4E3A; 2048)&#xFF1A;
+&#x5C06;&#x4F7F;&#x7528;&#x9ED8;&#x8BA4;&#x503C; 2048
+Last &#x6247;&#x533A;, +&#x6247;&#x533A; or +size{K,M,G} (2048-20971519&#xFF0C;&#x9ED8;&#x8BA4;&#x4E3A; 20971519)&#xFF1A;
+&#x5C06;&#x4F7F;&#x7528;&#x9ED8;&#x8BA4;&#x503C; 20971519
+&#x5206;&#x533A; 1 &#x5DF2;&#x8BBE;&#x7F6E;&#x4E3A; Linux &#x7C7B;&#x578B;&#xFF0C;&#x5927;&#x5C0F;&#x8BBE;&#x4E3A; 10 GiB
+&#x547D;&#x4EE4;(&#x8F93;&#x5165; m &#x83B7;&#x53D6;&#x5E2E;&#x52A9;)&#xFF1A;w
+The partition table has been altered!
+
+Calling ioctl() to re-read partition table.
+&#x6B63;&#x5728;&#x540C;&#x6B65;&#x78C1;&#x76D8;&#x3002;
+
+[root@v1 ~]# lsblk
+NAME        MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+sda           8:0    0   20G  0 disk 
+&#x251C;&#x2500;sda1        8:1    0    1G  0 part /boot
+&#x2514;&#x2500;sda2        8:2    0   19G  0 part 
+  &#x251C;&#x2500;cl-root 253:0    0   17G  0 lvm  /
+  &#x2514;&#x2500;cl-swap 253:1    0    2G  0 lvm  [SWAP]
+sdb           8:16   0   10G  0 disk 
+&#x2514;&#x2500;sdb1        8:17   0   10G  0 part 
+sr0          11:0    1  4.1G  0 rom
+</code></pre>
+<h2 id="&#x5C06;&#x521B;&#x5EFA;&#x597D;&#x7684;&#x7269;&#x7406;&#x5377;&#x6269;&#x5C55;&#x5230;&#x6839;&#x5206;&#x533A;&#x6240;&#x5728;&#x5377;&#x7EC4;">&#x5C06;&#x521B;&#x5EFA;&#x597D;&#x7684;&#x7269;&#x7406;&#x5377;&#x6269;&#x5C55;&#x5230;&#x6839;&#x5206;&#x533A;&#x6240;&#x5728;&#x5377;&#x7EC4;</h2><pre><code class="lang-shell">
+[root@v1 ~]# vgdisplay -v
+  --- Volume group ---
+  VG Name               cl
+  System ID             
+  Format                lvm2
+  Metadata Areas        2
+  Metadata Sequence No  4
+  VG Access             read/write
+  VG Status             resizable
+  MAX LV                0
+  Cur LV                2
+  Open LV               2
+  Max PV                0
+  Cur PV                2
+  Act PV                2
+  VG Size               28.99 GiB
+  PE Size               4.00 MiB
+  Total PE              7422
+  Alloc PE / Size       4863 / 19.00 GiB
+  Free  PE / Size       2559 / 10.00 GiB
+  VG UUID               oKc6Ae-l0QZ-xNir-7U0d-sH4K-HTtN-RDm4hl
+
+  --- Logical volume ---
+  LV Path                /dev/cl/swap
+  LV Name                swap
+  VG Name                cl
+  LV UUID                6ENYna-OkIl-avmF-m977-tE4z-8iCO-VyVC44
+  LV Write Access        read/write
+  LV Creation host, time localhost.localdomain, 2019-05-29 19:59:53 +0800
+  LV Status              available
+  # open                 2
+  LV Size                2.00 GiB
+  Current LE             512
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     8192
+  Block device           253:1
+
+  --- Logical volume ---
+  LV Path                /dev/cl/root&#x3000;&#x3000;&#x8FD9;&#x4E2A;&#x662F;&#x6839;&#x5206;&#x533A;&#x6240;&#x6302;&#x8F7D;&#x7684;&#x903B;&#x8F91;&#x5377;&#x8DEF;&#x5F84;
+  LV Name                root
+  VG Name                cl&#x3000;&#x3000;&#x8FD9;&#x4E2A;&#x662F;&#x6839;&#x5206;&#x533A;&#x6240;&#x5728;&#x5377;&#x7EC4;&#x540D;&#x5B57;
+  LV UUID                IS5BXN-jIrh-lrr5-mp7O-SAU5-YLSt-MMWcdC
+  LV Write Access        read/write
+  LV Creation host, time localhost.localdomain, 2019-05-29 19:59:53 +0800
+  LV Status              available
+  # open                 1
+  LV Size                17.00 GiB
+  Current LE             4351
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     8192
+  Block device           253:0
+
+  --- Physical volumes ---
+  PV Name               /dev/sda2     
+  PV UUID               YRWhHU-7nfd-cJkw-uhNG-iW7U-Z8ZB-3n2IHG
+  PV Status             allocatable
+  Total PE / Free PE    4863 / 0
+
+  PV Name               /dev/sdb1     
+  PV UUID               OIu5Ny-VPsy-w0f8-O1Y1-QtOU-Ayey-3Hb9Om
+  PV Status             allocatable
+  Total PE / Free PE    2559 / 2559&#x3000;&#x3000;&#x6211;&#x4EEC;&#x53D1;&#x73B0;&#x6B64;&#x7269;&#x7406;&#x5377;&#x4E0A;&#x53EF;&#x7528;&#x7684;PE&#x4E3A;&#x5168;&#x90E8;
+</code></pre>
+<h2 id="&#x6269;&#x5C55;&#x5377;&#x7EC4;&#x5BB9;&#x91CF;">&#x6269;&#x5C55;&#x5377;&#x7EC4;&#x5BB9;&#x91CF;</h2><pre><code class="lang-shell">[root@v1 ~]# vgextend cl /dev/sdb1
+  Volume group &quot;cl&quot; successfully extended</code></pre>
+<h2 id="&#x6269;&#x5C55;&#x6839;&#x5206;&#x533A;&#x6240;&#x6302;&#x8F7D;&#x7684;&#x903B;&#x8F91;&#x5377;&#x8DEF;&#x5F84;&#x5E76;&#x4F7F;&#x6269;&#x5BB9;&#x751F;&#x6548;">&#x6269;&#x5C55;&#x6839;&#x5206;&#x533A;&#x6240;&#x6302;&#x8F7D;&#x7684;&#x903B;&#x8F91;&#x5377;&#x8DEF;&#x5F84;&#x5E76;&#x4F7F;&#x6269;&#x5BB9;&#x751F;&#x6548;</h2><pre><code class="lang-shell">
+[root@v1 ~]# lvextend -l +100%FREE /dev/cl/root&#x3000;&#x3000;&#x5C06;&#x5269;&#x4F59;&#x53EF;&#x7528;&#x5BB9;&#x91CF;&#x5168;&#x90E8;&#x6269;&#x5C55;&#x5230;/dev/cl/root
+  Size of logical volume cl/root changed from 17.00 GiB (4351 extents) to 26.99 GiB (6910 extents).
+  Logical volume cl/root successfully resized.
+
+[root@v1 ~]# xfs_growfs /dev/cl/root
+meta-data=/dev/mapper/cl-root    isize=512    agcount=4, agsize=1113856 blks
+         =                       sectsz=512   attr=2, projid32bit=1
+         =                       crc=1        finobt=0 spinodes=0
+data     =                       bsize=4096   blocks=4455424, imaxpct=25
+         =                       sunit=0      swidth=0 blks
+naming   =version 2              bsize=4096   ascii-ci=0 ftype=1
+log      =internal               bsize=4096   blocks=2560, version=2
+         =                       sectsz=512   sunit=0 blks, lazy-count=1
+realtime =none                   extsz=4096   blocks=0, rtextents=0
+data blocks changed from 4455424 to 707584</code></pre>
+<h2 id="&#x67E5;&#x770B;&#x6269;&#x5C55;&#x540E;&#x7684;&#x6839;&#x5206;&#x533A;&#x5BB9;&#x91CF;">&#x67E5;&#x770B;&#x6269;&#x5C55;&#x540E;&#x7684;&#x6839;&#x5206;&#x533A;&#x5BB9;&#x91CF;</h2><pre><code class="lang-shell">
+
+[root@v1 ~]# lsblk
+NAME        MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+sda           8:0    0   20G  0 disk 
+&#x251C;&#x2500;sda1        8:1    0    1G  0 part /boot
+&#x2514;&#x2500;sda2        8:2    0   19G  0 part 
+  &#x251C;&#x2500;cl-root 253:0    0   27G  0 lvm  /
+  &#x2514;&#x2500;cl-swap 253:1    0    2G  0 lvm  [SWAP]
+sdb           8:16   0   10G  0 disk 
+&#x2514;&#x2500;sdb1        8:17   0   10G  0 part 
+  &#x2514;&#x2500;cl-root 253:0    0   27G  0 lvm  /
+sr0          11:0    1  4.1G  0 rom  
+
+[root@v1 ~]# df -h
+&#x6587;&#x4EF6;&#x7CFB;&#x7EDF;             &#x5BB9;&#x91CF;  &#x5DF2;&#x7528;  &#x53EF;&#x7528; &#x5DF2;&#x7528;% &#x6302;&#x8F7D;&#x70B9;
+/dev/mapper/cl-root   27G   12G   16G   42% /&#x3000;&#x3000;&#x6839;&#x5206;&#x533A;&#x5BB9;&#x91CF;&#x5DF2;&#x7ECF;&#x88AB;&#x6269;&#x5C55;&#x5230;27G
+devtmpfs             478M     0  478M    0% /dev
+tmpfs                489M     0  489M    0% /dev/shm
+tmpfs                489M  6.7M  482M    2% /run
+tmpfs                489M     0  489M    0% /sys/fs/cgroup
+/dev/sda1           1014M  139M  876M   14% /boot
+tmpfs                 98M     0   98M    0% /run/user/0
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"如何为根分区扩容（centos7为例）","level":"2.10.1","depth":2,"next":{"title":"StoryBook","level":"2.11","depth":1,"ref":"","articles":[{"title":"StoryBook按装","level":"2.11.1","depth":2,"path":"StoryBook/index.md","ref":"StoryBook/index.md","articles":[]}]},"previous":{"title":"linux","level":"2.10","depth":1,"ref":"","articles":[{"title":"如何为根分区扩容（centos7为例）","level":"2.10.1","depth":2,"path":"linux/extendsDist.md","ref":"linux/extendsDist.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"linux/extendsDist.md","mtime":"2022-09-09T15:30:15.180Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2022-09-10T09:54:41.763Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
